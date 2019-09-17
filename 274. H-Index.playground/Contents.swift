@@ -24,5 +24,5 @@ func hIndex(_ citations: [Int]) -> Int {
     return hIndex
 }
 
-hIndex([0, 1, 0])
-hIndex([3, 0, 1, 2, 5, 6])
+hIndex([0, 1, 0])           // 1
+hIndex([3, 0, 1, 2, 5, 6])  // 3
