@@ -1,8 +1,6 @@
 // 334. Increasing Triplet Subsequence
 // https://leetcode.com/problems/increasing-triplet-subsequence/
 
-import Cocoa
-
 func increasingTriplet(_ nums: [Int]) -> Bool {
     var small = Int.max
     var big = Int.max
@@ -20,6 +18,7 @@ func increasingTriplet(_ nums: [Int]) -> Bool {
     }
     return false
 }
+
 func increasingTripletConsecutiveOnly(_ nums: [Int]) -> Bool {
     if nums.count < 3 {
         return false
@@ -31,6 +30,7 @@ func increasingTripletConsecutiveOnly(_ nums: [Int]) -> Bool {
     }
     return false
 }
+
 func increasingTripletDoesntWorkOnNegatives(_ nums: [Int]) -> Bool {
     if nums.count < 3 {
         return false

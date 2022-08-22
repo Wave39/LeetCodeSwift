@@ -1,8 +1,6 @@
 // 274. H-Index
 // https://leetcode.com/problems/h-index/
 
-import Cocoa
-
 func hIndex(_ citations: [Int]) -> Int {
     if citations.count == 0 {
         return 0

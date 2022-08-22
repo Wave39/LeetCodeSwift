@@ -1,8 +1,6 @@
 // 476. Number Complement
 // https://leetcode.com/problems/number-complement/
 
-import Cocoa
-
 func findComplement(_ num: Int) -> Int {
     let binaryString = String(num, radix: 2)
     var complementString = ""
