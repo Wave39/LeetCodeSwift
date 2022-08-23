@@ -5,10 +5,10 @@
 //  Created by Brian Prescott on 8/22/22.
 //
 
-public class Problem1 {
-    // 1. Two Sum
-    // https://leetcode.com/problems/two-sum/
+// 1. Two Sum
+// https://leetcode.com/problems/two-sum/
 
+public class Problem1 {
     public func solve() {
         let solve1 = twoSum([2, 7, 11, 15], 9)
         print("\(solve1) -- should be [0, 1]")

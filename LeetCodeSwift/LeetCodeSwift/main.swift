@@ -25,8 +25,8 @@ while !quitApp {
         print("")
         print("Solving problem number \(problemNumber), please stand by...")
 
-        if problemNumber == 1 {
-            Problem1().solve()
+        if problemNumber >= 1 && problemNumber <= 99 {
+            Problems1to99().solve(problemNumber)
         } else {
             print("No such problem number exists")
         }
