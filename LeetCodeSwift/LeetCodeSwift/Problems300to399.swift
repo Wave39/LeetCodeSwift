@@ -9,6 +9,8 @@ public class Problems300to399 {
     public func solve(_ problemNumber: Int) {
         if problemNumber == 304 {
             Problem304().solve()
+        } else if problemNumber == 334 {
+            Problem334().solve()
         } else {
             print("No such problem number exists")
         }
