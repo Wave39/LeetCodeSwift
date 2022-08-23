@@ -5,8 +5,11 @@
 //  Created by Brian Prescott on 8/23/22.
 //
 
+// 334. Increasing Triplet Subsequence
+// https://leetcode.com/problems/increasing-triplet-subsequence/
+
 public class Problem334 {
-    public func solve() {
+    public func run () {
         print("These should all be true:")
         print(increasingTriplet([1,2,3,4,5]))
         print(increasingTriplet([2,1,5,0,4,6]))

@@ -9,7 +9,7 @@
 // https://leetcode.com/problems/h-index/
 
 public class Problem274 {
-    public func solve() {
+    public func run() {
         let solve1 = hIndex([0, 1, 0])
         print("\(solve1) -- should be 1")
         let solve2 = hIndex([3, 0, 1, 2, 5, 6])

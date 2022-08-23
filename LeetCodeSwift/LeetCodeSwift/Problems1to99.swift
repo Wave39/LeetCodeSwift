@@ -8,9 +8,9 @@
 public class Problems1to99 {
     public func solve(_ problemNumber: Int) {
         if problemNumber == 1 {
-            Problem1().solve()
+            Problem1().run()
         } else if problemNumber == 26 {
-            Problem26().solve()
+            Problem26().run()
         } else {
             print("No such problem number exists")
         }

@@ -5,6 +5,9 @@
 //  Created by Brian Prescott on 8/23/22.
 //
 
+// 304. Range Sum Query 2D - Immutable
+// https://leetcode.com/problems/range-sum-query-2d-immutable/
+
 public class Problem304 {
     class NumMatrix {
         var m: [[Int]]
@@ -24,7 +27,7 @@ public class Problem304 {
         }
     }
 
-    public func solve() {
+    public func run() {
         let matrix = NumMatrix([
             [3, 0, 1, 4, 2],
             [5, 6, 3, 2, 1],

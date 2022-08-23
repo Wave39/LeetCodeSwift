@@ -9,7 +9,7 @@
 // https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
 public class Problem26 {
-    public func solve() {
+    public func run() {
         var testArray = [1,1,2]
         let n1 = removeDuplicates(&testArray)
         print("\(n1), \(testArray) -- should be 2, [1,2,_]")

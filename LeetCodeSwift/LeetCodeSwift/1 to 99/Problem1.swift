@@ -9,7 +9,7 @@
 // https://leetcode.com/problems/two-sum/
 
 public class Problem1 {
-    public func solve() {
+    public func run() {
         let solve1 = twoSum([2, 7, 11, 15], 9)
         print("\(solve1) -- should be [0, 1]")
         let solve2 = twoSum([3, 2, 4], 6)
