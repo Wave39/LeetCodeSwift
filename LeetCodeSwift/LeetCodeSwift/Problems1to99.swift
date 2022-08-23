@@ -6,7 +6,7 @@
 //
 
 public class Problems1to99 {
-    public func solve(_ problemNumber: Int) {
+    public func run(_ problemNumber: Int) {
         if problemNumber == 1 {
             Problem1().run()
         } else if problemNumber == 26 {
