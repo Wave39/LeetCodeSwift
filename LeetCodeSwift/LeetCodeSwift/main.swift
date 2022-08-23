@@ -33,6 +33,8 @@ while !quitApp {
             Problems300to399().run(problemNumber)
         } else if problemNumber >= 400 && problemNumber <= 499 {
             Problems400to499().run(problemNumber)
+        } else if problemNumber >= 1200 && problemNumber <= 1299 {
+            Problems1200to1299().run(problemNumber)
         } else {
             print("No such problem number exists")
         }
