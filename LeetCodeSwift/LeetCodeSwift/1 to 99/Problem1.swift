@@ -16,6 +16,10 @@ public class Problem1 {
         print("\(solve2) -- should be [1, 2]")
     }
 
+    public func test(_ arr: [Int], _ target: Int) -> [Int] {
+        return twoSum(arr, target)
+    }
+
     func twoSumBruteForce(_ nums: [Int], _ target: Int) -> [Int] {
         for i in 0..<(nums.count - 1) {
             for j in (i + 1)..<nums.count {

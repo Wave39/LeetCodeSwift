@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E02BE6B028B513B7006EF502 /* Problems1to99.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02BE6AF28B513B7006EF502 /* Problems1to99.swift */; };
+		E02BE6B128B513E7006EF502 /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB6ED728B463E800204705 /* Problem1.swift */; };
+		E02BE6B228B513E9006EF502 /* Problem26.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB6EDA28B4665C00204705 /* Problem26.swift */; };
 		E0BB6ECF28B460EF00204705 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB6ECE28B460EF00204705 /* main.swift */; };
 		E0BB6ED828B463E800204705 /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB6ED728B463E800204705 /* Problem1.swift */; };
 		E0BB6EDB28B4665C00204705 /* Problem26.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB6EDA28B4665C00204705 /* Problem26.swift */; };
@@ -26,6 +29,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E02BE6A728B5123C006EF502 /* LeetCodeSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02BE6AE28B51305006EF502 /* LeetCodeSwift.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = LeetCodeSwift.xctestplan; sourceTree = "<group>"; };
+		E02BE6AF28B513B7006EF502 /* Problems1to99.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problems1to99.swift; sourceTree = "<group>"; };
 		E0BB6ECB28B460EF00204705 /* LeetCodeSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BB6ECE28B460EF00204705 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E0BB6ED728B463E800204705 /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
@@ -34,6 +40,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E02BE6A428B5123C006EF502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E0BB6EC828B460EF00204705 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -44,10 +57,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E02BE6A828B5123C006EF502 /* LeetCodeSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				E02BE6AE28B51305006EF502 /* LeetCodeSwift.xctestplan */,
+				E02BE6AF28B513B7006EF502 /* Problems1to99.swift */,
+			);
+			path = LeetCodeSwiftTests;
+			sourceTree = "<group>";
+		};
 		E0BB6EC228B460EF00204705 = {
 			isa = PBXGroup;
 			children = (
 				E0BB6ECD28B460EF00204705 /* LeetCodeSwift */,
+				E02BE6A828B5123C006EF502 /* LeetCodeSwiftTests */,
 				E0BB6ECC28B460EF00204705 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				E0BB6ECB28B460EF00204705 /* LeetCodeSwift */,
+				E02BE6A728B5123C006EF502 /* LeetCodeSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,6 +106,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E02BE6A628B5123C006EF502 /* LeetCodeSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E02BE6AD28B5123C006EF502 /* Build configuration list for PBXNativeTarget "LeetCodeSwiftTests" */;
+			buildPhases = (
+				E02BE6A328B5123C006EF502 /* Sources */,
+				E02BE6A428B5123C006EF502 /* Frameworks */,
+				E02BE6A528B5123C006EF502 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeetCodeSwiftTests;
+			productName = LeetCodeSwiftTests;
+			productReference = E02BE6A728B5123C006EF502 /* LeetCodeSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E0BB6ECA28B460EF00204705 /* LeetCodeSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0BB6ED228B460EF00204705 /* Build configuration list for PBXNativeTarget "LeetCodeSwift" */;
@@ -109,6 +150,9 @@
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					E02BE6A628B5123C006EF502 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 					E0BB6ECA28B460EF00204705 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -128,11 +172,32 @@
 			projectRoot = "";
 			targets = (
 				E0BB6ECA28B460EF00204705 /* LeetCodeSwift */,
+				E02BE6A628B5123C006EF502 /* LeetCodeSwiftTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		E02BE6A528B5123C006EF502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		E02BE6A328B5123C006EF502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02BE6B128B513E7006EF502 /* Problem1.swift in Sources */,
+				E02BE6B028B513B7006EF502 /* Problems1to99.swift in Sources */,
+				E02BE6B228B513E9006EF502 /* Problem26.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E0BB6EC728B460EF00204705 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -147,6 +212,34 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		E02BE6AB28B5123C006EF502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wave39.LeetCodeSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E02BE6AC28B5123C006EF502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wave39.LeetCodeSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		E0BB6ED028B460EF00204705 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -281,6 +374,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E02BE6AD28B5123C006EF502 /* Build configuration list for PBXNativeTarget "LeetCodeSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02BE6AB28B5123C006EF502 /* Debug */,
+				E02BE6AC28B5123C006EF502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E0BB6EC628B460EF00204705 /* Build configuration list for PBXProject "LeetCodeSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

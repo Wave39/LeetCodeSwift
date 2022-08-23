@@ -19,6 +19,10 @@ public class Problem26 {
         print("\(n2), \(testArray) -- should be 5, [0,1,2,3,4,_,_,_,_,_]")
     }
 
+    public func test(_ arr: inout [Int]) -> Int {
+        return removeDuplicates(&arr)
+    }
+
     func removeDuplicates(_ nums: inout [Int]) -> Int {
         var index1 = 0
         var index2 = 1

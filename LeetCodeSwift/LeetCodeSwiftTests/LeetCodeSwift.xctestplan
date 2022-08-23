@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "E6A750DD-56DD-456B-8CEA-917FEF1AB8D0",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:LeetCodeSwift.xcodeproj",
+      "identifier" : "E0BB6ECA28B460EF00204705",
+      "name" : "LeetCodeSwift"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:LeetCodeSwift.xcodeproj",
+        "identifier" : "E02BE6A628B5123C006EF502",
+        "name" : "LeetCodeSwiftTests"
+      }
+    }
+  ],
+  "version" : 1
+}
