@@ -59,18 +59,6 @@ public class Problem2 {
             outputArray.append(1)
         }
 
-        //return ListNode.arrayToList(outputArray)
-        var listNodeArray = [ListNode]()
-        for number in outputArray {
-            listNodeArray.append(ListNode(number))
-        }
-
-        while listNodeArray.count != 1 {
-            let lastItem = listNodeArray[listNodeArray.count - 1]
-            listNodeArray[listNodeArray.count - 2].next = lastItem
-            listNodeArray.removeLast()
-        }
-
-        return listNodeArray[0]
+        return ListNode.arrayToList(outputArray)
     }
 }

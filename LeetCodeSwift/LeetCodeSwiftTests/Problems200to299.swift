@@ -17,6 +17,16 @@ class Problems200to299: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    func test_Problem234() throws {
+        let problem234 = Problem234()
+
+        let solve1 = problem234.test(ListNode.arrayToList([1, 2, 2, 1]))
+        XCTAssertTrue(solve1)
+
+        let solve2 = problem234.test(ListNode.arrayToList([1, 2]))
+        XCTAssertFalse(solve2)
+    }
+
     func test_Problem274() throws {
         let problem274 = Problem274()
 
