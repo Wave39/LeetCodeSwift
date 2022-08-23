@@ -27,6 +27,8 @@ while !quitApp {
 
         if problemNumber >= 1 && problemNumber <= 99 {
             Problems1to99().solve(problemNumber)
+        } else if problemNumber >= 200 && problemNumber <= 299 {
+            Problems200to299().solve(problemNumber)
         } else {
             print("No such problem number exists")
         }
