@@ -27,6 +27,25 @@ class Problems1to99: XCTestCase {
         XCTAssertEqual(solve2, [1, 2])
     }
 
+    func test_Problem2() throws {
+        let problem2 = Problem2()
+
+        let solve1a = ListNode.arrayToList([2, 4, 3])
+        let solve1b = ListNode.arrayToList([5, 6, 4])
+        let solve1 = problem2.test(solve1a, solve1b)
+        XCTAssertEqual(solve1?.toArray(), [7,0,8])
+
+        let solve2a = ListNode.arrayToList([0])
+        let solve2b = ListNode.arrayToList([0])
+        let solve2 = problem2.test(solve2a, solve2b)
+        XCTAssertEqual(solve2?.toArray(), [0])
+
+        let solve3a = ListNode.arrayToList([9, 9, 9, 9, 9, 9, 9])
+        let solve3b = ListNode.arrayToList([9, 9, 9, 9])
+        let solve3 = problem2.test(solve3a, solve3b)
+        XCTAssertEqual(solve3?.toArray(), [8,9,9,9,0,0,0,1])
+    }
+
     func test_Problem26() throws {
         let problem26 = Problem26()
 
