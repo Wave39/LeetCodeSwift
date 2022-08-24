@@ -27,6 +27,8 @@ while !quitApp {
 
         if problemNumber >= 1 && problemNumber <= 99 {
             Problems1to99().run(problemNumber)
+        } else if problemNumber >= 100 && problemNumber <= 199 {
+            Problems100to199().run(problemNumber)
         } else if problemNumber >= 200 && problemNumber <= 299 {
             Problems200to299().run(problemNumber)
         } else if problemNumber >= 300 && problemNumber <= 399 {
