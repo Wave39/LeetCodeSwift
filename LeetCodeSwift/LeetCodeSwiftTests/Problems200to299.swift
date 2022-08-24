@@ -18,22 +18,18 @@ class Problems200to299: XCTestCase {
     }
 
     func test_Problem234() throws {
-        let problem234 = Problem234()
-
-        let solve1 = problem234.test(ListNode.arrayToList([1, 2, 2, 1]))
+        let solve1 = Problem234().test(ListNode.arrayToList([1, 2, 2, 1]))
         XCTAssertTrue(solve1)
 
-        let solve2 = problem234.test(ListNode.arrayToList([1, 2]))
+        let solve2 = Problem234().test(ListNode.arrayToList([1, 2]))
         XCTAssertFalse(solve2)
     }
 
     func test_Problem274() throws {
-        let problem274 = Problem274()
-
-        let solve1 = problem274.test([0, 1, 0])
+        let solve1 = Problem274().test([0, 1, 0])
         XCTAssertEqual(solve1, 1)
 
-        let solve2 = problem274.test([3, 0, 1, 2, 5, 6])
+        let solve2 = Problem274().test([3, 0, 1, 2, 5, 6])
         XCTAssertEqual(solve2, 3)
     }
 }

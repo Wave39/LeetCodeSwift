@@ -18,10 +18,8 @@ class Problems400to499: XCTestCase {
     }
 
     func test_Problem476() throws {
-        let problem476 = Problem476()
-
-        XCTAssertEqual(problem476.test(5), 2)
-        XCTAssertEqual(problem476.test(1), 0)
+        XCTAssertEqual(Problem476().test(5), 2)
+        XCTAssertEqual(Problem476().test(1), 0)
     }
 
 }

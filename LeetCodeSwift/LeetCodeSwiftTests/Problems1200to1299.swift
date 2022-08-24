@@ -18,9 +18,7 @@ class Problems1200to1299: XCTestCase {
     }
 
     func test_Problem1266() throws {
-        let problem1266 = Problem1266()
-
-        XCTAssertEqual(problem1266.test([[1, 1], [3, 4], [-1, 0]]), 7)
-        XCTAssertEqual(problem1266.test([[3, 2], [-2, 2]]), 5)
+        XCTAssertEqual(Problem1266().test([[1, 1], [3, 4], [-1, 0]]), 7)
+        XCTAssertEqual(Problem1266().test([[3, 2], [-2, 2]]), 5)
     }
 }
