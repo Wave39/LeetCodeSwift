@@ -36,6 +36,11 @@ class Problems300to399: XCTestCase {
         XCTAssertEqual(solve3, 12)
     }
 
+    func test_Problem319() throws {
+        XCTAssertEqual(Problem319().test(3), 1)
+        XCTAssertEqual(Problem319().test(99999999), 9999)
+    }
+
     func test_Problem326() throws {
         XCTAssertTrue(Problem326().test(27))
         XCTAssertTrue(Problem326().test(9))
