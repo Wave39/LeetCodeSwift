@@ -1,11 +1,11 @@
 //
-//  Problems1to99.swift
+//  ProblemSelection1to99.swift
 //  LeetCodeSwift
 //
-//  Created by Brian Prescott on 8/22/22.
+//  Created by Brian Prescott on 8/24/22.
 //
 
-public class Problems1to99 {
+public class ProblemSelection1to99 {
     public func run(_ problemNumber: Int) {
         if problemNumber == 1 {
             Problem1().run()

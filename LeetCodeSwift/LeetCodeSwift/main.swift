@@ -26,19 +26,19 @@ while !quitApp {
         print("Solving problem number \(problemNumber), please stand by...")
 
         if problemNumber >= 1 && problemNumber <= 99 {
-            Problems1to99().run(problemNumber)
+            ProblemSelection1to99().run(problemNumber)
         } else if problemNumber >= 100 && problemNumber <= 199 {
-            Problems100to199().run(problemNumber)
+            ProblemSelection100to199().run(problemNumber)
         } else if problemNumber >= 200 && problemNumber <= 299 {
-            Problems200to299().run(problemNumber)
+            ProblemSelection200to299().run(problemNumber)
         } else if problemNumber >= 300 && problemNumber <= 399 {
-            Problems300to399().run(problemNumber)
+            ProblemSelection300to399().run(problemNumber)
         } else if problemNumber >= 400 && problemNumber <= 499 {
-            Problems400to499().run(problemNumber)
+            ProblemSelection400to499().run(problemNumber)
         } else if problemNumber >= 1000 && problemNumber <= 1099 {
-            Problems1000to1099().run(problemNumber)
+            ProblemSelection1000to1099().run(problemNumber)
         } else if problemNumber >= 1200 && problemNumber <= 1299 {
-            Problems1200to1299().run(problemNumber)
+            ProblemSelection1200to1299().run(problemNumber)
         } else {
             print("No such problem number exists")
         }
