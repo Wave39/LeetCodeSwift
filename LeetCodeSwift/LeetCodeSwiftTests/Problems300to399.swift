@@ -67,4 +67,11 @@ class Problems300to399: XCTestCase {
 
         XCTAssertFalse(Problem342().test(5))
     }
+
+    func test_Problem383() throws {
+        XCTAssertTrue(Problem383().test("aa", "aab"))
+
+        XCTAssertFalse(Problem383().test("a", "b"))
+        XCTAssertFalse(Problem383().test("aa", "ab"))
+    }
 }
