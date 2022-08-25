@@ -47,3 +47,23 @@ while !quitApp {
 
 print("")
 print("Thanks for checking out my LeetCode Solution Machine.")
+
+// N. Two Sum
+// https://leetcode.com/problems/N/
+
+public class ProblemN {
+    public func run() {
+        let solve1 = fooBar(1)
+        print("\(solve1) -- should be 0")
+        let solve2 = fooBar(47)
+        print("\(solve2) -- should be 0")
+    }
+
+    public func test(_ num: Int) -> Int {
+        return fooBar(num)
+    }
+
+    func fooBar(_ num: Int) -> Int {
+        return 0
+    }
+}
