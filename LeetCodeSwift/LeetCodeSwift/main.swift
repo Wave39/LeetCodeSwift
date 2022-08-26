@@ -37,6 +37,8 @@ while !quitApp {
             ProblemSelection400to499().run(problemNumber)
         } else if problemNumber >= 700 && problemNumber <= 799 {
             ProblemSelection700to799().run(problemNumber)
+        } else if problemNumber >= 800 && problemNumber <= 899 {
+            ProblemSelection800to899().run(problemNumber)
         } else if problemNumber >= 1000 && problemNumber <= 1099 {
             ProblemSelection1000to1099().run(problemNumber)
         } else if problemNumber >= 1200 && problemNumber <= 1299 {
