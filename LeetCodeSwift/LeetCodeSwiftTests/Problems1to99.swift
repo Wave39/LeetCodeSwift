@@ -71,4 +71,13 @@ class Problems1to99: XCTestCase {
         XCTAssertEqual(n2, 5)
         XCTAssertEqual(testArray[...4], [0, 1, 2, 3, 4])
     }
+
+    func test_Problem48() {
+        var array1 = [[1, 2, 3],[4, 5, 6],[7, 8, 9]]
+        Problem48().test(&array1)
+        XCTAssertEqual(array1, [[7, 4, 1], [8, 5, 2], [9, 6, 3]])
+        var array2 = [[5, 1, 9, 11],[2, 4, 8, 10],[13, 3, 6, 7],[15, 14, 12, 16]]
+        Problem48().test(&array2)
+        XCTAssertEqual(array2, [[15, 13, 2, 5], [14, 3, 4, 1], [12, 6, 8, 9], [16, 7, 10, 11]])
+    }
 }
