@@ -23,4 +23,11 @@ class Problems900to999: XCTestCase {
         XCTAssertEqual(Problem942().test("DDI"), [3, 2, 0, 1])
     }
 
+    func test_Problem967() throws {
+        XCTAssertEqual(Problem967().test(3, 7), [181, 292, 707, 818, 929])
+        XCTAssertEqual(Problem967().test(2, 1), [10, 12, 21, 23, 32, 34, 43, 45, 54, 56, 65, 67, 76, 78, 87, 89, 98])
+        XCTAssertEqual(Problem967().test(3, 0), [111, 222, 333, 444, 555, 666, 777, 888, 999])
+        XCTAssertEqual(Problem967().test(3, 9), [909])
+    }
+    
 }
