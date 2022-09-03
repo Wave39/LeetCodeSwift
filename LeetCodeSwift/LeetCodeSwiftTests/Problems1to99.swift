@@ -60,6 +60,13 @@ class Problems1to99: XCTestCase {
         XCTAssertEqual(solve2, 2.5)
     }
 
+    func test_Problem5() throws {
+        let solve1 = Problem5().test("babad")
+        XCTAssert(solve1 == "bab" || solve1 == "aba")
+        XCTAssertEqual(Problem5().test("cbbd"), "bb")
+        XCTAssertEqual(Problem5().test(Problem5().testData1), "ranynar")
+    }
+    
     func test_Problem26() throws {
         var testArray = [1,1,2]
         let n1 = Problem26().test(&testArray)
