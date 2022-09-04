@@ -66,6 +66,17 @@ class Problems1to99: XCTestCase {
         XCTAssertEqual(Problem5().test("cbbd"), "bb")
         XCTAssertEqual(Problem5().test(Problem5().testData1), "ranynar")
     }
+
+    func test_Problem21() throws {
+        let solve1 = Problem21().test(ListNode.arrayToList([1, 2, 4]), ListNode.arrayToList([1, 3, 4]))
+        XCTAssertEqual(solve1!.toArray(), [1, 1, 2, 3, 4, 4])
+        let solve2 = Problem21().test(nil, nil)
+        XCTAssertNil(solve2)
+        let solve3 = Problem21().test(nil, ListNode.arrayToList([0]))
+        XCTAssertEqual(solve3!.toArray(), [0])
+        let solve4 = Problem21().test(ListNode.arrayToList([-10,-10,-9,-4,1,6,6]), ListNode.arrayToList([-7]))
+        XCTAssertEqual(solve4!.toArray(), [-10, -10, -9, -7, -4, 1, 6, 6])
+    }
     
     func test_Problem26() throws {
         var testArray = [1,1,2]
