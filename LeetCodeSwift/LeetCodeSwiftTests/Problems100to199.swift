@@ -44,4 +44,23 @@ class Problems100to199: XCTestCase {
         XCTAssertFalse(solve3)
     }
 
+    func test_Problem142() throws {
+        let list1 = ListNode.arrayToList([3, 2, 0, -4])
+        let tail1 = list1.tail()
+        let node1 = list1.nodeAtIndex(1)
+        tail1.next = node1
+        let solve1 = Problem142().test(list1)
+        XCTAssertEqual(solve1!.val, 2)
+
+        let list2 = ListNode.arrayToList([1, 2])
+        let tail2 = list2.tail()
+        tail2.next = list2
+        let solve2 = Problem142().test(list2)
+        XCTAssertEqual(solve2!.val, 1)
+
+        let list3 = ListNode.arrayToList([1])
+        let solve3 = Problem142().test(list3)
+        XCTAssertNil(solve3)
+    }
+    
 }

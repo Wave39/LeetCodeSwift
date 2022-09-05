@@ -31,4 +31,25 @@ extension ListNode {
 
         return retval
     }
+
+    public func nodeAtIndex(_ idx: Int) -> ListNode {
+        var pointer = self
+        var index = 0
+        while index < idx {
+            pointer = pointer.next!
+            index += 1
+        }
+        
+        return pointer
+    }
+
+    public func tail() -> ListNode {
+        var pointer = self
+        while pointer.next != nil {
+            pointer = pointer.next!
+        }
+
+        return pointer
+    }
+
 }
