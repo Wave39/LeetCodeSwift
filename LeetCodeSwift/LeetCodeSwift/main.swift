@@ -64,7 +64,7 @@ while !quitApp {
 print("")
 print("Thanks for checking out my LeetCode Solution Machine.")
 
-// N. Two Sum
+// N. THIS SPACE FOR RENT
 // https://leetcode.com/problems/N/
 
 public class ProblemN {

@@ -5,8 +5,8 @@
 //  Created by Brian Prescott on 8/25/22.
 //
 
-// N. Two Sum
-// https://leetcode.com/problems/N/
+// 2315. Count Asterisks
+// https://leetcode.com/problems/count-asterisks/
 
 public class Problem2315 {
     public func run() {
