@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E003AD7C28C67CFB00E0CF6D /* Problem429.swift in Sources */ = {isa = PBXBuildFile; fileRef = E003AD7B28C67CFB00E0CF6D /* Problem429.swift */; };
+		E003AD7D28C67CFB00E0CF6D /* Problem429.swift in Sources */ = {isa = PBXBuildFile; fileRef = E003AD7B28C67CFB00E0CF6D /* Problem429.swift */; };
+		E003AD7F28C67D4D00E0CF6D /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = E003AD7E28C67D4D00E0CF6D /* Node.swift */; };
+		E003AD8028C67D4D00E0CF6D /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = E003AD7E28C67D4D00E0CF6D /* Node.swift */; };
 		E012EFC728C4E42D0007B5CA /* Problem987.swift in Sources */ = {isa = PBXBuildFile; fileRef = E012EFC628C4E42D0007B5CA /* Problem987.swift */; };
 		E012EFC828C4E42D0007B5CA /* Problem987.swift in Sources */ = {isa = PBXBuildFile; fileRef = E012EFC628C4E42D0007B5CA /* Problem987.swift */; };
 		E012EFCA28C53C760007B5CA /* Problem21.swift in Sources */ = {isa = PBXBuildFile; fileRef = E012EFC928C53C760007B5CA /* Problem21.swift */; };
@@ -139,6 +143,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E003AD7B28C67CFB00E0CF6D /* Problem429.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem429.swift; sourceTree = "<group>"; };
+		E003AD7E28C67D4D00E0CF6D /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		E012EFC628C4E42D0007B5CA /* Problem987.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem987.swift; sourceTree = "<group>"; };
 		E012EFC928C53C760007B5CA /* Problem21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem21.swift; sourceTree = "<group>"; };
 		E012EFCC28C549660007B5CA /* Problem206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem206.swift; sourceTree = "<group>"; };
@@ -324,6 +330,7 @@
 				E040021828B664D200250BC3 /* ProblemSelection400to499.swift */,
 				E064BC3D28C16C3400B41914 /* Problem400.swift */,
 				E073B83628BFCAEF0020D699 /* Problem417.swift */,
+				E003AD7B28C67CFB00E0CF6D /* Problem429.swift */,
 				E02BE6CA28B51F2D006EF502 /* Problem476.swift */,
 			);
 			path = "400 to 499";
@@ -334,6 +341,7 @@
 			children = (
 				E02BE6D328B521A1006EF502 /* ListNode.swift */,
 				E02BE6DC28B52CFB006EF502 /* ListNodeExtensions.swift */,
+				E003AD7E28C67D4D00E0CF6D /* Node.swift */,
 				E040020528B65D8F00250BC3 /* TreeNode.swift */,
 			);
 			path = Classes;
@@ -599,6 +607,7 @@
 				E02BE6CC28B51F2D006EF502 /* Problem476.swift in Sources */,
 				E02BE6DE28B52CFB006EF502 /* ListNodeExtensions.swift in Sources */,
 				E02BE6C528B51CAD006EF502 /* Problem334.swift in Sources */,
+				E003AD7D28C67CFB00E0CF6D /* Problem429.swift in Sources */,
 				E012EFCB28C53C760007B5CA /* Problem21.swift in Sources */,
 				E04001F428B559FE00250BC3 /* Problem1266.swift in Sources */,
 				E02BE6C228B51A6A006EF502 /* Problem304.swift in Sources */,
@@ -610,6 +619,7 @@
 				E01A157528B7DAE10024D191 /* Problems2300to2399.swift in Sources */,
 				E040020F28B661B000250BC3 /* Problems100to199.swift in Sources */,
 				E0C5C41928C3F47A00DC951C /* Problem5.swift in Sources */,
+				E003AD8028C67D4D00E0CF6D /* Node.swift in Sources */,
 				E0C5C41628C3EE8300DC951C /* Problem392.swift in Sources */,
 				E04001F028B5560200250BC3 /* Problem4.swift in Sources */,
 				E02BE6DB28B52A6E006EF502 /* Problem234.swift in Sources */,
@@ -632,6 +642,8 @@
 				E012EFCD28C549660007B5CA /* Problem206.swift in Sources */,
 				E033FA4D28B912A500A64A87 /* ProblemSelection800to899.swift in Sources */,
 				E0B6A8B128BAAA7600A524D4 /* Problem363.swift in Sources */,
+				E003AD7F28C67D4D00E0CF6D /* Node.swift in Sources */,
+				E003AD7C28C67CFB00E0CF6D /* Problem429.swift in Sources */,
 				E02BE6B728B51726006EF502 /* Problem274.swift in Sources */,
 				E0C5C41828C3F47A00DC951C /* Problem5.swift in Sources */,
 				E02BE6BF28B51929006EF502 /* Problem304.swift in Sources */,
