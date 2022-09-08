@@ -68,4 +68,12 @@ class Problems200to299: XCTestCase {
         let solve2 = Problem274().test([3, 0, 1, 2, 5, 6])
         XCTAssertEqual(solve2, 3)
     }
+
+    func test_Problem278() throws {
+        Problem278.currentBadVersion = 4
+        XCTAssertEqual(Problem278().test(5), 4)
+        Problem278.currentBadVersion = 1
+        XCTAssertEqual(Problem278().test(1), 1)
+    }
+
 }
