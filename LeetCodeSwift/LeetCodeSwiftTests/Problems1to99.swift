@@ -81,7 +81,7 @@ class Problems1to99: XCTestCase {
         XCTAssertNil(solve2)
         let solve3 = Problem21().test(nil, ListNode.arrayToList([0]))
         XCTAssertEqual(solve3!.toArray(), [0])
-        let solve4 = Problem21().test(ListNode.arrayToList([-10,-10,-9,-4,1,6,6]), ListNode.arrayToList([-7]))
+        let solve4 = Problem21().test(ListNode.arrayToList([-10, -10, -9, -4, 1, 6, 6]), ListNode.arrayToList([-7]))
         XCTAssertEqual(solve4!.toArray(), [-10, -10, -9, -7, -4, 1, 6, 6])
     }
     
@@ -97,7 +97,7 @@ class Problems1to99: XCTestCase {
         XCTAssertEqual(testArray[...4], [0, 1, 2, 3, 4])
     }
 
-    func test_Problem48() {
+    func test_Problem48() throws {
         var array1 = [[1, 2, 3],[4, 5, 6],[7, 8, 9]]
         Problem48().test(&array1)
         XCTAssertEqual(array1, [[7, 4, 1], [8, 5, 2], [9, 6, 3]])
@@ -105,4 +105,20 @@ class Problems1to99: XCTestCase {
         Problem48().test(&array2)
         XCTAssertEqual(array2, [[15, 13, 2, 5], [14, 3, 4, 1], [12, 6, 8, 9], [16, 7, 10, 11]])
     }
+
+    func test_Problem94() throws {
+        let a3 = TreeNode(3)
+        let a2 = TreeNode(2, a3, nil)
+        let a1 = TreeNode(1, nil, a2)
+        let solve1 = Problem94().test(a1)
+        XCTAssertEqual(solve1, [1, 3, 2])
+
+        let solve2 = Problem94().test(nil)
+        XCTAssertEqual(solve2, [])
+
+        let c1 = TreeNode(1)
+        let solve3 = Problem94().test(c1)
+        XCTAssertEqual(solve3, [1])
+    }
+
 }
