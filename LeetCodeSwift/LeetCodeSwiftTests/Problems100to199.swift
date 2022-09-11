@@ -102,5 +102,10 @@ class Problems100to199: XCTestCase {
         let solve3 = Problem142().test(list3)
         XCTAssertNil(solve3)
     }
-    
+
+    func test_Problem188() throws {
+        XCTAssertEqual(Problem188().test(2, [2, 4, 1]), 2)
+        XCTAssertEqual(Problem188().test(2, [3, 2, 6, 5, 0, 3]), 7)
+    }
+
 }
