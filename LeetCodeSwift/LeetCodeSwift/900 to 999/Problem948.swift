@@ -19,7 +19,7 @@ public class Problem948 {
         print("\(solve2) -- should be 1")
         let solve3 = bagOfTokensScore([100, 200, 300, 400], 200)
         print("\(solve3) -- should be 2")
-        let solve4 = bagOfTokensScore([52,65,35,88,28,1,4,68,56,95], 94)
+        let solve4 = bagOfTokensScore([52, 65, 35, 88, 28, 1, 4, 68, 56, 95], 94)
         print("\(solve4) -- should be 5")
     }
 
