@@ -95,4 +95,10 @@ class Problems300to399: XCTestCase {
         XCTAssertFalse(Problem392().test("axc", "ahbgdc"))
     }
 
+    func test_Problem393() throws {
+        XCTAssertTrue(Problem393().test([197, 130, 1]))
+
+        XCTAssertFalse(Problem393().test([235, 140, 4]))
+    }
+
 }
