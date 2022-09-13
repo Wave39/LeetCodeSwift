@@ -86,12 +86,12 @@ class Problems1to99: XCTestCase {
     }
     
     func test_Problem26() throws {
-        var testArray = [1,1,2]
+        var testArray = [1, 1, 2]
         let n1 = Problem26().test(&testArray)
         XCTAssertEqual(n1, 2)
         XCTAssertEqual(testArray[...1], [1, 2])
 
-        testArray = [0,0,1,1,1,2,2,3,3,4]
+        testArray = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
         let n2 = Problem26().test(&testArray)
         XCTAssertEqual(n2, 5)
         XCTAssertEqual(testArray[...4], [0, 1, 2, 3, 4])
