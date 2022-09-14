@@ -18,29 +18,19 @@ class Problems100to199: XCTestCase {
     }
 
     func test_Problem100() throws {
-        let left1_3 = TreeNode(3)
-        let left1_2 = TreeNode(2)
-        let left1_root = TreeNode(1, left1_2, left1_3)
-        let right1_3 = TreeNode(3)
-        let right1_2 = TreeNode(2)
-        let right1_root = TreeNode(1, right1_2, right1_3)
-        let solve1 = Problem100().test(left1_root, right1_root)
+        let left1 = TreeNode.nodeFromArray([1, 2, 3])
+        let right1 = TreeNode.nodeFromArray([1, 2, 3])
+        let solve1 = Problem100().test(left1, right1)
         XCTAssertTrue(solve1)
 
-        let left2_2 = TreeNode(2)
-        let left2_root = TreeNode(1, left2_2, nil)
-        let right2_2 = TreeNode(2)
-        let right2_root = TreeNode(2, nil, right2_2)
-        let solve2 = Problem100().test(left2_root, right2_root)
+        let left2 = TreeNode.nodeFromArray([1, 2])
+        let right2 = TreeNode.nodeFromArray([1, nil, 2])
+        let solve2 = Problem100().test(left2, right2)
         XCTAssertFalse(solve2)
 
-        let left3_2 = TreeNode(2)
-        let left3_1 = TreeNode(1)
-        let left3_root = TreeNode(1, left3_2, left3_1)
-        let right3_2 = TreeNode(2)
-        let right3_1 = TreeNode(1)
-        let right3_root = TreeNode(1, right3_1, right3_2)
-        let solve3 = Problem100().test(left3_root, right3_root)
+        let left3 = TreeNode.nodeFromArray([1, 2, 1])
+        let right3 = TreeNode.nodeFromArray([1, 1, 2])
+        let solve3 = Problem100().test(left3, right3)
         XCTAssertFalse(solve3)
     }
 

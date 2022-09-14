@@ -118,39 +118,18 @@ class Problems1to99: XCTestCase {
     }
 
     func test_Problem94() throws {
-        let a3 = TreeNode(3)
-        let a2 = TreeNode(2, a3, nil)
-        let a1 = TreeNode(1, nil, a2)
-        let solve1 = Problem94().test(a1)
+        let solve1 = Problem94().test(TreeNode.nodeFromArray([1, nil, 2, 3]))
         XCTAssertEqual(solve1, [1, 3, 2])
-
-        let solve2 = Problem94().test(nil)
+        let solve2 = Problem94().test(TreeNode.nodeFromArray([]))
         XCTAssertEqual(solve2, [])
-
-        let c1 = TreeNode(1)
-        let solve3 = Problem94().test(c1)
+        let solve3 = Problem94().test(TreeNode.nodeFromArray([1]))
         XCTAssertEqual(solve3, [1])
     }
 
     func test_Problem98() throws {
-        let a1 = TreeNode(1)
-        let a3 = TreeNode(3)
-        let a2 = TreeNode(2, a1, a3)
-        XCTAssertTrue(Problem98().test(a2))
+        XCTAssertTrue(Problem98().test(TreeNode.nodeFromArray([2, 1, 3])))
 
-        let b3 = TreeNode(3)
-        let b6 = TreeNode(6)
-        let b1 = TreeNode(1)
-        let b4 = TreeNode(4, b3, b6)
-        let b5 = TreeNode(5, b1, b4)
-        XCTAssertFalse(Problem98().test(b5))
-
-        let c3 = TreeNode(3)
-        let c7 = TreeNode(7)
-        let c4 = TreeNode(4)
-        let c6 = TreeNode(6, c3, c7)
-        let c5 = TreeNode(5, c4, c6)
-        XCTAssertFalse(Problem98().test(c5))
+        XCTAssertFalse(Problem98().test(TreeNode.nodeFromArray([5, 1, 4, nil, nil, 3, 6])))
     }
 
 }

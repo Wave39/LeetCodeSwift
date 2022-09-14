@@ -10,25 +10,10 @@
 
 public class Problem98 {
     public func run() {
-        let a1 = TreeNode(1)
-        let a3 = TreeNode(3)
-        let a2 = TreeNode(2, a1, a3)
-        let solve1 = isValidBST(a2)
+        let solve1 = isValidBST(TreeNode.nodeFromArray([2, 1, 3]))
         print("\(solve1) -- should be true")
-        let b3 = TreeNode(3)
-        let b6 = TreeNode(6)
-        let b1 = TreeNode(1)
-        let b4 = TreeNode(4, b3, b6)
-        let b5 = TreeNode(5, b1, b4)
-        let solve2 = isValidBST(b5)
+        let solve2 = isValidBST(TreeNode.nodeFromArray([5, 1, 4, nil, nil, 3, 6]))
         print("\(solve2) -- should be false")
-        let c3 = TreeNode(3)
-        let c7 = TreeNode(7)
-        let c4 = TreeNode(4)
-        let c6 = TreeNode(6, c3, c7)
-        let c5 = TreeNode(5, c4, c6)
-        let solve3 = isValidBST(c5)
-        print("\(solve3) -- should be false")
     }
 
     public func test(_ root: TreeNode?) -> Bool {

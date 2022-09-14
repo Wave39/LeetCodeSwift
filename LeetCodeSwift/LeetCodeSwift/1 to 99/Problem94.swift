@@ -10,17 +10,11 @@
 
 public class Problem94 {
     public func run() {
-        let a3 = TreeNode(3)
-        let a2 = TreeNode(2, a3, nil)
-        let a1 = TreeNode(1, nil, a2)
-        let solve1 = inorderTraversal(a1)
+        let solve1 = inorderTraversal(TreeNode.nodeFromArray([1, nil, 2, 3]))
         print("\(solve1) -- should be [1, 3, 2]")
-
-        let solve2 = inorderTraversal(nil)
+        let solve2 = inorderTraversal(TreeNode.nodeFromArray([]))
         print("\(solve2) -- should be []")
-
-        let c1 = TreeNode(1)
-        let solve3 = inorderTraversal(c1)
+        let solve3 = inorderTraversal(TreeNode.nodeFromArray([1]))
         print("\(solve3) -- should be [1]")
     }
 
