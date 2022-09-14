@@ -10,19 +10,11 @@
 
 public class Problem102 {
     public func run() {
-        let a15 = TreeNode(15)
-        let a7 = TreeNode(7)
-        let a9 = TreeNode(9)
-        let a20 = TreeNode(20, a15, a7)
-        let a3 = TreeNode(3, a9, a20)
-        let solve1 = levelOrder(a3)
+        let solve1 = levelOrder(TreeNode.nodeFromArray([3, 9, 20, nil, nil, 15, 7]))
         print("\(solve1) -- should be [[3], [9, 20], [15, 7]]")
-
-        let b1 = TreeNode(1)
-        let solve2 = levelOrder(b1)
+        let solve2 = levelOrder(TreeNode.nodeFromArray([1]))
         print("\(solve2) -- should be [[1]]")
-
-        let solve3 = levelOrder(nil)
+        let solve3 = levelOrder(TreeNode.nodeFromArray([]))
         print("\(solve3) -- should be []")
     }
 
