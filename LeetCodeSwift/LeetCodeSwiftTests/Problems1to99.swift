@@ -106,6 +106,12 @@ class Problems1to99: XCTestCase {
         XCTAssertEqual(array2, [[15, 13, 2, 5], [14, 3, 4, 1], [12, 6, 8, 9], [16, 7, 10, 11]])
     }
 
+    func test_Problem53() throws {
+        XCTAssertEqual(Problem53().test([-2, 1, -3, 4, -1, 2, 1, -5, 4]), 6)
+        XCTAssertEqual(Problem53().test([1]), 1)
+        XCTAssertEqual(Problem53().test([5, 4, -1, 7, 8]), 23)
+    }
+
     func test_Problem62() throws {
         XCTAssertEqual(Problem62().test(3, 7), 28)
         XCTAssertEqual(Problem62().test(3, 2), 3)
