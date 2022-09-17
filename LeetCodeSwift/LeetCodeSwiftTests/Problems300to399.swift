@@ -68,6 +68,15 @@ class Problems300to399: XCTestCase {
         XCTAssertFalse(Problem334().test(Problem334().longTestData2))
     }
 
+    func test_Problem336() throws {
+        let solve1 = Problem336().test(["abcd", "dcba", "lls", "s", "sssll"])
+        XCTAssertEqual(solve1, [[0, 1], [1, 0], [2, 4], [3, 2]])
+        let solve2 = Problem336().test(["bat", "tab", "cat"])
+        XCTAssertEqual(solve2, [[0, 1], [1, 0]])
+        let solve3 = Problem336().test(["a", ""])
+        XCTAssertEqual(solve3, [[0, 1], [1, 0]])
+    }
+
     func test_Problem342() throws {
         XCTAssertTrue(Problem342().test(16))
         XCTAssertTrue(Problem342().test(1))
