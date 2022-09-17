@@ -74,6 +74,13 @@ class Problems1to99: XCTestCase {
         XCTAssertEqual(Problem6().test("AB", 1), "AB")
     }
 
+    func test_Problem7() throws {
+        XCTAssertEqual(Problem7().test(123), 321)
+        XCTAssertEqual(Problem7().test(-123), -321)
+        XCTAssertEqual(Problem7().test(120), 21)
+        XCTAssertEqual(Problem7().test(1534236469), 0)
+    }
+
     func test_Problem21() throws {
         let solve1 = Problem21().test(ListNode.arrayToList([1, 2, 4]), ListNode.arrayToList([1, 3, 4]))
         XCTAssertEqual(solve1!.toArray(), [1, 1, 2, 3, 4, 4])
