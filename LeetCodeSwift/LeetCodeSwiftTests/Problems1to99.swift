@@ -104,6 +104,11 @@ class Problems1to99: XCTestCase {
         XCTAssertEqual(testArray[...4], [0, 1, 2, 3, 4])
     }
 
+    func test_Problem42() throws {
+        XCTAssertEqual(Problem42().test([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]), 6)
+        XCTAssertEqual(Problem42().test([4, 2, 0, 3, 2, 5]), 9)
+    }
+
     func test_Problem48() throws {
         var array1 = [[1, 2, 3],[4, 5, 6],[7, 8, 9]]
         Problem48().test(&array1)
