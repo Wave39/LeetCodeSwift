@@ -30,7 +30,14 @@ class Problems600to699: XCTestCase {
         let b1 = TreeNode(1, b2, b3)
         XCTAssertEqual(Problem606().test(b1), "1(2()(4))(3)")
     }
-    
+
+    func test_Problem609() throws {
+        let solve1 = Problem609().test(["root/a 1.txt(abcd) 2.txt(efgh)", "root/c 3.txt(abcd)", "root/c/d 4.txt(efgh)", "root 4.txt(efgh)"])
+        XCTAssertEqual(solve1, [["root/a/1.txt", "root/c/3.txt"], ["root/a/2.txt", "root/c/d/4.txt", "root/4.txt"]])
+        let solve2 = Problem609().test(["root/a 1.txt(abcd) 2.txt(efgh)", "root/c 3.txt(abcd)", "root/c/d 4.txt(efgh)"])
+        XCTAssertEqual(solve2, [["root/a/1.txt", "root/c/3.txt"], ["root/a/2.txt", "root/c/d/4.txt"]])
+    }
+
     func test_Problem637() throws {
         let a9 = TreeNode(9)
         let a15 = TreeNode(15)
