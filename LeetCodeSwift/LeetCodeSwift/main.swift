@@ -61,6 +61,8 @@ while !quitApp {
             ProblemSelection2000to2099().run(problemNumber)
         } else if problemNumber >= 2300 && problemNumber <= 2399 {
             ProblemSelection2300to2399().run(problemNumber)
+        } else if problemNumber >= 2400 && problemNumber <= 2499 {
+            ProblemSelection2400to2499().run(problemNumber)
         } else {
             print("No such problem number exists")
         }
