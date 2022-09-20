@@ -10,36 +10,13 @@
 
 public class Problem814 {
     public func run() {
-        let a3_1 = TreeNode(0)
-        let a3_2 = TreeNode(1)
-        let a2 = TreeNode(0, a3_1, a3_2)
-        let aRoot = TreeNode(1, nil, a2)
-        let solve1 = pruneTree(aRoot)
+        let solve1 = pruneTree(TreeNode.nodeFromArray([1, nil, 0, 0, 1]))
         print("\(solve1!.nodeCount()) -- should be 3")
-
-        let b3_1 = TreeNode(0)
-        let b3_2 = TreeNode(0)
-        let b3_3 = TreeNode(0)
-        let b3_4 = TreeNode(1)
-        let b2_1 = TreeNode(0, b3_1, b3_2)
-        let b2_2 = TreeNode(1, b3_3, b3_4)
-        let bRoot = TreeNode(1, b2_1, b2_2)
-        let solve2 = pruneTree(bRoot)
+        let solve2 = pruneTree(TreeNode.nodeFromArray([1, 0, 1, 0, 0, 0, 1]))
         print("\(solve2!.nodeCount()) -- should be 3")
-
-        let c4_1 = TreeNode(0)
-        let c3_1 = TreeNode(1, c4_1, nil)
-        let c3_2 = TreeNode(1)
-        let c3_3 = TreeNode(0)
-        let c3_4 = TreeNode(1)
-        let c2_1 = TreeNode(1, c3_1, c3_2)
-        let c2_2 = TreeNode(0, c3_3, c3_4)
-        let cRoot = TreeNode(1, c2_1, c2_2)
-        let solve3 = pruneTree(cRoot)
+        let solve3 = pruneTree(TreeNode.nodeFromArray([1, 1, 0, 1, 1, 0, 1, 0]))
         print("\(solve3!.nodeCount()) -- should be 6")
-
-        let dRoot = TreeNode(0)
-        let solve4 = pruneTree(dRoot)
+        let solve4 = pruneTree(TreeNode.nodeFromArray([]))
         print("\(String(describing: solve4)) -- should be nil")
     }
 

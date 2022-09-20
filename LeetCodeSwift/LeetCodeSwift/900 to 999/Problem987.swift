@@ -10,41 +10,13 @@
 
 public class Problem987 {
     public func run() {
-        let a15 = TreeNode(15)
-        let a7 = TreeNode(7)
-        let a20 = TreeNode(20, a15, a7)
-        let a9 = TreeNode(9)
-        let aRoot = TreeNode(3, a9, a20)
-        let solve1 = verticalTraversal(aRoot)
+        let solve1 = verticalTraversal(TreeNode.nodeFromArray([3, 9, 20, nil, nil, 15, 7]))
         print("\(solve1) -- should be [[9], [3, 15], [20], [7]]")
-
-        let b4 = TreeNode(4)
-        let b5 = TreeNode(5)
-        let b6 = TreeNode(6)
-        let b7 = TreeNode(7)
-        let b2 = TreeNode(2, b4, b5)
-        let b3 = TreeNode(3, b6, b7)
-        let bRoot = TreeNode(1, b2, b3)
-        let solve2 = verticalTraversal(bRoot)
+        let solve2 = verticalTraversal(TreeNode.nodeFromArray([1, 2, 3, 4, 5, 6, 7]))
         print("\(solve2) -- should be [[4], [2], [1, 5, 6], [3], [7]]")
-
-        let c4 = TreeNode(4)
-        let c5 = TreeNode(5)
-        let c6 = TreeNode(6)
-        let c7 = TreeNode(7)
-        let c2 = TreeNode(2, c4, c6)
-        let c3 = TreeNode(3, c5, c7)
-        let cRoot = TreeNode(1, c2, c3)
-        let solve3 = verticalTraversal(cRoot)
+        let solve3 = verticalTraversal(TreeNode.nodeFromArray([1, 2, 3, 4, 6, 5, 7]))
         print("\(solve3) -- should be [[4], [2], [1, 5, 6], [3], [7]]")
-
-        let d0 = TreeNode(0)
-        let d2a = TreeNode(2)
-        let d1 = TreeNode(1, d0, d2a)
-        let d2b = TreeNode(2)
-        let d4 = TreeNode(4, d2b, nil)
-        let dRoot = TreeNode(3, d1, d4)
-        let solve4 = verticalTraversal(dRoot)
+        let solve4 = verticalTraversal(TreeNode.nodeFromArray([3, 1, 4, 0, 2, 2]))
         print("\(solve4) -- should be [[0], [1], [3, 2, 2], [4]]")
     }
 
