@@ -8,14 +8,6 @@
 // 566. Reshape the Matrix
 // https://leetcode.com/problems/reshape-the-matrix/
 
-//Input: mat = [[1,2],[3,4]], r = 1, c = 4
-//Output: [[1,2,3,4]]
-//Example 2:
-//
-//
-//Input: mat = [[1,2],[3,4]], r = 2, c = 4
-//Output: [[1,2],[3,4]]
-
 public class Problem566 {
     public func run() {
         let solve1 = matrixReshape([[1, 2], [3, 4]], 1, 4)
