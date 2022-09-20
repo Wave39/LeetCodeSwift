@@ -52,6 +52,13 @@ class Problems100to199: XCTestCase {
         XCTAssertEqual(solve3, [])
     }
 
+    func test_Problem118() throws {
+        let solve1 = Problem118().test(5)
+        XCTAssertEqual(solve1, [[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]])
+        let solve2 = Problem118().test(1)
+        XCTAssertEqual(solve2, [[1]])
+    }
+
     func test_Problem121() throws {
         XCTAssertEqual(Problem121().test([7, 1, 5, 3, 6, 4]), 5)
         XCTAssertEqual(Problem121().test([7, 6, 4, 3, 1]), 0)
