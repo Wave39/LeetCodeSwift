@@ -228,6 +228,8 @@
 		E0F9902128DC9D3C000F870D /* Problem557.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9901F28DC9D3C000F870D /* Problem557.swift */; };
 		E0F9902328DC9F79000F870D /* Problem36.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9902228DC9F79000F870D /* Problem36.swift */; };
 		E0F9902428DC9F79000F870D /* Problem36.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9902228DC9F79000F870D /* Problem36.swift */; };
+		E0F9902628DCA406000F870D /* Problem74.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9902528DCA406000F870D /* Problem74.swift */; };
+		E0F9902728DCA406000F870D /* Problem74.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9902528DCA406000F870D /* Problem74.swift */; };
 		E0FB910328BBCEC900318B84 /* Problem3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FB910228BBCEC900318B84 /* Problem3.swift */; };
 		E0FB910428BBCEC900318B84 /* Problem3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FB910228BBCEC900318B84 /* Problem3.swift */; };
 /* End PBXBuildFile section */
@@ -378,6 +380,7 @@
 		E0F9901C28DC9BF4000F870D /* Problem985.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem985.swift; sourceTree = "<group>"; };
 		E0F9901F28DC9D3C000F870D /* Problem557.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem557.swift; sourceTree = "<group>"; };
 		E0F9902228DC9F79000F870D /* Problem36.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem36.swift; sourceTree = "<group>"; };
+		E0F9902528DCA406000F870D /* Problem74.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem74.swift; sourceTree = "<group>"; };
 		E0FB910228BBCEC900318B84 /* Problem3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -676,6 +679,7 @@
 				E0C5DC0728D65C280093C503 /* Problem53.swift */,
 				E0B03E5528D2388700E7C225 /* Problem62.swift */,
 				E0BC9B4F28D017410095A875 /* Problem70.swift */,
+				E0F9902528DCA406000F870D /* Problem74.swift */,
 				E096923228D8A4B7003A6172 /* Problem88.swift */,
 				E05CF15E28CA4378009DDAAB /* Problem94.swift */,
 				E06DE4CD28CF9FDA0054F44C /* Problem98.swift */,
@@ -818,6 +822,7 @@
 				E073B84028BFE12B0020D699 /* Problems900to999.swift in Sources */,
 				E030FE8F28BAECC900B61D7E /* Problem1329.swift in Sources */,
 				E033FA5228B915E900A64A87 /* Problems800to899.swift in Sources */,
+				E0F9902728DCA406000F870D /* Problem74.swift in Sources */,
 				E073B83E28BFDEF70020D699 /* Problem942.swift in Sources */,
 				E096923428D8A4B7003A6172 /* Problem88.swift in Sources */,
 				E0F9901E28DC9BF4000F870D /* Problem985.swift in Sources */,
@@ -931,6 +936,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E030FE8E28BAECC900B61D7E /* Problem1329.swift in Sources */,
+				E0F9902628DCA406000F870D /* Problem74.swift in Sources */,
 				E04001F328B559FE00250BC3 /* Problem1266.swift in Sources */,
 				E033FA4F28B912B800A64A87 /* Problem869.swift in Sources */,
 				E0C5DC0828D65C280093C503 /* Problem53.swift in Sources */,
