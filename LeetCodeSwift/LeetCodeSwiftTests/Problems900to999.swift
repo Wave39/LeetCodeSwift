@@ -37,6 +37,11 @@ class Problems900to999: XCTestCase {
         XCTAssertEqual(Problem967().test(3, 9), [909])
     }
 
+    func test_Problem985() throws {
+        XCTAssertEqual(Problem985().test([1, 2, 3, 4], [[1, 0], [-3, 1], [-4, 0], [2, 3]]), [8, 6, 2, 4])
+        XCTAssertEqual(Problem985().test([1], [[4,0]]), [0])
+    }
+
     func test_Problem987() throws {
         let aRoot = TreeNode.nodeFromArray([3, 9, 20, nil, nil, 15, 7])
         XCTAssertEqual(Problem987().test(aRoot), [[9], [3, 15], [20], [7]])
