@@ -84,6 +84,12 @@ class Problems200to299: XCTestCase {
         XCTAssertEqual(solve2!.val, 2)
     }
 
+    func test_Problem242() throws {
+        XCTAssertTrue(Problem242().test("anagram", "nagaram"))
+
+        XCTAssertFalse(Problem242().test("rat", "car"))
+    }
+
     func test_Problem274() throws {
         let solve1 = Problem274().test([0, 1, 0])
         XCTAssertEqual(solve1, 1)
