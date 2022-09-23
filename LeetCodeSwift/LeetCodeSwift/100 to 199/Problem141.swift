@@ -1,40 +1,40 @@
 //
-//  Problem142.swift
+//  Problem141.swift
 //  LeetCodeSwift
 //
-//  Created by Brian Prescott on 9/5/22.
+//  Created by Brian Prescott on 9/23/22.
 //
 
-// 142. Linked List Cycle II
-// https://leetcode.com/problems/linked-list-cycle-ii/
+// 141. Linked List Cycle
+// https://leetcode.com/problems/linked-list-cycle/
 
-public class Problem142 {
+public class Problem141 {
     public func run() {
         let list1 = ListNode.arrayToList([3, 2, 0, -4])
         let tail1 = list1.tail()
         let node1 = list1.nodeAtIndex(1)
         tail1.next = node1
-        let solve1 = detectCycle(list1)
-        print("\(solve1!.val) -- should be 2")
+        let solve1 = hasCycle(list1)
+        print("\(solve1) -- should be true")
 
         let list2 = ListNode.arrayToList([1, 2])
         let tail2 = list2.tail()
         tail2.next = list2
-        let solve2 = detectCycle(list2)
-        print("\(solve2!.val) -- should be 1")
+        let solve2 = hasCycle(list2)
+        print("\(solve2) -- should be true")
 
         let list3 = ListNode.arrayToList([1])
-        let solve3 = detectCycle(list3)
-        print("\(String(describing: solve3)) -- should be nil")
+        let solve3 = hasCycle(list3)
+        print("\(solve3) -- should be false")
     }
 
-    public func test(_ head: ListNode?) -> ListNode? {
-        return detectCycle(head)
+    public func test(_ head: ListNode?) -> Bool {
+        return hasCycle(head)
     }
 
-    func detectCycle(_ head: ListNode?) -> ListNode? {
+    func hasCycle(_ head: ListNode?) -> Bool {
         guard let head = head else {
-            return nil
+            return false
         }
 
         var pointer = head
@@ -42,13 +42,13 @@ public class Problem142 {
         while pointer.next != nil {
             let match = nodeArray.filter { $0 === pointer }.first
             if match != nil {
-                return match
+                return true
             }
 
             nodeArray.append(pointer)
             pointer = pointer.next!
         }
 
-        return nil
+        return false
     }
 }
