@@ -148,6 +148,14 @@ class Problems1to99: XCTestCase {
         XCTAssertFalse(Problem74().test([[1, 3, 5, 7], [10, 11, 16, 20], [23, 30, 34, 60]], 13))
     }
 
+    func test_Problem83() throws {
+        let solve1 = Problem83().test(ListNode.arrayToList([1, 1, 2]))
+        XCTAssertEqual(solve1!.toArray(), [1, 2])
+        let solve2 = Problem83().test(ListNode.arrayToList([1, 1, 2, 3, 3]))
+        XCTAssertEqual(solve2!.toArray(), [1, 2, 3])
+        XCTAssertNil(Problem83().test(nil))
+    }
+
     func test_Problem88() throws {
         var nums1 = [1, 2, 3, 0, 0, 0]
         Problem88().test(&nums1, 3, [2, 5, 6], 3)
