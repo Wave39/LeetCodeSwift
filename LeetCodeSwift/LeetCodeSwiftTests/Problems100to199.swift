@@ -52,6 +52,15 @@ class Problems100to199: XCTestCase {
         XCTAssertEqual(solve3, [])
     }
 
+    func test_Problem113() throws {
+        let root1 = TreeNode.nodeFromArray([5, 4, 8, 11, nil, 13, 4, 7, 2, nil, nil, 5, 1])
+        let solve1 = Problem113().test(root1, 22)
+        XCTAssertEqual(solve1, [[5, 4, 11, 2], [5, 8, 4, 5]])
+        XCTAssertEqual(Problem113().test(TreeNode.nodeFromArray([1, 2, 3]), 5), [])
+        XCTAssertEqual(Problem113().test(TreeNode.nodeFromArray([1, 2]), 0), [])
+        XCTAssertEqual(Problem113().test(TreeNode.nodeFromArray([1, 2]), 1), [])
+    }
+
     func test_Problem118() throws {
         let solve1 = Problem118().test(5)
         XCTAssertEqual(solve1, [[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]])
