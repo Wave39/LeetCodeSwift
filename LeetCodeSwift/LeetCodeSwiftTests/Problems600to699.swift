@@ -36,6 +36,19 @@ class Problems600to699: XCTestCase {
         XCTAssertEqual(solve2, [["root/a/1.txt", "root/c/3.txt"], ["root/a/2.txt", "root/c/d/4.txt"]])
     }
 
+    func test_Problem622() throws {
+        let queue1 = Problem622.MyCircularQueue(3)
+        XCTAssertTrue(queue1.enQueue(1))
+        XCTAssertTrue(queue1.enQueue(2))
+        XCTAssertTrue(queue1.enQueue(3))
+        XCTAssertFalse(queue1.enQueue(4))
+        XCTAssertEqual(queue1.Rear(), 3)
+        XCTAssertTrue(queue1.isFull())
+        XCTAssertTrue(queue1.deQueue())
+        XCTAssertTrue(queue1.enQueue(4))
+        XCTAssertEqual(queue1.Rear(), 4)
+    }
+
     func test_Problem637() throws {
         let solve1 = Problem637().test(TreeNode.nodeFromArray([3, 9, 20, nil, nil, 15, 7]))
         XCTAssertEqual(solve1, [3.0, 14.5, 11.0])
