@@ -81,6 +81,15 @@ class Problems1to99: XCTestCase {
         XCTAssertEqual(Problem7().test(1534236469), 0)
     }
 
+    func test_Problem8() throws {
+        XCTAssertEqual(Problem8().test("42"), 42)
+        XCTAssertEqual(Problem8().test("   -42"), -42)
+        XCTAssertEqual(Problem8().test("4193 with words"), 4193)
+        XCTAssertEqual(Problem8().test("-91283472332"), -2147483648)
+        XCTAssertEqual(Problem8().test(""), 0)
+        XCTAssertEqual(Problem8().test(" "), 0)
+    }
+
     func test_Problem21() throws {
         let solve1 = Problem21().test(ListNode.arrayToList([1, 2, 4]), ListNode.arrayToList([1, 3, 4]))
         XCTAssertEqual(solve1!.toArray(), [1, 1, 2, 3, 4, 4])
