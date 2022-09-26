@@ -115,6 +115,12 @@ class Problems100to199: XCTestCase {
         XCTAssertEqual(Problem144().test(TreeNode.nodeFromArray([1])), [1])
     }
 
+    func test_Problem145() throws {
+        XCTAssertEqual(Problem145().test(TreeNode.nodeFromArray([1, nil, 2, 3])), [3, 2, 1])
+        XCTAssertEqual(Problem145().test(nil), [])
+        XCTAssertEqual(Problem145().test(TreeNode.nodeFromArray([1])), [1])
+    }
+
     func test_Problem188() throws {
         XCTAssertEqual(Problem188().test(2, [2, 4, 1]), 2)
         XCTAssertEqual(Problem188().test(2, [3, 2, 6, 5, 0, 3]), 7)
