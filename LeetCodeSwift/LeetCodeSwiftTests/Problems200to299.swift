@@ -69,7 +69,16 @@ class Problems200to299: XCTestCase {
         XCTAssertTrue(Problem217().test([1, 1, 1, 3, 3, 4, 3, 2, 4, 2]))
 
         XCTAssertFalse(Problem217().test([1, 2, 3, 4]))
-}
+    }
+
+    func test_Problem232() throws {
+        let queue1 = Problem232.MyQueue()
+        queue1.push(1)
+        queue1.push(2)
+        XCTAssertEqual(queue1.peek(), 1)
+        XCTAssertEqual(queue1.pop(), 1)
+        XCTAssertFalse(queue1.empty())
+    }
 
     func test_Problem234() throws {
         let solve1 = Problem234().test(ListNode.arrayToList([1, 2, 2, 1]))
