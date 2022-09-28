@@ -36,6 +36,14 @@ class Problems400to499: XCTestCase {
         XCTAssertEqual(Problem417().test([[1]]), [[0, 0]])
     }
 
+    func test_Problem424() throws {
+        XCTAssertEqual(Problem424().test("ABAB", 2), 4)
+        XCTAssertEqual(Problem424().test("AABABBA", 1), 4)
+        XCTAssertEqual(Problem424().test("ABBB", 2), 4)
+        XCTAssertEqual(Problem424().test("ABAA", 0), 2)
+        XCTAssertEqual(Problem424().test("ABCCCCC", 2), 7)
+    }
+
     func test_Problem429() throws {
         let a5 = Node(5)
         let a6 = Node(6)
