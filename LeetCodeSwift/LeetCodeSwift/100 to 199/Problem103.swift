@@ -10,11 +10,11 @@
 
 public class Problem103 {
     public func run() {
-        let solve1 = zigzagLevelOrder(TreeNode.nodeFromArray([3, 9, 20, nil, nil, 15, 7]))
+        let solve1 = zigzagLevelOrder(TreeNode([3, 9, 20, nil, nil, 15, 7]))
         print("\(solve1) -- should be [[3], [20, 9], [15, 7]]")
-        let solve2 = zigzagLevelOrder(TreeNode.nodeFromArray([1]))
+        let solve2 = zigzagLevelOrder(TreeNode([1]))
         print("\(solve2) -- should be [[1]]")
-        let solve3 = zigzagLevelOrder(TreeNode.nodeFromArray([]))
+        let solve3 = zigzagLevelOrder(nil)
         print("\(solve3) -- should be []")
     }
 

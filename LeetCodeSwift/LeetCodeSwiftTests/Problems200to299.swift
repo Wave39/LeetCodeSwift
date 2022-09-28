@@ -71,6 +71,14 @@ class Problems200to299: XCTestCase {
         XCTAssertFalse(Problem217().test([1, 2, 3, 4]))
     }
 
+    func test_Problem226() throws {
+        let solve1 = Problem226().test(TreeNode([4, 2, 7, 1, 3, 6, 9]))
+        XCTAssertEqual(solve1!.values(), [4, 7, 2, 9, 6, 3, 1])
+        let solve2 = Problem226().test(TreeNode([2, 1, 3]))
+        XCTAssertEqual(solve2!.values(), [2, 3, 1])
+        XCTAssertNil(Problem226().test(nil))
+    }
+
     func test_Problem232() throws {
         let queue1 = Problem232.MyQueue()
         queue1.push(1)

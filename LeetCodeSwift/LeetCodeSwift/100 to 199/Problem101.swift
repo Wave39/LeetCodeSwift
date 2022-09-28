@@ -10,11 +10,11 @@
 
 public class Problem101 {
     public func run() {
-        let solve1 = isSymmetric(TreeNode.nodeFromArray([1, 2, 2, 3, 4, 4, 3]))
+        let solve1 = isSymmetric(TreeNode([1, 2, 2, 3, 4, 4, 3]))
         print("\(solve1) -- should be true")
-        let solve2 = isSymmetric(TreeNode.nodeFromArray([1, 2, 2, nil, 3, nil, 3]))
+        let solve2 = isSymmetric(TreeNode([1, 2, 2, nil, 3, nil, 3]))
         print("\(solve2) -- should be false")
-        let solve3 = isSymmetric(TreeNode.nodeFromArray([1, 0]))
+        let solve3 = isSymmetric(TreeNode([1, 0]))
         print("\(solve3) -- should be false")
     }
 

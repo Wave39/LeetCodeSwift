@@ -25,8 +25,8 @@ class Problems600to699: XCTestCase {
     }
 
     func test_Problem606() throws {
-        XCTAssertEqual(Problem606().test(TreeNode.nodeFromArray([1, 2, 3, 4])), "1(2(4))(3)")
-        XCTAssertEqual(Problem606().test(TreeNode.nodeFromArray([1, 2, 3, nil, 4])), "1(2()(4))(3)")
+        XCTAssertEqual(Problem606().test(TreeNode([1, 2, 3, 4])), "1(2(4))(3)")
+        XCTAssertEqual(Problem606().test(TreeNode([1, 2, 3, nil, 4])), "1(2()(4))(3)")
     }
 
     func test_Problem609() throws {
@@ -50,9 +50,9 @@ class Problems600to699: XCTestCase {
     }
 
     func test_Problem637() throws {
-        let solve1 = Problem637().test(TreeNode.nodeFromArray([3, 9, 20, nil, nil, 15, 7]))
+        let solve1 = Problem637().test(TreeNode([3, 9, 20, nil, nil, 15, 7]))
         XCTAssertEqual(solve1, [3.0, 14.5, 11.0])
-        let solve2 = Problem637().test(TreeNode.nodeFromArray([3, 9, 20, 15, 7]))
+        let solve2 = Problem637().test(TreeNode([3, 9, 20, 15, 7]))
         XCTAssertEqual(solve2, [3.0, 14.5, 11.0])
     }
 

@@ -14,11 +14,11 @@
 
 public class Problem1457 {
     public func run() {
-        let solve1 = pseudoPalindromicPaths(TreeNode.nodeFromArray([2, 3, 1, 3, 1, nil, 1]))
+        let solve1 = pseudoPalindromicPaths(TreeNode([2, 3, 1, 3, 1, nil, 1]))
         print("\(solve1) -- should be 2")
-        let solve2 = pseudoPalindromicPaths(TreeNode.nodeFromArray([2, 1, 1, 1, 3, nil, nil, nil, nil, nil, 1]))
+        let solve2 = pseudoPalindromicPaths(TreeNode([2, 1, 1, 1, 3, nil, nil, nil, nil, nil, 1]))
         print("\(solve2) -- should be 1")
-        let solve3 = pseudoPalindromicPaths(TreeNode.nodeFromArray([9]))
+        let solve3 = pseudoPalindromicPaths(TreeNode([9]))
         print("\(solve3) -- should be 1")
     }
 

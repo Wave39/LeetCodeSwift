@@ -10,11 +10,11 @@
 
 public class Problem145 {
     public func run() {
-        let solve1 = postorderTraversal(TreeNode.nodeFromArray([1, nil, 2, 3]))
+        let solve1 = postorderTraversal(TreeNode([1, nil, 2, 3]))
         print("\(solve1) -- should be [3, 2, 1]")
         let solve2 = postorderTraversal(nil)
         print("\(solve2) -- should be []")
-        let solve3 = postorderTraversal(TreeNode.nodeFromArray([1]))
+        let solve3 = postorderTraversal(TreeNode([1]))
         print("\(solve3) -- should be [1]")
     }
 

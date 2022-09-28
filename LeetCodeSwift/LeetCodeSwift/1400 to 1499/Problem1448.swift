@@ -10,11 +10,11 @@
 
 public class Problem1448 {
     public func run() {
-        let solve1 = goodNodes(TreeNode.nodeFromArray([3, 1, 4, 3, nil, 1, 5]))
+        let solve1 = goodNodes(TreeNode([3, 1, 4, 3, nil, 1, 5]))
         print("\(solve1) -- should be 4")
-        let solve2 = goodNodes(TreeNode.nodeFromArray([3, 3, nil, 4, 2]))
+        let solve2 = goodNodes(TreeNode([3, 3, nil, 4, 2]))
         print("\(solve2) -- should be 3")
-        let solve3 = goodNodes(TreeNode.nodeFromArray([1]))
+        let solve3 = goodNodes(TreeNode([1]))
         print("\(solve3) -- should be 1")
     }
 

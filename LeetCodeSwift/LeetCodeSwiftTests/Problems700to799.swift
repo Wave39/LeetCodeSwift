@@ -18,10 +18,10 @@ class Problems700to799: XCTestCase {
     }
 
     func test_Problem700() throws {
-        let solve1 = Problem700().test(TreeNode.nodeFromArray([4, 2, 7, 1, 3]), 2)
+        let solve1 = Problem700().test(TreeNode([4, 2, 7, 1, 3]), 2)
         XCTAssertEqual(solve1!.val, 2)
         XCTAssertEqual(solve1!.nodeCount(), 3)
-        let solve2 = Problem700().test(TreeNode.nodeFromArray([4, 2, 7, 1, 3]), 5)
+        let solve2 = Problem700().test(TreeNode([4, 2, 7, 1, 3]), 5)
         XCTAssertNil(solve2)
     }
 

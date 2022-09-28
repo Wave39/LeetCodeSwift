@@ -10,9 +10,9 @@
 
 public class Problem606 {
     public func run() {
-        let solve1 = tree2str(TreeNode.nodeFromArray([1, 2, 3, 4]))
+        let solve1 = tree2str(TreeNode([1, 2, 3, 4]))
         print("\(solve1) -- should be 1(2(4))(3)")
-        let solve2 = tree2str(TreeNode.nodeFromArray([1, 2, 3, nil, 4]))
+        let solve2 = tree2str(TreeNode([1, 2, 3, nil, 4]))
         print("\(solve2) -- should be 1(2()(4))(3)")
     }
 

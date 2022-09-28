@@ -10,18 +10,18 @@
 
 public class Problem100 {
     public func run() {
-        let left1 = TreeNode.nodeFromArray([1, 2, 3])
-        let right1 = TreeNode.nodeFromArray([1, 2, 3])
+        let left1 = TreeNode([1, 2, 3])
+        let right1 = TreeNode([1, 2, 3])
         let solve1 = isSameTree(left1, right1)
         print("\(solve1) -- should be true")
 
-        let left2 = TreeNode.nodeFromArray([1, 2])
-        let right2 = TreeNode.nodeFromArray([1, nil, 2])
+        let left2 = TreeNode([1, 2])
+        let right2 = TreeNode([1, nil, 2])
         let solve2 = isSameTree(left2, right2)
         print("\(solve2) -- should be false")
 
-        let left3 = TreeNode.nodeFromArray([1, 2, 1])
-        let right3 = TreeNode.nodeFromArray([1, 1, 2])
+        let left3 = TreeNode([1, 2, 1])
+        let right3 = TreeNode([1, 1, 2])
         let solve3 = isSameTree(left3, right3)
         print("\(solve3) -- should be false")
     }

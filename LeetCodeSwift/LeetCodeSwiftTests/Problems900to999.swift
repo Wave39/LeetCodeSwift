@@ -43,13 +43,13 @@ class Problems900to999: XCTestCase {
     }
 
     func test_Problem987() throws {
-        let aRoot = TreeNode.nodeFromArray([3, 9, 20, nil, nil, 15, 7])
+        let aRoot = TreeNode([3, 9, 20, nil, nil, 15, 7])
         XCTAssertEqual(Problem987().test(aRoot), [[9], [3, 15], [20], [7]])
-        let bRoot = TreeNode.nodeFromArray([1, 2, 3, 4, 5, 6, 7])
+        let bRoot = TreeNode([1, 2, 3, 4, 5, 6, 7])
         XCTAssertEqual(Problem987().test(bRoot), [[4], [2], [1, 5, 6], [3], [7]])
-        let cRoot = TreeNode.nodeFromArray([1, 2, 3, 4, 6, 5, 7])
+        let cRoot = TreeNode([1, 2, 3, 4, 6, 5, 7])
         XCTAssertEqual(Problem987().test(cRoot), [[4], [2], [1, 5, 6], [3], [7]])
-        let dRoot = TreeNode.nodeFromArray([3, 1, 4, 0, 2, 2])
+        let dRoot = TreeNode([3, 1, 4, 0, 2, 2])
         XCTAssertEqual(Problem987().test(dRoot), [[0], [1], [3, 2, 2], [4]])
     }
 

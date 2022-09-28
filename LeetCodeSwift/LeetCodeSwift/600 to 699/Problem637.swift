@@ -10,9 +10,9 @@
 
 public class Problem637 {
     public func run() {
-        let solve1 = averageOfLevels(TreeNode.nodeFromArray([3, 9, 20, nil, nil, 15, 7]))
+        let solve1 = averageOfLevels(TreeNode([3, 9, 20, nil, nil, 15, 7]))
         print("\(solve1) -- should be [3.0, 14.5, 11.0]")
-        let solve2 = averageOfLevels(TreeNode.nodeFromArray([3, 9, 20, 15, 7]))
+        let solve2 = averageOfLevels(TreeNode([3, 9, 20, 15, 7]))
         print("\(solve2) -- should be [3.0, 14.5, 11.0]")
     }
 

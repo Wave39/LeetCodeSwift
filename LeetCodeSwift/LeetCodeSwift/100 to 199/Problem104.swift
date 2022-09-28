@@ -10,9 +10,9 @@
 
 public class Problem104 {
     public func run() {
-        let solve1 = maxDepth(TreeNode.nodeFromArray([3, 9, 20, nil, nil, 15, 7]))
+        let solve1 = maxDepth(TreeNode([3, 9, 20, nil, nil, 15, 7]))
         print("\(solve1) -- should be 3")
-        let solve2 = maxDepth(TreeNode.nodeFromArray([1, nil, 2]))
+        let solve2 = maxDepth(TreeNode([1, nil, 2]))
         print("\(solve2) -- should be 2")
     }
 

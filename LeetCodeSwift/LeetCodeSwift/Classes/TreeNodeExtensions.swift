@@ -10,14 +10,15 @@ extension TreeNode {
         return 1 + (self.left?.nodeCount() ?? 0) + (self.right?.nodeCount() ?? 0)
     }
 
-    public static func nodeFromArray(_ array: [Int?]) -> TreeNode? {
+    public convenience init(_ array: [Int?]) {
+        self.init()
+
         var values = array
-        guard !values.isEmpty, let head = values.removeFirst() else { return nil }
+        guard !values.isEmpty, let head = values.removeFirst() else { return }
 
-        let retval = TreeNode()
-        retval.val = head; retval.left = nil; retval.right = nil
+        self.val = head; self.left = nil; self.right = nil
 
-        var queue = [retval]
+        var queue: [TreeNode] = [self]
         while !queue.isEmpty {
             let node = queue.removeFirst()
             if !values.isEmpty, let val = values.removeFirst() {
@@ -27,6 +28,22 @@ extension TreeNode {
             if !values.isEmpty, let val = values.removeFirst() {
                 node.right = TreeNode(val)
                 queue.append(node.right!)
+            }
+        }
+    }
+
+    public func values() -> [Int] {
+        var retval = [Int]()
+        var queue = [self]
+        while !queue.isEmpty {
+            let node = queue.removeFirst()
+            retval.append(node.val)
+            if let left = node.left {
+                queue.append(left)
+            }
+
+            if let right = node.right {
+                queue.append(right)
             }
         }
 

@@ -10,13 +10,13 @@
 
 public class Problem113 {
     public func run() {
-        let solve1 = pathSum(TreeNode.nodeFromArray([5, 4, 8, 11, nil, 13, 4, 7, 2, nil, nil, 5, 1]), 22)
+        let solve1 = pathSum(TreeNode([5, 4, 8, 11, nil, 13, 4, 7, 2, nil, nil, 5, 1]), 22)
         print("\(solve1) -- should be [[5, 4, 11, 2], [5, 8, 4, 5]]")
-        let solve2 = pathSum(TreeNode.nodeFromArray([1, 2, 3]), 5)
+        let solve2 = pathSum(TreeNode([1, 2, 3]), 5)
         print("\(solve2) -- should be []")
-        let solve3 = pathSum(TreeNode.nodeFromArray([1, 2]), 0)
+        let solve3 = pathSum(TreeNode([1, 2]), 0)
         print("\(solve3) -- should be []")
-        let solve4 = pathSum(TreeNode.nodeFromArray([1, 2]), 1)
+        let solve4 = pathSum(TreeNode([1, 2]), 1)
         print("\(solve4) -- should be []")
     }
 

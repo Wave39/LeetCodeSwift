@@ -10,13 +10,13 @@
 
 public class Problem987 {
     public func run() {
-        let solve1 = verticalTraversal(TreeNode.nodeFromArray([3, 9, 20, nil, nil, 15, 7]))
+        let solve1 = verticalTraversal(TreeNode([3, 9, 20, nil, nil, 15, 7]))
         print("\(solve1) -- should be [[9], [3, 15], [20], [7]]")
-        let solve2 = verticalTraversal(TreeNode.nodeFromArray([1, 2, 3, 4, 5, 6, 7]))
+        let solve2 = verticalTraversal(TreeNode([1, 2, 3, 4, 5, 6, 7]))
         print("\(solve2) -- should be [[4], [2], [1, 5, 6], [3], [7]]")
-        let solve3 = verticalTraversal(TreeNode.nodeFromArray([1, 2, 3, 4, 6, 5, 7]))
+        let solve3 = verticalTraversal(TreeNode([1, 2, 3, 4, 6, 5, 7]))
         print("\(solve3) -- should be [[4], [2], [1, 5, 6], [3], [7]]")
-        let solve4 = verticalTraversal(TreeNode.nodeFromArray([3, 1, 4, 0, 2, 2]))
+        let solve4 = verticalTraversal(TreeNode([3, 1, 4, 0, 2, 2]))
         print("\(solve4) -- should be [[0], [1], [3, 2, 2], [4]]")
     }
 

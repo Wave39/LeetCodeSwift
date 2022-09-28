@@ -18,15 +18,15 @@ class Problems1400to1499: XCTestCase {
     }
 
     func test_Problem1448() throws {
-        XCTAssertEqual(Problem1448().test(TreeNode.nodeFromArray([3, 1, 4, 3, nil, 1, 5])), 4)
-        XCTAssertEqual(Problem1448().test(TreeNode.nodeFromArray([3, 3, nil, 4, 2])), 3)
-        XCTAssertEqual(Problem1448().test(TreeNode.nodeFromArray([1])), 1)
+        XCTAssertEqual(Problem1448().test(TreeNode([3, 1, 4, 3, nil, 1, 5])), 4)
+        XCTAssertEqual(Problem1448().test(TreeNode([3, 3, nil, 4, 2])), 3)
+        XCTAssertEqual(Problem1448().test(TreeNode([1])), 1)
     }
 
     func test_Problem1457() throws {
-        XCTAssertEqual(Problem1457().test(TreeNode.nodeFromArray([2, 3, 1, 3, 1, nil, 1])), 2)
-        XCTAssertEqual(Problem1457().test(TreeNode.nodeFromArray([2, 1, 1, 1, 3, nil, nil, nil, nil, nil, 1])), 1)
-        XCTAssertEqual(Problem1457().test(TreeNode.nodeFromArray([9])), 1)
+        XCTAssertEqual(Problem1457().test(TreeNode([2, 3, 1, 3, 1, nil, 1])), 2)
+        XCTAssertEqual(Problem1457().test(TreeNode([2, 1, 1, 1, 3, nil, nil, nil, nil, nil, 1])), 1)
+        XCTAssertEqual(Problem1457().test(TreeNode([9])), 1)
     }
     
     func test_Problem1480() throws {

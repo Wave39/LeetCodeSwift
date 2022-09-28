@@ -10,9 +10,9 @@
 
 public class Problem98 {
     public func run() {
-        let solve1 = isValidBST(TreeNode.nodeFromArray([2, 1, 3]))
+        let solve1 = isValidBST(TreeNode([2, 1, 3]))
         print("\(solve1) -- should be true")
-        let solve2 = isValidBST(TreeNode.nodeFromArray([5, 1, 4, nil, nil, 3, 6]))
+        let solve2 = isValidBST(TreeNode([5, 1, 4, nil, nil, 3, 6]))
         print("\(solve2) -- should be false")
     }
 

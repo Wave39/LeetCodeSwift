@@ -18,16 +18,16 @@ class Problems800to899: XCTestCase {
     }
 
     func test_Problem814() throws {
-        let solve1 = Problem814().test(TreeNode.nodeFromArray([1, nil, 0, 0, 1]))
+        let solve1 = Problem814().test(TreeNode([1, nil, 0, 0, 1]))
         XCTAssertEqual(solve1!.val, 1)
         XCTAssertEqual(solve1!.nodeCount(), 3)
-        let solve2 =  Problem814().test(TreeNode.nodeFromArray([1, 0, 1, 0, 0, 0, 1]))
+        let solve2 =  Problem814().test(TreeNode([1, 0, 1, 0, 0, 0, 1]))
         XCTAssertEqual(solve2!.val, 1)
         XCTAssertEqual(solve2!.nodeCount(), 3)
-        let solve3 =  Problem814().test(TreeNode.nodeFromArray([1, 1, 0, 1, 1, 0, 1, 0]))
+        let solve3 =  Problem814().test(TreeNode([1, 1, 0, 1, 1, 0, 1, 0]))
         XCTAssertEqual(solve3!.val, 1)
         XCTAssertEqual(solve3!.nodeCount(), 6)
-        let solve4 =  Problem814().test(TreeNode.nodeFromArray([]))
+        let solve4 =  Problem814().test(nil)
         XCTAssertNil(solve4)
     }
 

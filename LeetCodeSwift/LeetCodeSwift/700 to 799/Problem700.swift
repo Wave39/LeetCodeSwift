@@ -10,9 +10,9 @@
 
 public class Problem700 {
     public func run() {
-        let solve1 = searchBST(TreeNode.nodeFromArray([4, 2, 7, 1, 3]), 2)
+        let solve1 = searchBST(TreeNode([4, 2, 7, 1, 3]), 2)
         print("\(String(describing: solve1?.val)), \(String(describing: solve1?.nodeCount())) -- should be 2, 3")
-        let solve2 = searchBST(TreeNode.nodeFromArray([4, 2, 7, 1, 3]), 5)
+        let solve2 = searchBST(TreeNode([4, 2, 7, 1, 3]), 5)
         print("\(String(describing: solve2)) -- should be nil")
     }
 

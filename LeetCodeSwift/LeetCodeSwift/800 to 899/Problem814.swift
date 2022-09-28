@@ -10,13 +10,13 @@
 
 public class Problem814 {
     public func run() {
-        let solve1 = pruneTree(TreeNode.nodeFromArray([1, nil, 0, 0, 1]))
+        let solve1 = pruneTree(TreeNode([1, nil, 0, 0, 1]))
         print("\(solve1!.nodeCount()) -- should be 3")
-        let solve2 = pruneTree(TreeNode.nodeFromArray([1, 0, 1, 0, 0, 0, 1]))
+        let solve2 = pruneTree(TreeNode([1, 0, 1, 0, 0, 0, 1]))
         print("\(solve2!.nodeCount()) -- should be 3")
-        let solve3 = pruneTree(TreeNode.nodeFromArray([1, 1, 0, 1, 1, 0, 1, 0]))
+        let solve3 = pruneTree(TreeNode([1, 1, 0, 1, 1, 0, 1, 0]))
         print("\(solve3!.nodeCount()) -- should be 6")
-        let solve4 = pruneTree(TreeNode.nodeFromArray([]))
+        let solve4 = pruneTree(nil)
         print("\(String(describing: solve4)) -- should be nil")
     }
 
