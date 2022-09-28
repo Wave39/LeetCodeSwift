@@ -17,6 +17,8 @@ public class ProblemSelection100to199 {
             Problem103().run()
         } else if problemNumber == 104 {
             Problem104().run()
+        } else if problemNumber == 112 {
+            Problem112().run()
         } else if problemNumber == 113 {
             Problem113().run()
         } else if problemNumber == 118 {
