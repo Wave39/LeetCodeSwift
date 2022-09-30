@@ -25,6 +25,15 @@ class Problems700to799: XCTestCase {
         XCTAssertNil(solve2)
     }
 
+    func test_Problem701() throws {
+        let solve1 = Problem701().test(TreeNode([4, 2, 7, 1, 3]), 5)
+        XCTAssertEqual(solve1!.values(), [4, 2, 7, 1, 3, 5])
+        let solve2 = Problem701().test(TreeNode([40, 20, 60, 10, 30, 50, 70]), 25)
+        XCTAssertEqual(solve2!.values(), [40, 20, 60, 10, 30, 50, 70, 25])
+        let solve3 = Problem701().test(TreeNode([4, 2, 7, 1, 3, nil, nil, nil, nil, nil, nil]), 5)
+        XCTAssertEqual(solve3!.values(), [4, 2, 7, 1, 3, 5])
+    }
+
     func test_Problem704() throws {
         XCTAssertEqual(Problem704().test([-1, 0, 3, 5, 9, 12], 9), 4)
         XCTAssertEqual(Problem704().test([-1, 0, 3, 5, 9, 12], 2), -1)
