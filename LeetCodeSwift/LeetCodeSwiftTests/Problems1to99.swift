@@ -195,6 +195,12 @@ class Problems1to99: XCTestCase {
         XCTAssertEqual(nums3, [1])
     }
 
+    func test_Problem91() throws {
+        XCTAssertEqual(Problem91().test("12"), 2)
+        XCTAssertEqual(Problem91().test("226"), 3)
+        XCTAssertEqual(Problem91().test("06"), 0)
+    }
+
     func test_Problem94() throws {
         let solve1 = Problem94().test(TreeNode([1, nil, 2, 3]))
         XCTAssertEqual(solve1, [1, 3, 2])
