@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/1/22.
 //
 
-// 637. Average of Levels in Binary Tree
+// 637. Average of Levels in Binary Tree (Easy)
 // https://leetcode.com/problems/average-of-levels-in-binary-tree/
 
 public class Problem637 {

@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/11/22.
 //
 
-// 1996. The Number of Weak Characters in the Game
+// 1996. The Number of Weak Characters in the Game (Medium)
 // https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/
 
 public class Problem1996 {

@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/23/22.
 //
 
-// 387. First Unique Character in a String
+// 387. First Unique Character in a String (Easy)
 // https://leetcode.com/problems/first-unique-character-in-a-string/
 
 public class Problem387 {

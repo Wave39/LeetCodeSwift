@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/12/22.
 //
 
-// 948. Bag of Tokens
+// 948. Bag of Tokens (Medium)
 // https://leetcode.com/problems/bag-of-tokens/
 
 // Found a sorting solution at:

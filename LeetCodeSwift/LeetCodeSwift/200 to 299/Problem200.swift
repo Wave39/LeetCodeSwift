@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/24/22.
 //
 
-// 200. Number of Islands
+// 200. Number of Islands (Medium)
 // https://leetcode.com/problems/number-of-islands/
 
 public class Problem200 {

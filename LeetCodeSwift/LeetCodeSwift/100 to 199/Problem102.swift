@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/6/22.
 //
 
-// 102. Binary Tree Level Order Traversal
+// 102. Binary Tree Level Order Traversal (Medium)
 // https://leetcode.com/problems/binary-tree-level-order-traversal/
 
 public class Problem102 {

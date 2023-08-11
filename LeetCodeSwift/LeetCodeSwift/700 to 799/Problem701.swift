@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/30/22.
 //
 
-// 701. Insert into a Binary Search Tree
+// 701. Insert into a Binary Search Tree (Medium)
 // https://leetcode.com/problems/insert-into-a-binary-search-tree/
 
 public class Problem701 {

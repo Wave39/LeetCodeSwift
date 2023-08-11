@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/6/22.
 //
 
-// 606. Construct String from Binary Tree
+// 606. Construct String from Binary Tree (Easy)
 // https://leetcode.com/problems/construct-string-from-binary-tree/
 
 public class Problem606 {

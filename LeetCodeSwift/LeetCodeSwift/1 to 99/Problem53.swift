@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/17/22.
 //
 
-// 53. Maximum Subarray
+// 53. Maximum Subarray (Medium)
 // https://leetcode.com/problems/maximum-subarray/
 
 public class Problem53 {

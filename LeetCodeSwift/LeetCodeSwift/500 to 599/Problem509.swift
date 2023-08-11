@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/12/22.
 //
 
-// 509. Fibonacci Number
+// 509. Fibonacci Number (Easy)
 // https://leetcode.com/problems/fibonacci-number/
 
 public class Problem509 {

@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/16/22.
 //
 
-// 336. Palindrome Pairs
+// 336. Palindrome Pairs (Hard)
 // https://leetcode.com/problems/palindrome-pairs/
 
 // My solution would time out, and any of the Swift solutions that I found in the discussion area also timed out

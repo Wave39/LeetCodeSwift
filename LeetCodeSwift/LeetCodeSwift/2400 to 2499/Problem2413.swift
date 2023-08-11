@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/20/22.
 //
 
-// 2413. Smallest Even Multiple
+// 2413. Smallest Even Multiple (Easy)
 // https://leetcode.com/problems/smallest-even-multiple/
 
 public class Problem2413 {

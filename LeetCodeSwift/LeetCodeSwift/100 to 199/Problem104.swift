@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/26/22.
 //
 
-// 104. Maximum Depth of Binary Tree
+// 104. Maximum Depth of Binary Tree (Easy)
 // https://leetcode.com/problems/maximum-depth-of-binary-tree/
 
 public class Problem104 {

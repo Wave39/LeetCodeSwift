@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/28/22.
 //
 
-// 226. Invert Binary Tree
+// 226. Invert Binary Tree (Easy)
 // https://leetcode.com/problems/invert-binary-tree/
 
 public class Problem226 {

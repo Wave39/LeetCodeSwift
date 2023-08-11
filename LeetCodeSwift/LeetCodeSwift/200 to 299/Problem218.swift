@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/29/22.
 //
 
-// 218. The Skyline Problem
+// 218. The Skyline Problem (Hard)
 // https://leetcode.com/problems/the-skyline-problem/
 
 // https://leetcode.com/problems/the-skyline-problem/discuss/1160331/Swift-intuitive-way-map-%2B-set-%2B-binary-search-O(n-log-n)

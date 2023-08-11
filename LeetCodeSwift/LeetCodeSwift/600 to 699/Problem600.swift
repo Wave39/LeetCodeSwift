@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/20/22.
 //
 
-// 600. Non-negative Integers without Consecutive Ones
+// 600. Non-negative Integers without Consecutive Ones (Hard)
 // https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/
 
 // https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/discuss/1361862/Swift-solution-(DP)

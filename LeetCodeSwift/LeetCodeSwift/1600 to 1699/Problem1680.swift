@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/22/22.
 //
 
-// 1680. Concatenation of Consecutive Binary Numbers
+// 1680. Concatenation of Consecutive Binary Numbers (Medium)
 // https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/
 
 // https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/discuss/961671/Swift-O(N)-clean-solution

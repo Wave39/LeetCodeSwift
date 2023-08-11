@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/1/22.
 //
 
-// 400. Nth Digit
+// 400. Nth Digit (Medium)
 // https://leetcode.com/problems/nth-digit/
 
 // Usually my code kind of documents itself, but I put some comments in below because the logic

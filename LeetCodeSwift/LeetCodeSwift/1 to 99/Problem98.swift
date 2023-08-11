@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/12/22.
 //
 
-// 98. Validate Binary Search Tree
+// 98. Validate Binary Search Tree (Medium)
 // https://leetcode.com/problems/validate-binary-search-tree/
 
 public class Problem98 {

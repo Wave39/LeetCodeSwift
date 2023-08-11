@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/26/22.
 //
 
-// 300. Longest Increasing Subsequence
+// 300. Longest Increasing Subsequence (Medium)
 // https://leetcode.com/problems/longest-increasing-subsequence/
 
 // Once again, my naive solution was running into memory and time issues

@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/19/22.
 //
 
-// 88. Merge Sorted Array
+// 88. Merge Sorted Array (Easy)
 // https://leetcode.com/problems/merge-sorted-array/
 
 public class Problem88 {

@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/14/22.
 //
 
-// 746. Min Cost Climbing Stairs
+// 746. Min Cost Climbing Stairs (Easy)
 // https://leetcode.com/problems/min-cost-climbing-stairs/
 
 public class Problem746 {

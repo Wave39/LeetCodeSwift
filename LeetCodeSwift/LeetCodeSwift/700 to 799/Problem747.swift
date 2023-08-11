@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/25/22.
 //
 
-// 747. Largest Number At Least Twice of Others
+// 747. Largest Number At Least Twice of Others (Easy)
 // https://leetcode.com/problems/largest-number-at-least-twice-of-others/
 
 public class Problem747 {

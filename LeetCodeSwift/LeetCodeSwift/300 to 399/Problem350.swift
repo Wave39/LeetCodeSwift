@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/19/22.
 //
 
-// 350. Intersection of Two Arrays II
+// 350. Intersection of Two Arrays II (Easy)
 // https://leetcode.com/problems/intersection-of-two-arrays-ii/
 
 public class Problem350 {

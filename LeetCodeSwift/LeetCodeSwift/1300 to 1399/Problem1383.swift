@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/11/22.
 //
 
-// 1383. Maximum Performance of a Team
+// 1383. Maximum Performance of a Team (Hard)
 // https://leetcode.com/problems/maximum-performance-of-a-team/
 
 public class Problem1383 {

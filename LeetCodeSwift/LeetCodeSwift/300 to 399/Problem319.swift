@@ -7,7 +7,7 @@
 
 import Darwin
 
-// 319. Bulb Switcher
+// 319. Bulb Switcher (Medium)
 // https://leetcode.com/problems/bulb-switcher/
 
 // I needed to look into the discussion part for this question, as the naive solution was timing out

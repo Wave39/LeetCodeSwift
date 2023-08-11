@@ -5,6 +5,9 @@
 //  Created by Brian Prescott on 9/28/22.
 //
 
+// 112. Path Sum (Easy)
+// https://leetcode.com/problems/path-sum/
+
 public class Problem112 {
     public func run() {
         let solve1 = hasPathSum(TreeNode([5, 4, 8, 11, nil, 13, 4, 7, 2, nil, nil, nil, 1]), 22)

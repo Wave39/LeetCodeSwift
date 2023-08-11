@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/30/22.
 //
 
-// 653. Two Sum IV - Input is a BST
+// 653. Two Sum IV - Input is a BST (Easy)
 // https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
 
 // https://leetcode.com/problems/two-sum-iv-input-is-a-bst/discuss/368435/Swift

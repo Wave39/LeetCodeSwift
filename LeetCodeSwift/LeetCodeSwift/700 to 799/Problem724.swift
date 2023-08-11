@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/2/22.
 //
 
-// 724. Find Pivot Index
+// 724. Find Pivot Index (Easy)
 // https://leetcode.com/problems/find-pivot-index/
 
 public class Problem724 {

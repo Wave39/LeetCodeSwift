@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/5/22.
 //
 
-// 142. Linked List Cycle II
+// 142. Linked List Cycle II (Medium)
 // https://leetcode.com/problems/linked-list-cycle-ii/
 
 public class Problem142 {

@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/20/22.
 //
 
-// 118. Pascal's Triangle
+// 118. Pascal's Triangle (Easy)
 // https://leetcode.com/problems/pascals-triangle/
 
 public class Problem118 {

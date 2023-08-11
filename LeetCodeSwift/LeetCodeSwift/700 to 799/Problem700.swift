@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/20/22.
 //
 
-// 700. Search in a Binary Search Tree
+// 700. Search in a Binary Search Tree (Easy)
 // https://leetcode.com/problems/search-in-a-binary-search-tree/
 
 public class Problem700 {

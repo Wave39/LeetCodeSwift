@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/19/22.
 //
 
-// 609. Find Duplicate File in System
+// 609. Find Duplicate File in System (Medium)
 // https://leetcode.com/problems/find-duplicate-file-in-system/
 
 public class Problem609 {

@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/3/22.
 //
 
-// 5. Longest Palindromic Substring
+// 5. Longest Palindromic Substring (Medium)
 // https://leetcode.com/problems/longest-palindromic-substring/
 
 // I tried to understand the hints but ultimately came up empty and just borrowed this solution:

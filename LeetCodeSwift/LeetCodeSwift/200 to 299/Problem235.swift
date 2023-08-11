@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/12/22.
 //
 
-// 235. Lowest Common Ancestor of a Binary Search Tree
+// 235. Lowest Common Ancestor of a Binary Search Tree (Medium)
 // https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 
 public class Problem235 {

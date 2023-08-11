@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/22/22.
 //
 
-// 1. Two Sum
+// 1. Two Sum (Easy)
 // https://leetcode.com/problems/two-sum/
 
 public class Problem1 {

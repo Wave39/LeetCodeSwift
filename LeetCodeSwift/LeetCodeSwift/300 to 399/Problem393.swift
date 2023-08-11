@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/12/22.
 //
 
-// 393. UTF-8 Validation
+// 393. UTF-8 Validation (Medium)
 // https://leetcode.com/problems/utf-8-validation/
 
 // WOO HOO!!!

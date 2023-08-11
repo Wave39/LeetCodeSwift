@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/4/22.
 //
 
-// 21. Merge Two Sorted Lists
+// 21. Merge Two Sorted Lists (Easy)
 // https://leetcode.com/problems/merge-two-sorted-lists/
 
 public class Problem21 {

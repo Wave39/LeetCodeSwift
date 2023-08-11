@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/23/22.
 //
 
-// 141. Linked List Cycle
+// 141. Linked List Cycle (Easy)
 // https://leetcode.com/problems/linked-list-cycle/
 
 public class Problem141 {

@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/11/23.
 //
 
-// 518. Coin Change II
+// 518. Coin Change II (Medium)
 // https://leetcode.com/problems/coin-change-ii/
 
 public class Problem518 {

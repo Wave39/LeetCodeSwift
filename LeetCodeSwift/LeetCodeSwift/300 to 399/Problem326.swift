@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/24/22.
 //
 
-// 326. Power of Three
+// 326. Power of Three (Easy)
 // https://leetcode.com/problems/power-of-three/
 
 public class Problem326 {

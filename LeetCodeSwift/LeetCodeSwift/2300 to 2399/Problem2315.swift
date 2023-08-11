@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/25/22.
 //
 
-// 2315. Count Asterisks
+// 2315. Count Asterisks (Easy)
 // https://leetcode.com/problems/count-asterisks/
 
 public class Problem2315 {

@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/24/22.
 //
 
-// 100. Same Tree
+// 100. Same Tree (Easy)
 // https://leetcode.com/problems/same-tree/
 
 public class Problem100 {

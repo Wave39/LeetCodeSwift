@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/6/22.
 //
 
-// 121. Best Time to Buy and Sell Stock
+// 121. Best Time to Buy and Sell Stock (Easy)
 // https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
 // Assist to:

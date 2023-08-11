@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/28/22.
 //
 
-// 424. Longest Repeating Character Replacement
+// 424. Longest Repeating Character Replacement (Medium)
 // https://leetcode.com/problems/longest-repeating-character-replacement/
 
 // https://leetcode.com/problems/longest-repeating-character-replacement/discuss/1495455/Swift-Sliding-window

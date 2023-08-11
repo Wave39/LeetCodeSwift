@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/20/22.
 //
 
-// 566. Reshape the Matrix
+// 566. Reshape the Matrix (Easy)
 // https://leetcode.com/problems/reshape-the-matrix/
 
 public class Problem566 {

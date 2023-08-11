@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/17/22.
 //
 
-// 217. Contains Duplicate
+// 217. Contains Duplicate (Easy)
 // https://leetcode.com/problems/contains-duplicate/
 
 public class Problem217 {

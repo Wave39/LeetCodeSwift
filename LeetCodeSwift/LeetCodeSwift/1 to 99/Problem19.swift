@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/27/22.
 //
 
-// 19. Remove Nth Node From End of List
+// 19. Remove Nth Node From End of List (Medium)
 // https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 
 public class Problem19 {

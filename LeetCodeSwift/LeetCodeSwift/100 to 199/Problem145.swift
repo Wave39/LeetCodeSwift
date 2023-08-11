@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/26/22.
 //
 
-// 145. Binary Tree Postorder Traversal
+// 145. Binary Tree Postorder Traversal (Easy)
 // https://leetcode.com/problems/binary-tree-postorder-traversal/
 
 public class Problem145 {

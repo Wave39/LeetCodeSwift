@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/1/22.
 //
 
-// 1448. Count Good Nodes in Binary Tree
+// 1448. Count Good Nodes in Binary Tree (Medium)
 // https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 
 public class Problem1448 {

@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/23/22.
 //
 
-// 4. Median of Two Sorted Arrays
+// 4. Median of Two Sorted Arrays (Hard)
 // https://leetcode.com/problems/median-of-two-sorted-arrays/
 
 public class Problem4 {

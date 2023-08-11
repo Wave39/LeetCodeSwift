@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/27/22.
 //
 
-// 838. Push Dominoes
+// 838. Push Dominoes (Medium)
 // https://leetcode.com/problems/push-dominoes/
 
 public class Problem838 {

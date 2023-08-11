@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 7/31/23.
 //
 
-// 2788. Split Strings by Separator
+// 2788. Split Strings by Separator (Easy)
 // https://leetcode.com/problems/split-strings-by-separator/
 
 public class Problem2788 {

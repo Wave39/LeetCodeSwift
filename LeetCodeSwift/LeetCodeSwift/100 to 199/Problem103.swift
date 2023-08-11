@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/7/22.
 //
 
-// 103. Binary Tree Zigzag Level Order Traversal
+// 103. Binary Tree Zigzag Level Order Traversal (Medium)
 // https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
 
 public class Problem103 {

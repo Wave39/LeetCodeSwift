@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/8/22.
 //
 
-// 94. Binary Tree Inorder Traversal
+// 94. Binary Tree Inorder Traversal (Easy)
 // https://leetcode.com/problems/binary-tree-inorder-traversal/
 
 public class Problem94 {

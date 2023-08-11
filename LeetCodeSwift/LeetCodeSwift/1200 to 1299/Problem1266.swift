@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/23/22.
 //
 
-// 1266. Minimum Time Visiting All Points
+// 1266. Minimum Time Visiting All Points (Easy)
 // https://leetcode.com/problems/minimum-time-visiting-all-points/
 
 public class Problem1266 {

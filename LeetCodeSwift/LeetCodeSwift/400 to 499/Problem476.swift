@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/23/22.
 //
 
-// 476. Number Complement
+// 476. Number Complement (Easy)
 // https://leetcode.com/problems/number-complement/
 
 public class Problem476 {

@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/23/22.
 //
 
-// 83. Remove Duplicates from Sorted List
+// 83. Remove Duplicates from Sorted List (Easy)
 // https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 
 public class Problem83 {

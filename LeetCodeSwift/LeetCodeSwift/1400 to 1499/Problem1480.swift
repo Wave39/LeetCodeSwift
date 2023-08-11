@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/2/22.
 //
 
-// 1480. Running Sum of 1d Array
+// 1480. Running Sum of 1d Array (Easy)
 // https://leetcode.com/problems/running-sum-of-1d-array/
 
 public class Problem1480 {

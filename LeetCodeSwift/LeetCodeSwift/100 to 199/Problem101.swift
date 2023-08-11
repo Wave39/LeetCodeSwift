@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/27/22.
 //
 
-// 101. Symmetric Tree
+// 101. Symmetric Tree (Easy)
 // https://leetcode.com/problems/symmetric-tree/
 
 public class Problem101 {

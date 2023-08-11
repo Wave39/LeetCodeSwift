@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/22/22.
 //
 
-// 74. Search a 2D Matrix
+// 74. Search a 2D Matrix (Medium)
 // https://leetcode.com/problems/search-a-2d-matrix/
 
 public class Problem74 {

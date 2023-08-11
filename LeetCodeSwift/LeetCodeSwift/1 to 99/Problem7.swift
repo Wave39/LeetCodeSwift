@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/17/22.
 //
 
-// 7. Reverse Integer
+// 7. Reverse Integer (Medium)
 // https://leetcode.com/problems/reverse-integer/
 
 public class Problem7 {

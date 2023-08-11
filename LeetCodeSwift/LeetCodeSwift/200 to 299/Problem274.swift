@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/23/22.
 //
 
-// 274. H-Index
+// 274. H-Index (Medium)
 // https://leetcode.com/problems/h-index/
 
 public class Problem274 {

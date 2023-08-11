@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/8/22.
 //
 
-// 704. Binary Search
+// 704. Binary Search (Easy)
 // https://leetcode.com/problems/binary-search/
 
 public class Problem704 {

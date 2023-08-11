@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/6/22.
 //
 
-// 6. Zigzag Conversion
+// 6. Zigzag Conversion (Medium)
 // https://leetcode.com/problems/zigzag-conversion/
 
 public class Problem6 {

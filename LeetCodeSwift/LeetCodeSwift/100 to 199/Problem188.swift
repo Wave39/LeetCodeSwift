@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/11/22.
 //
 
-// 188. Best Time to Buy and Sell Stock IV
+// 188. Best Time to Buy and Sell Stock IV (Hard)
 // https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
 
 public class Problem188 {

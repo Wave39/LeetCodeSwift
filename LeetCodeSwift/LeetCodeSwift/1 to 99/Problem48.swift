@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/30/22.
 //
 
-// 48. Rotate Image
+// 48. Rotate Image (Medium)
 // https://leetcode.com/problems/rotate-image/
 
 public class Problem48 {

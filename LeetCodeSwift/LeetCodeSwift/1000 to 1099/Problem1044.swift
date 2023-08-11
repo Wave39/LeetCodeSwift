@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/23/22.
 //
 
-// 1044. Longest Duplicate Substring
+// 1044. Longest Duplicate Substring (Hard)
 // https://leetcode.com/problems/longest-duplicate-substring/
 
 // My naive solution was taking too long, so I had to borrow another poster's solution

@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/31/22.
 //
 
-// 942. DI String Match
+// 942. DI String Match (Easy)
 // https://leetcode.com/problems/di-string-match/
 
 public class Problem942 {

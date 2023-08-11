@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/14/22.
 //
 
-// 62. Unique Paths
+// 62. Unique Paths (Medium)
 // https://leetcode.com/problems/unique-paths/
 
 // I thought that my recursive algorithm would be fast enough even with large values, but alas no...

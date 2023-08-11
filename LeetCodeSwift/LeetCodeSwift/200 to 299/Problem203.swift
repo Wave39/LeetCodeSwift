@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/23/22.
 //
 
-// 203. Remove Linked List Elements
+// 203. Remove Linked List Elements (Easy)
 // https://leetcode.com/problems/remove-linked-list-elements/
 
 public class Problem203 {

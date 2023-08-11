@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/25/22.
 //
 
-// 20. Valid Parentheses
+// 20. Valid Parentheses (Easy)
 // https://leetcode.com/problems/valid-parentheses/
 
 public class Problem20 {

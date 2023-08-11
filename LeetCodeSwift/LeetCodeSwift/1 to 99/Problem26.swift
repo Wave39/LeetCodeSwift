@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/22/22.
 //
 
-// 26. Remove Duplicates from Sorted Array
+// 26. Remove Duplicates from Sorted Array (Easy)
 // https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
 public class Problem26 {

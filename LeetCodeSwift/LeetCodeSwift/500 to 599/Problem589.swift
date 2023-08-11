@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/6/22.
 //
 
-// 589. N-ary Tree Preorder Traversal
+// 589. N-ary Tree Preorder Traversal (Easy)
 // https://leetcode.com/problems/n-ary-tree-preorder-traversal/
 
 public class Problem589 {

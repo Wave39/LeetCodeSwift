@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/23/22.
 //
 
-// 334. Increasing Triplet Subsequence
+// 334. Increasing Triplet Subsequence (Medium)
 // https://leetcode.com/problems/increasing-triplet-subsequence/
 
 public class Problem334 {

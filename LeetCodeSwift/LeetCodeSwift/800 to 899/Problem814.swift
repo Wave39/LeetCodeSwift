@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/5/22.
 //
 
-// 814. Binary Tree Pruning
+// 814. Binary Tree Pruning (Medium)
 // https://leetcode.com/problems/binary-tree-pruning/
 
 public class Problem814 {

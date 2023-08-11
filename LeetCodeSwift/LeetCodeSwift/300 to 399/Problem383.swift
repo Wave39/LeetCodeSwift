@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/25/22.
 //
 
-// 383. Ransom Note
+// 383. Ransom Note (Easy)
 // https://leetcode.com/problems/ransom-note/
 
 public class Problem383 {

@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/22/22.
 //
 
-// 985. Sum of Even Numbers After Queries
+// 985. Sum of Even Numbers After Queries (Medium)
 // https://leetcode.com/problems/sum-of-even-numbers-after-queries/
 
 // https://leetcode.com/problems/sum-of-even-numbers-after-queries/discuss/654260/Swift

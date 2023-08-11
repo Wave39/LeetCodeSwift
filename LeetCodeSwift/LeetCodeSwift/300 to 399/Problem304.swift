@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/23/22.
 //
 
-// 304. Range Sum Query 2D - Immutable
+// 304. Range Sum Query 2D - Immutable (Medium)
 // https://leetcode.com/problems/range-sum-query-2d-immutable/
 
 public class Problem304 {

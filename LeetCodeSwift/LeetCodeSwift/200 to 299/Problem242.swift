@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/23/22.
 //
 
-// 242. Valid Anagram
+// 242. Valid Anagram (Easy)
 // https://leetcode.com/problems/valid-anagram/
 
 public class Problem242 {

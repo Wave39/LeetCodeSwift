@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/2/22.
 //
 
-// 967. Numbers With Same Consecutive Differences
+// 967. Numbers With Same Consecutive Differences (Medium)
 // https://leetcode.com/problems/numbers-with-same-consecutive-differences/
 
 public class Problem967 {

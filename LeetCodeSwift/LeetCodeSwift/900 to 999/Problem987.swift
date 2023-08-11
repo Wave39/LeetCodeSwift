@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/4/22.
 //
 
-// 987. Vertical Order Traversal of a Binary Tree
+// 987. Vertical Order Traversal of a Binary Tree (Hard)
 // https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 
 public class Problem987 {

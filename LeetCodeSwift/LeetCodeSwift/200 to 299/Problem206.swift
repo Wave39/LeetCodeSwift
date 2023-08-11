@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/4/22.
 //
 
-// 206. Reverse Linked List
+// 206. Reverse Linked List (Easy)
 // https://leetcode.com/problems/reverse-linked-list/
 
 public class Problem206 {

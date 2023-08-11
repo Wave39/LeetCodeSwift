@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/8/22.
 //
 
-// 278. First Bad Version
+// 278. First Bad Version (Easy)
 // https://leetcode.com/problems/first-bad-version/
 
 public class Problem278 {

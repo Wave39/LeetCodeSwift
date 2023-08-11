@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/16/22.
 //
 
-// 1770. Maximum Score from Performing Multiplication Operations
+// 1770. Maximum Score from Performing Multiplication Operations (Hard)
 // https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/
 
 // https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/discuss/2583345/SolutionSwift-DP-(Dynamic-Programming)-(564ms-beats-100)

@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/5/22.
 //
 
-// 876. Middle of the Linked List
+// 876. Middle of the Linked List (Easy)
 // https://leetcode.com/problems/middle-of-the-linked-list/
 
 public class Problem876 {

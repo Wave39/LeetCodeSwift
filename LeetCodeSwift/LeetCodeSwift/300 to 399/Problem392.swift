@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/3/22.
 //
 
-// 392. Is Subsequence
+// 392. Is Subsequence (Easy)
 // https://leetcode.com/problems/is-subsequence/
 
 public class Problem392 {

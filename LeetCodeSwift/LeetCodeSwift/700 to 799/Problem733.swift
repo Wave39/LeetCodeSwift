@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/12/22.
 //
 
-// 733. Flood Fill
+// 733. Flood Fill (Easy)
 // https://leetcode.com/problems/flood-fill/
 
 public class Problem733 {

@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/26/22.
 //
 
-// 869. Reordered Power of 2
+// 869. Reordered Power of 2 (Medium)
 // https://leetcode.com/problems/reordered-power-of-2/
 
 // WOO HOO!!!

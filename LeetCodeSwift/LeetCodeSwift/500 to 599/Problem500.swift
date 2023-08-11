@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/2/22.
 //
 
-// 500. Keyboard Row
+// 500. Keyboard Row (Easy)
 // https://leetcode.com/problems/keyboard-row/
 
 public class Problem500 {

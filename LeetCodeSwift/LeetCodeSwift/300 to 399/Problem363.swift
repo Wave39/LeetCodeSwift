@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/27/22.
 //
 
-// 363. Max Sum of Rectangle No Larger Than K
+// 363. Max Sum of Rectangle No Larger Than K (Hard)
 // https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/
 
 // WOO HOO!!!

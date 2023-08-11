@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/17/22.
 //
 
-// 42. Trapping Rain Water
+// 42. Trapping Rain Water (Hard)
 // https://leetcode.com/problems/trapping-rain-water/
 
 // https://leetcode.com/problems/trapping-rain-water/discuss/630722/Swift-Pointers

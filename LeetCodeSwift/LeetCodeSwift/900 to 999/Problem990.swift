@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/26/22.
 //
 
-// 990. Satisfiability of Equality Equations
+// 990. Satisfiability of Equality Equations (Medium)
 // https://leetcode.com/problems/satisfiability-of-equality-equations/
 
 // https://leetcode.com/problems/satisfiability-of-equality-equations/discuss/1814526/Swift-DFS-solution

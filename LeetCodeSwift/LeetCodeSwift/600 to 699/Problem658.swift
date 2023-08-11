@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/28/22.
 //
 
-// 658. Find K Closest Elements
+// 658. Find K Closest Elements (Medium)
 // https://leetcode.com/problems/find-k-closest-elements/
 
 public class Problem658 {

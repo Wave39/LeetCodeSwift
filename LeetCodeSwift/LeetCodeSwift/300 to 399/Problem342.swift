@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/23/22.
 //
 
-// 342. Power of Four
+// 342. Power of Four (Easy)
 // https://leetcode.com/problems/power-of-four/
 
 public class Problem342 {

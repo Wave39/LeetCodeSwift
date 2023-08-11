@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/24/22.
 //
 
-// 8. String to Integer (atoi)
+// 8. String to Integer (atoi) (Medium)
 // https://leetcode.com/problems/string-to-integer-atoi/
 
 public class Problem8 {

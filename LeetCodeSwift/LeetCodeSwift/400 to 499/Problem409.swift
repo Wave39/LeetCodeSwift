@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/6/22.
 //
 
-// 409. Longest Palindrome
+// 409. Longest Palindrome (Easy)
 // https://leetcode.com/problems/longest-palindrome/
 
 public class Problem409 {

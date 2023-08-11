@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 8/23/22.
 //
 
-// 234. Palindrome Linked List
+// 234. Palindrome Linked List (Easy)
 // https://leetcode.com/problems/palindrome-linked-list/
 
 public class Problem234 {

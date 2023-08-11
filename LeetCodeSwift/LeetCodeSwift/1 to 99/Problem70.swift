@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/12/22.
 //
 
-// 70. Climbing Stairs
+// 70. Climbing Stairs (Easy)
 // https://leetcode.com/problems/climbing-stairs/
 
 // Borrowed the solution from this link:

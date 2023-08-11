@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/22/22.
 //
 
-// 36. Valid Sudoku
+// 36. Valid Sudoku (Medium)
 // https://leetcode.com/problems/valid-sudoku/
 
 public class Problem36 {

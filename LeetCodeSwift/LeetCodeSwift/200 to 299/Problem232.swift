@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/25/22.
 //
 
-// 232. Implement Queue using Stacks
+// 232. Implement Queue using Stacks (Easy)
 // https://leetcode.com/problems/implement-queue-using-stacks/
 
 public class Problem232 {

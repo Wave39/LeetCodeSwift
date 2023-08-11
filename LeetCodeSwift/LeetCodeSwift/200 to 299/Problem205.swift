@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/2/22.
 //
 
-// 205. Isomorphic Strings
+// 205. Isomorphic Strings (Easy)
 // https://leetcode.com/problems/isomorphic-strings/
 
 public class Problem205 {

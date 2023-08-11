@@ -5,7 +5,7 @@
 //  Created by Brian Prescott on 9/24/22.
 //
 
-// 622. Design Circular Queue
+// 622. Design Circular Queue (Medium)
 // https://leetcode.com/problems/design-circular-queue/
 
 public class Problem622 {
