@@ -36,6 +36,12 @@ class Problems500to599: XCTestCase {
         XCTAssertEqual(Problem509().test(6), 8)
     }
 
+    func test_Problem518() throws {
+        XCTAssertEqual(Problem518().test(5, [1, 2, 5]), 4)
+        XCTAssertEqual(Problem518().test(3, [2]), 0)
+        XCTAssertEqual(Problem518().test(10, [10]), 1)
+    }
+
     func test_Problem557() throws {
         XCTAssertEqual(Problem557().test("Let's take LeetCode contest"), "s'teL ekat edoCteeL tsetnoc")
         XCTAssertEqual(Problem557().test("God Ding"), "doG gniD")
