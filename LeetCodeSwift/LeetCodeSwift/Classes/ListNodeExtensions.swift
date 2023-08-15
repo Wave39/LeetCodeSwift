@@ -52,4 +52,14 @@ extension ListNode {
         return pointer
     }
 
+    public func count() -> Int {
+        var count = 1
+        var pointer = self
+        while pointer.next != nil {
+            count += 1
+            pointer = pointer.next!
+        }
+
+        return count
+    }
 }
