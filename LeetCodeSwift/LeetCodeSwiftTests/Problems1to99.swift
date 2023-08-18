@@ -98,7 +98,16 @@ class Problems1to99: XCTestCase {
         XCTAssertTrue(Problem9().test(29092))
         XCTAssertFalse(Problem9().test(290192))
     }
-    
+
+    func test_Problem10() throws {
+        XCTAssertFalse(Problem10().test("aa", "a"))
+        XCTAssertTrue(Problem10().test("aa", "a*"))
+        XCTAssertTrue(Problem10().test("ab", ".*"))
+        XCTAssertFalse(Problem10().test("ab", ".*c"))
+        XCTAssertTrue(Problem10().test("aaa", "a*a"))
+        XCTAssertTrue(Problem10().test("aaa", "ab*a*c*a"))
+    }
+
     func test_Problem19() throws {
         let solve1 = Problem19().test(ListNode.arrayToList([1, 2, 3, 4, 5]), 2)
         XCTAssertEqual(solve1!.toArray(), [1, 2, 3, 5])
