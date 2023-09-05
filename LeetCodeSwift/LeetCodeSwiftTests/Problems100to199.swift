@@ -93,7 +93,19 @@ class Problems100to199: XCTestCase {
         XCTAssertEqual(Problem121().test([7, 6, 4, 3, 1]), 0)
         XCTAssertEqual(Problem121().test([3, 10, 1, 2]), 7)
     }
-    
+
+    func test_Problem138() throws {
+        let list1 = NodeWithRandom.getList([[7, nil], [13, 0], [11, 4], [10, 2], [1, 0]])
+        let solve1 = Problem138().test(list1.first)
+        XCTAssertEqual(solve1!.val, 7)
+        let list2 = NodeWithRandom.getList([[1, 1], [2, 1]])
+        let solve2 = Problem138().test(list2.first)
+        XCTAssertEqual(solve2!.val, 1)
+        let list3 = NodeWithRandom.getList([[3, nil], [3, 0], [3, nil]])
+        let solve3 = Problem138().test(list3.first)
+        XCTAssertEqual(solve3!.val, 3)
+    }
+
     func test_Problem141() throws {
         let list1 = ListNode.arrayToList([3, 2, 0, -4])
         let tail1 = list1.tail()
