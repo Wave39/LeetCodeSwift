@@ -94,6 +94,12 @@ class Problems100to199: XCTestCase {
         XCTAssertEqual(Problem121().test([3, 10, 1, 2]), 7)
     }
 
+    func test_Problem135() throws {
+        XCTAssertEqual(Problem135().test([1, 0, 2]), 5)
+        XCTAssertEqual(Problem135().test([1, 2, 2]), 4)
+        XCTAssertEqual(Problem135().test([0]), 1)
+    }
+
     func test_Problem138() throws {
         let list1 = NodeWithRandom.getList([[7, nil], [13, 0], [11, 4], [10, 2], [1, 0]])
         let solve1 = Problem138().test(list1.first)
