@@ -55,6 +55,13 @@ class Problems300to399: XCTestCase {
         XCTAssertFalse(Problem326().test(0))
     }
 
+    func test_Problem332() throws {
+        let solve1 = Problem332().test([["MUC", "LHR"], ["JFK", "MUC"], ["SFO", "SJC"], ["LHR", "SFO"]])
+        XCTAssertEqual(solve1, ["JFK", "MUC", "LHR", "SFO", "SJC"])
+        let solve2 = Problem332().test([["JFK", "SFO"], ["JFK", "ATL"], ["SFO", "ATL"], ["ATL", "JFK"], ["ATL", "SFO"]])
+        XCTAssertEqual(solve2, ["JFK", "ATL", "JFK", "SFO", "ATL", "SFO"])
+    }
+
     func test_Problem334() throws {
         XCTAssertTrue(Problem334().test([1,2,3,4,5]))
         XCTAssertTrue(Problem334().test([2,1,5,0,4,6]))
