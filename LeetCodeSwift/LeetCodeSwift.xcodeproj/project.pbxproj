@@ -272,6 +272,8 @@
 		E0C9EA4028E0EFE2009B075B /* Problem232.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C9EA3E28E0EFE2009B075B /* Problem232.swift */; };
 		E0C9EA4228E1E545009B075B /* Problem990.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C9EA4128E1E545009B075B /* Problem990.swift */; };
 		E0C9EA4328E1E545009B075B /* Problem990.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C9EA4128E1E545009B075B /* Problem990.swift */; };
+		E0CB59902ABA09EF009D8BC4 /* Problem287.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CB598F2ABA09EF009D8BC4 /* Problem287.swift */; };
+		E0CB59912ABA09EF009D8BC4 /* Problem287.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CB598F2ABA09EF009D8BC4 /* Problem287.swift */; };
 		E0CDE59A28C7C9FB002845D1 /* Problem6.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CDE59928C7C9FB002845D1 /* Problem6.swift */; };
 		E0CDE59B28C7C9FB002845D1 /* Problem6.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CDE59928C7C9FB002845D1 /* Problem6.swift */; };
 		E0DA3B4628D92FEE007CAE22 /* Problem2048.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DA3B4528D92FEE007CAE22 /* Problem2048.swift */; };
@@ -497,6 +499,7 @@
 		E0C9EA3B28E0EA3C009B075B /* Problem20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem20.swift; sourceTree = "<group>"; };
 		E0C9EA3E28E0EFE2009B075B /* Problem232.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem232.swift; sourceTree = "<group>"; };
 		E0C9EA4128E1E545009B075B /* Problem990.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem990.swift; sourceTree = "<group>"; };
+		E0CB598F2ABA09EF009D8BC4 /* Problem287.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem287.swift; sourceTree = "<group>"; };
 		E0CDE59928C7C9FB002845D1 /* Problem6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem6.swift; sourceTree = "<group>"; };
 		E0DA3B4528D92FEE007CAE22 /* Problem2048.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem2048.swift; sourceTree = "<group>"; };
 		E0DE89F228DA3B2900F761CF /* ProblemSelection2400to2499.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemSelection2400to2499.swift; sourceTree = "<group>"; };
@@ -633,6 +636,7 @@
 				E0C3BB7B28DE161B007651D0 /* Problem242.swift */,
 				E02BE6B628B51726006EF502 /* Problem274.swift */,
 				E05CF16428CA4D03009DDAAB /* Problem278.swift */,
+				E0CB598F2ABA09EF009D8BC4 /* Problem287.swift */,
 			);
 			path = "200 to 299";
 			sourceTree = "<group>";
@@ -994,7 +998,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					E02BE6A628B5123C006EF502 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -1193,6 +1197,7 @@
 				E0E031E928C2542D001622FB /* Problems500to599.swift in Sources */,
 				E0CDE59B28C7C9FB002845D1 /* Problem6.swift in Sources */,
 				E02231AD28C78CDB003F23A9 /* Problem121.swift in Sources */,
+				E0CB59912ABA09EF009D8BC4 /* Problem287.swift in Sources */,
 				E01A156A28B7D1CB0024D191 /* Problem747.swift in Sources */,
 				E0137C2F28D00710008E1BCF /* Problem733.swift in Sources */,
 				E09F8B5928BAF5DC006B1596 /* Problems1300to1399.swift in Sources */,
@@ -1292,6 +1297,7 @@
 				E040020A28B65DCE00250BC3 /* Problem100.swift in Sources */,
 				E0BB6ECF28B460EF00204705 /* main.swift in Sources */,
 				E0C3BB7928DE1433007651D0 /* Problem387.swift in Sources */,
+				E0CB59902ABA09EF009D8BC4 /* Problem287.swift in Sources */,
 				E0614D8828D383E400E2446D /* Problem2007.swift in Sources */,
 				E040020328B6533600250BC3 /* Problem326.swift in Sources */,
 				E02BE6D728B52229006EF502 /* Problem2.swift in Sources */,
@@ -1439,6 +1445,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1500,6 +1507,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
