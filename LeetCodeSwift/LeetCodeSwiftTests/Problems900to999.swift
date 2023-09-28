@@ -17,6 +17,11 @@ class Problems900to999: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    func test_Problem905() throws {
+        XCTAssertEqual(Problem905().test([3, 1, 2, 4]), [2, 4, 3, 1])
+        XCTAssertEqual(Problem905().test([0]), [0])
+    }
+
     func test_Problem942() throws {
         XCTAssertEqual(Problem942().test("IDID"), [0, 4, 1, 3, 2])
         XCTAssertEqual(Problem942().test("III"), [0, 1, 2, 3])
