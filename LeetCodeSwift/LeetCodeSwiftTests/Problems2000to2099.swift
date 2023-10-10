@@ -24,6 +24,14 @@ final class Problems2000to2099: XCTestCase {
         XCTAssertEqual(Problem2007().test([1, 0, 0, 2, 0, 0]), [0, 0, 1])
     }
 
+    func test_Problem2009() throws {
+        XCTAssertEqual(Problem2009().test([4, 2, 5, 3]), 0)
+        XCTAssertEqual(Problem2009().test([1, 2, 3, 5, 6]), 1)
+        XCTAssertEqual(Problem2009().test([1, 10, 100, 1000]), 3)
+        XCTAssertEqual(Problem2009().test([8, 5, 9, 9, 8, 4]), 2)
+        XCTAssertEqual(Problem2009().test([41, 33, 29, 33, 35, 26, 47, 24, 18, 28]), 5)
+    }
+
     func test_Problem2048() throws {
         XCTAssertEqual(Problem2048().test(1), 22)
         XCTAssertEqual(Problem2048().test(1000), 1333)
