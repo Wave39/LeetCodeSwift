@@ -11,7 +11,7 @@ print("")
 print("Welcome to BP's LeetCode Solution Machine.")
 print("")
 
-var problemNumber = 2251
+var problemNumber = 37
 
 print("Solving problem number \(problemNumber), please stand by...")
 

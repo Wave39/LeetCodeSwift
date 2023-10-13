@@ -156,6 +156,12 @@ class Problems1to99: XCTestCase {
         XCTAssertFalse(Problem36().test(Problem36().testData3))
     }
 
+    func test_Problem37() throws {
+        var arr = Problem37().testData1
+        Problem37().test(&arr)
+        XCTAssertEqual(arr, Problem37().solutionData1)
+    }
+
     func test_Problem42() throws {
         XCTAssertEqual(Problem42().test([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]), 6)
         XCTAssertEqual(Problem42().test([4, 2, 0, 3, 2, 5]), 9)
