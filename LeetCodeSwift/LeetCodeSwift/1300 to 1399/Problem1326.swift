@@ -8,7 +8,7 @@
 // 1326. Minimum Number of Taps to Open to Water a Garden (Hard)
 // https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/
 
-// WOO HOO!!
+// WOO HOO!!!
 // Runtime: 62ms, Beats 100.00% of users with Swift
 // Memory: 14.19MB, Beats 100.00% of users with Swift
 
