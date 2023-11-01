@@ -26,6 +26,11 @@ class Problems500to599: XCTestCase {
         XCTAssertEqual(solve3, ["adsdf", "sfd"])
     }
 
+    func test_Problem501() throws {
+        XCTAssertEqual(Problem501().test(TreeNode([1, nil, 2, 2])), [2])
+        XCTAssertEqual(Problem501().test(TreeNode([0])), [0])
+    }
+    
     func test_Problem509() throws {
         XCTAssertEqual(Problem509().test(0), 0)
         XCTAssertEqual(Problem509().test(1), 1)

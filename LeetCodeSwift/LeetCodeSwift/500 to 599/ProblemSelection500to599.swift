@@ -9,6 +9,8 @@ public class ProblemSelection500to599 {
     public func run(_ problemNumber: Int) {
         if problemNumber == 500 {
             Problem500().run()
+        } else if problemNumber == 501 {
+            Problem501().run()
         } else if problemNumber == 509 {
             Problem509().run()
         } else if problemNumber == 515 {
