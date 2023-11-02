@@ -11,7 +11,7 @@ print("")
 print("Welcome to BP's LeetCode Solution Machine.")
 print("")
 
-var problemNumber = 2265
+var problemNumber = 1103
 
 print("Solving problem number \(problemNumber), please stand by...")
 
@@ -37,6 +37,8 @@ if problemNumber >= 1 && problemNumber <= 99 {
     ProblemSelection900to999().run(problemNumber)
 } else if problemNumber >= 1000 && problemNumber <= 1099 {
     ProblemSelection1000to1099().run(problemNumber)
+} else if problemNumber >= 1100 && problemNumber <= 1199 {
+    ProblemSelection1100to1199().run(problemNumber)
 } else if problemNumber >= 1200 && problemNumber <= 1299 {
     ProblemSelection1200to1299().run(problemNumber)
 } else if problemNumber >= 1300 && problemNumber <= 1399 {
