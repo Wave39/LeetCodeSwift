@@ -146,7 +146,7 @@
 		E040021528B6646100250BC3 /* ProblemSelection200to299.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040021428B6646100250BC3 /* ProblemSelection200to299.swift */; };
 		E040021728B6649D00250BC3 /* ProblemSelection300to399.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040021628B6649D00250BC3 /* ProblemSelection300to399.swift */; };
 		E040021928B664D200250BC3 /* ProblemSelection400to499.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040021828B664D200250BC3 /* ProblemSelection400to499.swift */; };
-		E040021B28B6650500250BC3 /* ProblemSelection1000to1999.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040021A28B6650500250BC3 /* ProblemSelection1000to1999.swift */; };
+		E040021B28B6650500250BC3 /* ProblemSelection1000to1099.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040021A28B6650500250BC3 /* ProblemSelection1000to1099.swift */; };
 		E040021D28B6653C00250BC3 /* ProblemSelection1200to1299.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040021C28B6653C00250BC3 /* ProblemSelection1200to1299.swift */; };
 		E040021F28B6975F00250BC3 /* Problem319.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040021E28B6975F00250BC3 /* Problem319.swift */; };
 		E040022028B6975F00250BC3 /* Problem319.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040021E28B6975F00250BC3 /* Problem319.swift */; };
@@ -472,7 +472,7 @@
 		E040021428B6646100250BC3 /* ProblemSelection200to299.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemSelection200to299.swift; sourceTree = "<group>"; };
 		E040021628B6649D00250BC3 /* ProblemSelection300to399.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemSelection300to399.swift; sourceTree = "<group>"; };
 		E040021828B664D200250BC3 /* ProblemSelection400to499.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemSelection400to499.swift; sourceTree = "<group>"; };
-		E040021A28B6650500250BC3 /* ProblemSelection1000to1999.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemSelection1000to1999.swift; sourceTree = "<group>"; };
+		E040021A28B6650500250BC3 /* ProblemSelection1000to1099.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemSelection1000to1099.swift; sourceTree = "<group>"; };
 		E040021C28B6653C00250BC3 /* ProblemSelection1200to1299.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemSelection1200to1299.swift; sourceTree = "<group>"; };
 		E040021E28B6975F00250BC3 /* Problem319.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem319.swift; sourceTree = "<group>"; };
 		E0433E0D28E8F2BB00739DB2 /* Problem91.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem91.swift; sourceTree = "<group>"; };
@@ -822,7 +822,7 @@
 		E04001FA28B5B07800250BC3 /* 1000 to 1099 */ = {
 			isa = PBXGroup;
 			children = (
-				E040021A28B6650500250BC3 /* ProblemSelection1000to1999.swift */,
+				E040021A28B6650500250BC3 /* ProblemSelection1000to1099.swift */,
 				E04001FB28B5B08E00250BC3 /* Problem1044.swift */,
 			);
 			path = "1000 to 1099";
@@ -1401,7 +1401,7 @@
 				E0E888FB28CE8F54000F47BB /* Problem1996.swift in Sources */,
 				E0137C3128D00D3D008E1BCF /* Problem393.swift in Sources */,
 				E07A223C2AA7A218001F34DD /* Problem138.swift in Sources */,
-				E040021B28B6650500250BC3 /* ProblemSelection1000to1999.swift in Sources */,
+				E040021B28B6650500250BC3 /* ProblemSelection1000to1099.swift in Sources */,
 				E003353A2AE981F800C0A5A4 /* Problem779.swift in Sources */,
 				E0EB12BB28E4AFAB00F574BD /* Problem226.swift in Sources */,
 				E0E379DD2AD9803B0048682C /* Problem37.swift in Sources */,
