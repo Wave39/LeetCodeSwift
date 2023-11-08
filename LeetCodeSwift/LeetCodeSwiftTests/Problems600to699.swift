@@ -36,6 +36,11 @@ class Problems600to699: XCTestCase {
         XCTAssertEqual(solve2, [["root/a/1.txt", "root/c/3.txt"], ["root/a/2.txt", "root/c/d/4.txt"]])
     }
 
+    func test_Problem619() throws {
+        // SQL problem
+        XCTAssertTrue(true)
+    }
+
     func test_Problem622() throws {
         let queue1 = Problem622.MyCircularQueue(3)
         XCTAssertTrue(queue1.enQueue(1))
