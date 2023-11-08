@@ -35,6 +35,10 @@
 		E007E88628DA1D81006733FA /* Problem700.swift in Sources */ = {isa = PBXBuildFile; fileRef = E007E88428DA1D81006733FA /* Problem700.swift */; };
 		E0081F1A28C8CF1D007E3DA0 /* Problem103.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0081F1928C8CF1D007E3DA0 /* Problem103.swift */; };
 		E0081F1B28C8CF1D007E3DA0 /* Problem103.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0081F1928C8CF1D007E3DA0 /* Problem103.swift */; };
+		E008F7112AFC0FBA000F6C9A /* ProblemSelection2800to2899.swift in Sources */ = {isa = PBXBuildFile; fileRef = E008F7102AFC0FBA000F6C9A /* ProblemSelection2800to2899.swift */; };
+		E008F7132AFC0FDA000F6C9A /* Problem2849.swift in Sources */ = {isa = PBXBuildFile; fileRef = E008F7122AFC0FDA000F6C9A /* Problem2849.swift */; };
+		E008F7142AFC0FDA000F6C9A /* Problem2849.swift in Sources */ = {isa = PBXBuildFile; fileRef = E008F7122AFC0FDA000F6C9A /* Problem2849.swift */; };
+		E008F7162AFC1502000F6C9A /* Problems2800to2899.swift in Sources */ = {isa = PBXBuildFile; fileRef = E008F7152AFC1502000F6C9A /* Problems2800to2899.swift */; };
 		E00C91422A8BDA9000DADA41 /* Problem86.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00C91412A8BDA9000DADA41 /* Problem86.swift */; };
 		E00C91432A8BDA9000DADA41 /* Problem86.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00C91412A8BDA9000DADA41 /* Problem86.swift */; };
 		E00FDD8428E324EC00BACC59 /* Problem838.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00FDD8328E324EC00BACC59 /* Problem838.swift */; };
@@ -414,6 +418,9 @@
 		E007E88128DA10CF006733FA /* Problem600.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem600.swift; sourceTree = "<group>"; };
 		E007E88428DA1D81006733FA /* Problem700.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem700.swift; sourceTree = "<group>"; };
 		E0081F1928C8CF1D007E3DA0 /* Problem103.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem103.swift; sourceTree = "<group>"; };
+		E008F7102AFC0FBA000F6C9A /* ProblemSelection2800to2899.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemSelection2800to2899.swift; sourceTree = "<group>"; };
+		E008F7122AFC0FDA000F6C9A /* Problem2849.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem2849.swift; sourceTree = "<group>"; };
+		E008F7152AFC1502000F6C9A /* Problems2800to2899.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problems2800to2899.swift; sourceTree = "<group>"; };
 		E00C91412A8BDA9000DADA41 /* Problem86.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem86.swift; sourceTree = "<group>"; };
 		E00FDD8328E324EC00BACC59 /* Problem838.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem838.swift; sourceTree = "<group>"; };
 		E012EFC628C4E42D0007B5CA /* Problem987.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem987.swift; sourceTree = "<group>"; };
@@ -646,6 +653,15 @@
 			path = "1100 to 1199";
 			sourceTree = "<group>";
 		};
+		E008F70F2AFC0F98000F6C9A /* 2800 to 2899 */ = {
+			isa = PBXGroup;
+			children = (
+				E008F7102AFC0FBA000F6C9A /* ProblemSelection2800to2899.swift */,
+				E008F7122AFC0FDA000F6C9A /* Problem2849.swift */,
+			);
+			path = "2800 to 2899";
+			sourceTree = "<group>";
+		};
 		E01A156528B7D19B0024D191 /* 700 to 799 */ = {
 			isa = PBXGroup;
 			children = (
@@ -714,6 +730,7 @@
 				E01A157428B7DAE10024D191 /* Problems2300to2399.swift */,
 				E0DE89F728DA3BC800F761CF /* Problems2400to2499.swift */,
 				E034E7362A783ED50026CE02 /* Problems2700to2799.swift */,
+				E008F7152AFC1502000F6C9A /* Problems2800to2899.swift */,
 			);
 			path = LeetCodeSwiftTests;
 			sourceTree = "<group>";
@@ -1000,6 +1017,7 @@
 				E01A156D28B7D9990024D191 /* 2300 to 2399 */,
 				E0DE89F128DA3B1200F761CF /* 2400 to 2499 */,
 				E034E7302A783C320026CE02 /* 2700 to 2799 */,
+				E008F70F2AFC0F98000F6C9A /* 2800 to 2899 */,
 				E0BB6ECE28B460EF00204705 /* main.swift */,
 			);
 			path = LeetCodeSwift;
@@ -1305,6 +1323,7 @@
 				E003AD7D28C67CFB00E0CF6D /* Problem429.swift in Sources */,
 				E012EFCB28C53C760007B5CA /* Problem21.swift in Sources */,
 				E08E93AC28E27A6F00E16F17 /* Problem104.swift in Sources */,
+				E008F7142AFC0FDA000F6C9A /* Problem2849.swift in Sources */,
 				E0E4AC8D28C819AE007D8524 /* Problem606.swift in Sources */,
 				E0C0B41B28DFCAC9009A0D4B /* Problem8.swift in Sources */,
 				E0C4A28C28D4C8B200E5090B /* Problem1770.swift in Sources */,
@@ -1367,6 +1386,7 @@
 				E06DE4D228CFA9740054F44C /* Problem235.swift in Sources */,
 				E0007EAF2AF40AAD00E30546 /* Problem2265.swift in Sources */,
 				E0EB12BC28E4AFAB00F574BD /* Problem226.swift in Sources */,
+				E008F7162AFC1502000F6C9A /* Problems2800to2899.swift in Sources */,
 				E0E031E928C2542D001622FB /* Problems500to599.swift in Sources */,
 				E0CDE59B28C7C9FB002845D1 /* Problem6.swift in Sources */,
 				E02231AD28C78CDB003F23A9 /* Problem121.swift in Sources */,
@@ -1394,6 +1414,7 @@
 				E0C5DC0828D65C280093C503 /* Problem53.swift in Sources */,
 				E04001EF28B5560200250BC3 /* Problem4.swift in Sources */,
 				E002D11D28D9E82600ED2263 /* Problem566.swift in Sources */,
+				E008F7132AFC0FDA000F6C9A /* Problem2849.swift in Sources */,
 				E0137C3428D010CA008E1BCF /* Problem509.swift in Sources */,
 				E04C9D3F2A9540F500775AD5 /* Problem168.swift in Sources */,
 				E07C77452AE821280041A8A8 /* Problem515.swift in Sources */,
@@ -1493,6 +1514,7 @@
 				E01A156728B7D1BE0024D191 /* ProblemSelection700to799.swift in Sources */,
 				E09621FD2AD7177100EAA702 /* Problem2251.swift in Sources */,
 				E025F35928C0E3A600DB4973 /* Problem1448.swift in Sources */,
+				E008F7112AFC0FBA000F6C9A /* ProblemSelection2800to2899.swift in Sources */,
 				E0A859D22AC6079100078BB0 /* Problem905.swift in Sources */,
 				E04001FC28B5B08E00250BC3 /* Problem1044.swift in Sources */,
 				E0FB910328BBCEC900318B84 /* Problem3.swift in Sources */,
