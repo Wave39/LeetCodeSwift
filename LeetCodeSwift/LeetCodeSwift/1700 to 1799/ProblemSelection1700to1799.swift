@@ -7,7 +7,9 @@
 
 public class ProblemSelection1700to1799 {
     public func run(_ problemNumber: Int) {
-        if problemNumber == 1770 {
+        if problemNumber == 1759 {
+            Problem1759().run()
+        } else if problemNumber == 1770 {
             Problem1770().run()
         } else {
             print("No such problem number exists")
