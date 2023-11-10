@@ -17,6 +17,11 @@ class Problems800to899: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    func test_Problem801() throws {
+        XCTAssertEqual(Problem801().test([1, 3, 5, 4], [1, 2, 3, 7]), 1)
+        XCTAssertEqual(Problem801().test([0, 3, 5, 8, 9], [2, 1, 4, 6, 9]), 1)
+    }
+    
     func test_Problem814() throws {
         let solve1 = Problem814().test(TreeNode([1, nil, 0, 0, 1]))
         XCTAssertEqual(solve1!.val, 1)
