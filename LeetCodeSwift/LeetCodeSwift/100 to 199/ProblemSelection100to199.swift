@@ -45,6 +45,8 @@ public class ProblemSelection100to199 {
             Problem175().run()
         } else if problemNumber == 188 {
             Problem188().run()
+        } else if problemNumber == 191 {
+            Problem191().run()
         } else {
             print("No such problem number exists")
         }
