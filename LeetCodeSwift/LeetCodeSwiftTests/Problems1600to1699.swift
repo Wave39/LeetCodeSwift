@@ -29,6 +29,12 @@ final class Problems1600to1699: XCTestCase {
         XCTAssertEqual(Problem1658().test([3, 2, 20, 1, 1, 3], 10), 5)
     }
 
+    func test_Problem1662() throws {
+        XCTAssertTrue(Problem1662().test(["ab", "c"], ["a", "bc"]))
+        XCTAssertFalse(Problem1662().test(["a", "cb"], ["ab", "c"]))
+        XCTAssertTrue(Problem1662().test(["abc", "d", "defg"], ["abcddefg"]))
+    }
+
     func test_Problem1680() throws {
         XCTAssertEqual(Problem1680().test(1), 1)
         XCTAssertEqual(Problem1680().test(3), 27)
