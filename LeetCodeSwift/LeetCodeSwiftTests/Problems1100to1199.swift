@@ -22,4 +22,9 @@ final class Problems1100to1199: XCTestCase {
         XCTAssertEqual(Problem1103().test(10, 3), [5, 2, 3])
     }
 
+    func test_Problem1160() throws {
+        XCTAssertEqual(Problem1160().test(["cat", "bt", "hat", "tree"], "atach"), 6)
+        XCTAssertEqual(Problem1160().test(["hello", "world", "leetcode"], "welldonehoneyr"), 10)
+    }
+
 }
