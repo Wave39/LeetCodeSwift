@@ -9,18 +9,21 @@ import Foundation
 
 // Set this "hardcodedProblemNumber" variable to 0 to use the console input to specify the problem number to solve
 
-let hardcodedProblemNumber = 1464
+let hardcodedProblemNumber = 0
 
 print("")
 print("Welcome to BP's LeetCode Solution Machine.")
-print("")
 
 if hardcodedProblemNumber > 0 {
+    print("")
     print("Solving problem number \(hardcodedProblemNumber), please stand by...")
     runProblemNumber(hardcodedProblemNumber)
+
+    print("")
+    print("Press Enter to terminate application")
+    _ = readLine()
 } else {
     print("Make sure to click in the Output window to enter which puzzle you would like to solve.")
-    print("")
     var quitApp = false
     var problemNumber = 0
     while !quitApp {
@@ -31,16 +34,11 @@ if hardcodedProblemNumber > 0 {
             quitApp = true
         } else if !response.isEmpty {
             problemNumber = Int(response) ?? 0
-            print("")
             print("Solving problem number \(problemNumber), please stand by...")
             runProblemNumber(problemNumber)
         }
     }
 }
-
-print("")
-print("Press Enter to terminate application")
-_ = readLine()
 
 func runProblemNumber(_ problemNumber: Int) {
     if problemNumber >= 1 && problemNumber <= 99 {
