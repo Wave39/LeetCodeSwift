@@ -9,7 +9,7 @@ import Foundation
 
 // Set this "hardcodedProblemNumber" variable to 0 to use the console input to specify the problem number to solve
 
-let hardcodedProblemNumber = 1287
+let hardcodedProblemNumber = 1464
 
 print("")
 print("Welcome to BP's LeetCode Solution Machine.")

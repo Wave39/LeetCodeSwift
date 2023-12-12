@@ -40,6 +40,12 @@ class Problems1400to1499: XCTestCase {
         XCTAssertEqual(Problem1457().test(TreeNode([9])), 1)
     }
     
+    func test_Problem1464() throws {
+        XCTAssertEqual(Problem1464().test([3, 4, 5, 2]), 12)
+        XCTAssertEqual(Problem1464().test([1, 5, 4, 5]), 16)
+        XCTAssertEqual(Problem1464().test([3, 7]), 12)
+    }
+
     func test_Problem1480() throws {
         let solve1 = Problem1480().test([1, 2, 3, 4])
         XCTAssertEqual(solve1, [1, 3, 6, 10])
