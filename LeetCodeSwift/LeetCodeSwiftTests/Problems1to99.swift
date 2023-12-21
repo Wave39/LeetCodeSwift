@@ -211,6 +211,16 @@ class Problems1to99: XCTestCase {
         XCTAssertEqual(Problem62().test(3, 2), 3)
     }
     
+    func test_Problem65() throws {
+        for validNumber in ["0", "2", "0089", "-0.1", "+3.14", "4.", "-.9", "2e10", "-90E3", "3e+7", "+6e-1", "53.5e93", "-123.456e789"] {
+            XCTAssertTrue(Problem65().test(validNumber))
+        }
+
+        for invalidNumber in ["e", ".", "abc", "1a", "1e", "e3", "99e2.5", "--6", "-+3", "95a54e53", ".e1", "4e+", "+.", "e.7e5", "2e+60++604", "+.E3"] {
+            XCTAssertFalse(Problem65().test(invalidNumber))
+        }
+    }
+
     func test_Problem70() throws {
         XCTAssertEqual(Problem70().test(2), 2)
         XCTAssertEqual(Problem70().test(3), 3)
