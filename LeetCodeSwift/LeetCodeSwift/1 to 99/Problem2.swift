@@ -13,7 +13,7 @@ public class Problem2 {
         let solve1a = ListNode.arrayToList([2, 4, 3])
         let solve1b = ListNode.arrayToList([5, 6, 4])
         let solve1 = addTwoNumbers(solve1a, solve1b)
-        print("\(solve1!.toArray()) should be [7,0,8]")
+        print("\(solve1!.toArray()) should be [7, 0, 8]")
 
         let solve2a = ListNode.arrayToList([0])
         let solve2b = ListNode.arrayToList([0])
@@ -23,7 +23,7 @@ public class Problem2 {
         let solve3a = ListNode.arrayToList([9, 9, 9, 9, 9, 9, 9])
         let solve3b = ListNode.arrayToList([9, 9, 9, 9])
         let solve3 = addTwoNumbers(solve3a, solve3b)
-        print("\(solve3!.toArray()) should be [8,9,9,9,0,0,0,1]")
+        print("\(solve3!.toArray()) should be [8, 9, 9, 9, 0, 0, 0, 1]")
     }
 
     public func test(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
