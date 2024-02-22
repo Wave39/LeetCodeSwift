@@ -8,7 +8,7 @@
 // 1846. Maximum Element After Decreasing and Rearranging (Medium)
 // https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/
 
-// WOO HOO!!
+// WOO HOO!!!
 // Runtime: 597ms, Beats 100.00% of users with Swift
 // Memory: 18.16MB, Beats 100.00% of users with Swift
 

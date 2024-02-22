@@ -8,7 +8,7 @@
 // 1716. Calculate Money in Leetcode Bank (Easy)
 // https://leetcode.com/problems/calculate-money-in-leetcode-bank/
 
-// WOO HOO!!
+// WOO HOO!!!
 // Runtime: 4ms, Beats 25.00% of users with Swift
 // Memory: 13.26MB, Beats 100.00% of users with Swift
 

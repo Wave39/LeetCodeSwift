@@ -8,7 +8,7 @@
 // 1759. Count Number of Homogenous Substrings (Medium)
 // https://leetcode.com/problems/count-number-of-homogenous-substrings/
 
-// WOO HOO!!
+// WOO HOO!!!
 // Runtime: 37ms, Beats 100.00% of users with Swift
 // Memory: 14.46MB, Beats 100.00% of users with Swift
 

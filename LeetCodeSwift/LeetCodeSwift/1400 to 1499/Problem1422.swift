@@ -8,7 +8,7 @@
 // 1422. Maximum Score After Splitting a String (Easy)
 // https://leetcode.com/problems/maximum-score-after-splitting-a-string/
 
-// WOO HOO!!
+// WOO HOO!!!
 // Runtime: 0ms, Beats 100.00% of users with Swift
 // Memory: 15.67MB, Beats 25.00% of users with Swift
 

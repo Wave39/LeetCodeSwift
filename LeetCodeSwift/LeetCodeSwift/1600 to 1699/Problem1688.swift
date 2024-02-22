@@ -8,7 +8,7 @@
 // 1688. Count of Matches in Tournament (Easy)
 // https://leetcode.com/problems/count-of-matches-in-tournament/
 
-// WOO HOO!!
+// WOO HOO!!!
 // Runtime: 4ms, Beats 44.08% of users with Swift
 // Memory: 13.32MB, Beats 99.30% of users with Swift
 

@@ -8,7 +8,7 @@
 // 1662. Check If Two String Arrays are Equivalent (Easy)
 // https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
 
-// WOO HOO!!
+// WOO HOO!!!
 // Runtime: 4ms, Beats 94.20% of users with Swift
 // Memory: 14.16MB, Beats 95.65% of users with Swift
 

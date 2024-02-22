@@ -8,7 +8,7 @@
 // 1287. Element Appearing More Than 25% In Sorted Array (Easy)
 // https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/
 
-// WOO HOO!!
+// WOO HOO!!!
 // Runtime: 67ms, Beats 100.00% of users with Swift
 // Memory: 14.70MB, Beats 15.38% of users with Swift
 
