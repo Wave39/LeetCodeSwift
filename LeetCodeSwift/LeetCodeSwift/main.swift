@@ -91,6 +91,8 @@ func runProblemNumber(_ problemNumber: Int) {
         ProblemSelection2300to2399().run(problemNumber)
     } else if problemNumber >= 2400 && problemNumber <= 2499 {
         ProblemSelection2400to2499().run(problemNumber)
+    } else if problemNumber >= 2500 && problemNumber <= 2599 {
+        ProblemSelection2500to2599().run(problemNumber)
     } else if problemNumber >= 2600 && problemNumber <= 2699 {
         ProblemSelection2600to2699().run(problemNumber)
     } else if problemNumber >= 2700 && problemNumber <= 2799 {
