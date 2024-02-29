@@ -17,6 +17,12 @@ final class Problems1600to1699: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    func test_Problem1609() throws {
+        XCTAssertTrue(Problem1609().test(TreeNode([1, 10, 4, 3, nil, 7, 9, 12, 8, 6, nil, nil, 2])))
+        XCTAssertFalse(Problem1609().test(TreeNode([5, 4, 2, 3, 3, 7])))
+        XCTAssertFalse(Problem1609().test(TreeNode([5, 9, 1, 3, 5, 7])))
+    }
+
     func test_Problem1615() throws {
         XCTAssertEqual(Problem1615().test(4, [[0, 1], [0, 3], [1, 2], [1, 3]]), 4)
         XCTAssertEqual(Problem1615().test(5, [[0, 1], [0, 3], [1, 2], [1, 3], [2, 3], [2, 4]]), 5)

@@ -7,7 +7,9 @@
 
 public class ProblemSelection1600to1699 {
     public func run(_ problemNumber: Int) {
-        if problemNumber == 1615 {
+        if problemNumber == 1609 {
+            Problem1609().run()
+        } else if problemNumber == 1615 {
             Problem1615().run()
         } else if problemNumber == 1637 {
             Problem1637().run()
