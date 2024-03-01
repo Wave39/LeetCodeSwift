@@ -26,4 +26,9 @@ final class Problems2800to2899: XCTestCase {
         XCTAssertFalse(Problem2849().test(1, 3, 1, 3, 1))
     }
 
+    func test_Problem2864() throws {
+        XCTAssertEqual(Problem2864().test("010"), "001")
+        XCTAssertEqual(Problem2864().test("0101"), "1001")
+    }
+
 }
