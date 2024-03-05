@@ -32,6 +32,12 @@ final class Problems1700to1799: XCTestCase {
         XCTAssert(solve3 == [100000, -100000] || solve3 == [-100000, 100000])
     }
     
+    func test_Problem1750() throws {
+        XCTAssertEqual(Problem1750().test("ca"), 2)
+        XCTAssertEqual(Problem1750().test("cabaabac"), 0)
+        XCTAssertEqual(Problem1750().test("aabccabba"), 3)
+    }
+
     func test_Problem1759() throws {
         XCTAssertEqual(Problem1759().test("abbcccaa"), 13)
         XCTAssertEqual(Problem1759().test("xy"), 2)
