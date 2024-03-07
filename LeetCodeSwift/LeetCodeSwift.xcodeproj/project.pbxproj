@@ -408,6 +408,8 @@
 		E0CDE59B28C7C9FB002845D1 /* Problem6.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CDE59928C7C9FB002845D1 /* Problem6.swift */; };
 		E0D028E12B22572000031357 /* Problem1903.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D028E02B22572000031357 /* Problem1903.swift */; };
 		E0D028E22B22572000031357 /* Problem1903.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D028E02B22572000031357 /* Problem1903.swift */; };
+		E0D36EF42B9A1029009611F5 /* Problem15.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D36EF32B9A1029009611F5 /* Problem15.swift */; };
+		E0D36EF52B9A1029009611F5 /* Problem15.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D36EF32B9A1029009611F5 /* Problem15.swift */; };
 		E0D76A042AD5C87000619D09 /* Problem2009.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D76A032AD5C87000619D09 /* Problem2009.swift */; };
 		E0D76A052AD5C87000619D09 /* Problem2009.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D76A032AD5C87000619D09 /* Problem2009.swift */; };
 		E0D903222B1E3B150077CE18 /* Problem2264.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D903212B1E3B150077CE18 /* Problem2264.swift */; };
@@ -720,6 +722,7 @@
 		E0CB598F2ABA09EF009D8BC4 /* Problem287.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem287.swift; sourceTree = "<group>"; };
 		E0CDE59928C7C9FB002845D1 /* Problem6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem6.swift; sourceTree = "<group>"; };
 		E0D028E02B22572000031357 /* Problem1903.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1903.swift; sourceTree = "<group>"; };
+		E0D36EF32B9A1029009611F5 /* Problem15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem15.swift; sourceTree = "<group>"; };
 		E0D76A032AD5C87000619D09 /* Problem2009.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem2009.swift; sourceTree = "<group>"; };
 		E0D903212B1E3B150077CE18 /* Problem2264.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem2264.swift; sourceTree = "<group>"; };
 		E0DA3B4528D92FEE007CAE22 /* Problem2048.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem2048.swift; sourceTree = "<group>"; };
@@ -1236,6 +1239,7 @@
 				E0AD1CCC2B06741800F1AB64 /* Problem12.swift */,
 				E02712A32B07D69600867049 /* Problem13.swift */,
 				E0C332A32B90F636002A85FB /* Problem14.swift */,
+				E0D36EF32B9A1029009611F5 /* Problem15.swift */,
 				E05DD1D028E3D38700EBD9D4 /* Problem19.swift */,
 				E0C9EA3B28E0EA3C009B075B /* Problem20.swift */,
 				E012EFC928C53C760007B5CA /* Problem21.swift */,
@@ -1376,7 +1380,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					E02BE6A628B5123C006EF502 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -1557,6 +1561,7 @@
 				E02BE6C528B51CAD006EF502 /* Problem334.swift in Sources */,
 				E003AD7D28C67CFB00E0CF6D /* Problem429.swift in Sources */,
 				E012EFCB28C53C760007B5CA /* Problem21.swift in Sources */,
+				E0D36EF52B9A1029009611F5 /* Problem15.swift in Sources */,
 				E08E93AC28E27A6F00E16F17 /* Problem104.swift in Sources */,
 				E008F7142AFC0FDA000F6C9A /* Problem2849.swift in Sources */,
 				E0E4AC8D28C819AE007D8524 /* Problem606.swift in Sources */,
@@ -1840,6 +1845,7 @@
 				E040021728B6649D00250BC3 /* ProblemSelection300to399.swift in Sources */,
 				E006F1622B8792BB003817A6 /* Problem997.swift in Sources */,
 				E0BB6ED828B463E800204705 /* Problem1.swift in Sources */,
+				E0D36EF42B9A1029009611F5 /* Problem15.swift in Sources */,
 				E04B98782ADDB14C0082FCC6 /* Problem595.swift in Sources */,
 				E0C332A72B90FBC8002A85FB /* Problem900.swift in Sources */,
 				E04408142B35FE770025C5A4 /* Problem1422.swift in Sources */,
@@ -1934,6 +1940,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -1982,7 +1989,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1996,6 +2003,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -2038,7 +2046,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
