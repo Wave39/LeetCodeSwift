@@ -44,4 +44,9 @@ final class Problems3000to3099: XCTestCase {
         ]), 2028)
     }
 
+    func test_Problem3005() throws {
+        XCTAssertEqual(Problem3005().test([1, 2, 2, 3, 1, 4]), 4)
+        XCTAssertEqual(Problem3005().test([1, 2, 3, 4, 5]), 5)
+    }
+
 }
