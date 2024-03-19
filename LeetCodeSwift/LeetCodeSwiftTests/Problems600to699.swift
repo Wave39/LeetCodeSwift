@@ -41,6 +41,12 @@ class Problems600to699: XCTestCase {
         XCTAssertTrue(true)
     }
 
+    func test_Problem621() throws {
+        XCTAssertEqual(Problem621().test(["A", "A", "A", "B", "B", "B"], 2), 8)
+        XCTAssertEqual(Problem621().test(["A", "C", "A", "B", "D", "B"], 1), 6)
+        XCTAssertEqual(Problem621().test(["A", "A", "A", "B", "B", "B"], 3), 10)
+    }
+
     func test_Problem622() throws {
         let queue1 = Problem622.MyCircularQueue(3)
         XCTAssertTrue(queue1.enQueue(1))
