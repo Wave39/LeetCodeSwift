@@ -46,6 +46,11 @@ final class Problems1600to1699: XCTestCase {
         XCTAssertTrue(Problem1662().test(["abc", "d", "defg"], ["abcddefg"]))
     }
 
+    func test_Problem1669() throws {
+        XCTAssertEqual(Problem1669().test(ListNode.arrayToList([10, 1, 13, 6, 9, 5]), 3, 4, ListNode.arrayToList([1000000, 1000001, 1000002]))?.toArray(), [10, 1, 13, 1000000, 1000001, 1000002, 5])
+        XCTAssertEqual(Problem1669().test(ListNode.arrayToList([0, 1, 2, 3, 4, 5, 6]), 2, 5, ListNode.arrayToList([1000000, 1000001, 1000002, 1000003, 1000004]))?.toArray(), [0, 1, 1000000, 1000001, 1000002, 1000003, 1000004, 6])
+    }
+
     func test_Problem1680() throws {
         XCTAssertEqual(Problem1680().test(1), 1)
         XCTAssertEqual(Problem1680().test(3), 27)
