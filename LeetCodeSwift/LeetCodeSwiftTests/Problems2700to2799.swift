@@ -28,4 +28,9 @@ final class Problems2700to2799: XCTestCase {
         XCTAssertEqual(Problem2788().test(["|||"], "|"), [])
     }
 
+    func test_Problem2798() throws {
+        XCTAssertEqual(Problem2798().test([0, 1, 2, 3, 4], 2), 3)
+        XCTAssertEqual(Problem2798().test([5, 1, 4, 2, 2], 6), 0)
+    }
+
 }
