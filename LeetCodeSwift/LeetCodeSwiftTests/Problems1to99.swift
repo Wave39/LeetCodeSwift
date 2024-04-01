@@ -242,6 +242,12 @@ class Problems1to99: XCTestCase {
         XCTAssertEqual(Problem53().test([5, 4, -1, 7, 8]), 23)
     }
 
+    func test_Problem58() throws {
+        XCTAssertEqual(Problem58().test("Hello World"), 5)
+        XCTAssertEqual(Problem58().test("   fly me   to   the moon  "), 4)
+        XCTAssertEqual(Problem58().test("luffy is still joyboy"), 6)
+    }
+
     func test_Problem62() throws {
         XCTAssertEqual(Problem62().test(3, 7), 28)
         XCTAssertEqual(Problem62().test(3, 2), 3)
