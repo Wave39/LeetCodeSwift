@@ -23,6 +23,14 @@ final class Problems1600to1699: XCTestCase {
         XCTAssertFalse(Problem1609().test(TreeNode([5, 9, 1, 3, 5, 7])))
     }
 
+    func test_Problem1614() throws {
+        XCTAssertEqual(Problem1614().test(""), 0)
+        XCTAssertEqual(Problem1614().test("()()"), 1)
+        XCTAssertEqual(Problem1614().test("()(()())"), 2)
+        XCTAssertEqual(Problem1614().test("(1+(2*3)+((8)/4))+1"), 3)
+        XCTAssertEqual(Problem1614().test("(1)+((2))+(((3)))"), 3)
+    }
+
     func test_Problem1615() throws {
         XCTAssertEqual(Problem1615().test(4, [[0, 1], [0, 3], [1, 2], [1, 3]]), 4)
         XCTAssertEqual(Problem1615().test(5, [[0, 1], [0, 3], [1, 2], [1, 3], [2, 3], [2, 4]]), 5)
