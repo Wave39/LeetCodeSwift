@@ -45,4 +45,9 @@ final class Problems2000to2099: XCTestCase {
         XCTAssertTrue(Problem2068().test("cccddabba", "babababab"))
     }
     
+    func test_Problem2073() throws {
+        XCTAssertEqual(Problem2073().test([2,3,2], 2), 6)
+        XCTAssertEqual(Problem2073().test([5,1,1,1], 0), 8)
+    }
+
 }
