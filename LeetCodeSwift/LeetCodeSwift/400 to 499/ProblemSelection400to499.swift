@@ -13,6 +13,8 @@ public class ProblemSelection400to499 {
             Problem402().run()
         } else if problemNumber == 409 {
             Problem409().run()
+        } else if problemNumber == 412 {
+            Problem412().run()
         } else if problemNumber == 417 {
             Problem417().run()
         } else if problemNumber == 424 {
