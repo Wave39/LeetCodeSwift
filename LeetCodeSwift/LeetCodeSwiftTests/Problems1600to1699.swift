@@ -65,6 +65,11 @@ final class Problems1600to1699: XCTestCase {
         XCTAssertEqual(Problem1680().test(12), 505379714)
     }
 
+    func test_Problem1683() throws {
+        // SQL problem
+        XCTAssertTrue(true)
+    }
+
     func test_Problem1688() throws {
         XCTAssertEqual(Problem1688().test(7), 6)
         XCTAssertEqual(Problem1688().test(14), 13)
