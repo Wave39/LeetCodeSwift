@@ -23,4 +23,9 @@ class Problems2300to2399: XCTestCase {
         XCTAssertEqual(Problem2315().test("yo|uar|e**|b|e***au|tifu|l"), 5)
     }
 
+    func test_Problem2370() throws {
+        XCTAssertEqual(Problem2370().test("acfgbd", 2), 4)
+        XCTAssertEqual(Problem2370().test("abcd", 3), 4)
+    }
+
 }
