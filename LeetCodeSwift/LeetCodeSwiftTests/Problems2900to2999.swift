@@ -22,4 +22,9 @@ final class Problems2900to2999: XCTestCase {
         XCTAssertEqual(Problem2900().test(["a", "b", "c", "d"], [1, 0, 1, 1]), ["a", "b", "c"])
     }
 
+    func test_Problem2997() throws {
+        XCTAssertEqual(Problem2997().test([2, 1, 3, 4], 1), 2)
+        XCTAssertEqual(Problem2997().test([2, 0, 2, 0], 0), 0)
+    }
+
 }
