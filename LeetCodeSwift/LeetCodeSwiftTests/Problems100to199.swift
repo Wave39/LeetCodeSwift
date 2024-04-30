@@ -200,4 +200,9 @@ class Problems100to199: XCTestCase {
         XCTAssertEqual(Problem191().test(11), 3)
     }
 
+    func test_Problem197() throws {
+        // SQL problem
+        XCTAssertTrue(true)
+    }
+
 }
