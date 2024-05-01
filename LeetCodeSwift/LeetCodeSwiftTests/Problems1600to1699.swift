@@ -48,6 +48,11 @@ final class Problems1600to1699: XCTestCase {
         XCTAssertEqual(Problem1658().test([3, 2, 20, 1, 1, 3], 10), 5)
     }
 
+    func test_Problem1661() throws {
+        // SQL problem
+        XCTAssertTrue(true)
+    }
+
     func test_Problem1662() throws {
         XCTAssertTrue(Problem1662().test(["ab", "c"], ["a", "bc"]))
         XCTAssertFalse(Problem1662().test(["a", "cb"], ["ab", "c"]))
