@@ -17,6 +17,12 @@ final class Problems2000to2099: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    func test_Problem2000() throws {
+        XCTAssertEqual(Problem2000().test("abcdefd", "d"), "dcbaefd")
+        XCTAssertEqual(Problem2000().test("xyxzxe", "z"), "zxyxxe")
+        XCTAssertEqual(Problem2000().test("abcd", "z"), "abcd")
+    }
+
     func test_Problem2007() throws {
         XCTAssertEqual(Problem2007().test([1, 3, 4, 2, 6, 8]), [1, 3, 4])
         XCTAssertEqual(Problem2007().test([6, 3, 0, 1]), [])
