@@ -9,8 +9,8 @@
 // https://leetcode.com/problems/next-greater-numerically-balanced-number/
 
 // WOO HOO!!!
-//Runtime: 4613 ms, faster than 100.00% of Swift online submissions for Next Greater Numerically Balanced Number.
-//Memory Usage: 13.8 MB, less than 100.00% of Swift online submissions for Next Greater Numerically Balanced Number.
+// Runtime: 4613 ms, faster than 100.00% of Swift online submissions for Next Greater Numerically Balanced Number.
+// Memory Usage: 13.8 MB, less than 100.00% of Swift online submissions for Next Greater Numerically Balanced Number.
 
 public class Problem2048 {
     public func run() {

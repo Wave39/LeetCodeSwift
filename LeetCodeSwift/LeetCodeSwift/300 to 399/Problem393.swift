@@ -9,8 +9,8 @@
 // https://leetcode.com/problems/utf-8-validation/
 
 // WOO HOO!!!
-//Runtime: 208 ms, faster than 100.00% of Swift online submissions for UTF-8 Validation.
-//Memory Usage: 14.5 MB, less than 100.00% of Swift online submissions for UTF-8 Validation.
+// Runtime: 208 ms, faster than 100.00% of Swift online submissions for UTF-8 Validation.
+// Memory Usage: 14.5 MB, less than 100.00% of Swift online submissions for UTF-8 Validation.
 
 public class Problem393 {
     public func run() {
