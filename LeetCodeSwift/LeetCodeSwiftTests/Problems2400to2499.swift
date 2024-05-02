@@ -32,4 +32,10 @@ final class Problems2400to2499: XCTestCase {
         XCTAssertFalse(Problem2423().test("aazz"))
     }
 
+    func test_Problem2441() throws {
+        XCTAssertEqual(Problem2441().test([-1, 2, -3, 3]), 3)
+        XCTAssertEqual(Problem2441().test([-1, 10, 6, 7, -7, 1]), 7)
+        XCTAssertEqual(Problem2441().test([-10, 8, 6, 7, -2, -3]), -1)
+    }
+    
 }
