@@ -180,6 +180,12 @@ class Problems100to199: XCTestCase {
         XCTAssertEqual(Problem145().test(TreeNode([1])), [1])
     }
 
+    func test_Problem165() throws {
+        XCTAssertEqual(Problem165().test("1.01", "1.001"), 0)
+        XCTAssertEqual(Problem165().test("1.0", "1.0.0"), 0)
+        XCTAssertEqual(Problem165().test("0.1", "1.1"), -1)
+    }
+
     func test_Problem168() throws {
         XCTAssertEqual(Problem168().test(1), "A")
         XCTAssertEqual(Problem168().test(28), "AB")
