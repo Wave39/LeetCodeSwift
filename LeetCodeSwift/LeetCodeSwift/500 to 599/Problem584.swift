@@ -20,4 +20,8 @@ public class Problem584 {
     where  referee_id != 2 OR referee_id IS NULL
 """)
     }
+
+    public func test() -> Bool {
+        return true
+    }
 }

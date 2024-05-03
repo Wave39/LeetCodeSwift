@@ -18,4 +18,8 @@ public class Problem1068 {
     join Sales s on s.product_id = p.product_id
 """)
     }
+
+    public func test() -> Bool {
+        return true
+    }
 }

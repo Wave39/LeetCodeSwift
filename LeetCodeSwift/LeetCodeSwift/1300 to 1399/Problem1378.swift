@@ -18,4 +18,8 @@ public class Problem1378 {
     left join EmployeeUNI e2 on e2.id = e.id
 """)
     }
+
+    public func test() -> Bool {
+        return true
+    }
 }

@@ -18,4 +18,8 @@ public class Problem175 {
     left join Address a on p.personId = a.personId
 """)
     }
+
+    public func test() -> Bool {
+        return true
+    }
 }

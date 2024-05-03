@@ -22,4 +22,8 @@ public class Problem619 {
     , null) as num
 """)
     }
+
+    public func test() -> Bool {
+        return true
+    }
 }

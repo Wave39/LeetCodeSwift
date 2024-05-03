@@ -19,4 +19,8 @@ public class Problem595 {
     or population >= 25000000
 """)
     }
+
+    public func test() -> Bool {
+        return true
+    }
 }

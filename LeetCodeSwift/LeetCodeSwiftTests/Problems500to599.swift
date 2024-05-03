@@ -74,13 +74,11 @@ class Problems500to599: XCTestCase {
     }
 
     func test_Problem577() throws {
-        // SQL problem
-        XCTAssertTrue(true)
+        XCTAssertTrue(Problem577().test())
     }
 
     func test_Problem584() throws {
-        // SQL problem
-        XCTAssertTrue(true)
+        XCTAssertTrue(Problem584().test())
     }
 
     func test_Problem589() throws {
@@ -122,7 +120,6 @@ class Problems500to599: XCTestCase {
     }
 
     func test_Problem595() throws {
-        // SQL problem
-        XCTAssertTrue(true)
+        XCTAssertTrue(Problem595().test())
     }
 }

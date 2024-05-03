@@ -17,4 +17,8 @@ public class Problem1683 {
     select tweet_id from Tweets where len(content) > 15
 """)
     }
+
+    public func test() -> Bool {
+        return true
+    }
 }

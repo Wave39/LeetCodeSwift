@@ -25,4 +25,8 @@ public class Problem197 {
     where d.PreviousValue is not null and currentValue > previousValue and diff = -1
 """)
     }
+
+    public func test() -> Bool {
+        return true
+    }
 }

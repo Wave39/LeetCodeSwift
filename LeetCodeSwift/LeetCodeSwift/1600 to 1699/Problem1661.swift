@@ -20,4 +20,8 @@ public class Problem1661 {
     group by a1.machine_id
 """)
     }
+
+    public func test() -> Bool {
+        return true
+    }
 }

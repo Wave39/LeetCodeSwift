@@ -17,4 +17,8 @@ public class Problem1757 {
     select product_id from Products where low_fats = 'Y' and recyclable = 'Y'
 """)
     }
+
+    public func test() -> Bool {
+        return true
+    }
 }

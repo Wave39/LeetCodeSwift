@@ -19,4 +19,8 @@ public class Problem1581 {
     group by customer_id
 """)
     }
+
+    public func test() -> Bool {
+        return true
+    }
 }

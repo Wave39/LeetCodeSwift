@@ -19,4 +19,8 @@ public class Problem577 {
     where bonus is null or bonus < 1000
 """)
     }
+
+    public func test() -> Bool {
+        return true
+    }
 }
