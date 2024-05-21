@@ -10,7 +10,7 @@
 
 public class Problem78 {
     public func run() {
-        let solve1 = subsets([1,2,3])
+        let solve1 = subsets([1, 2, 3])
         print("\(solve1) -- should be [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]")
         let solve2 = subsets([0])
         print("\(solve2) -- should be [[], [0]]")
