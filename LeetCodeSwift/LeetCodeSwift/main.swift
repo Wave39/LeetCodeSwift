@@ -103,6 +103,8 @@ func runProblemNumber(_ problemNumber: Int) {
         ProblemSelection2900to2999().run(problemNumber)
     } else if problemNumber >= 3000 && problemNumber <= 3099 {
         ProblemSelection3000to3099().run(problemNumber)
+    } else if problemNumber >= 3100 && problemNumber <= 3199 {
+        ProblemSelection3100to3199().run(problemNumber)
     } else {
         print("No such problem number exists")
     }
