@@ -5,8 +5,8 @@
 //  Created by Brian Prescott on 2/22/24.
 //
 
-// 2413. Smallest Even Multiple (Easy)
-// https://leetcode.com/problems/smallest-even-multiple/
+// 2500. Delete Greatest Value in Each Row (Easy)
+// https://leetcode.com/problems/delete-greatest-value-in-each-row/
 
 // WOO HOO!!!
 // Runtime: 35 ms, Beats 100.00% of users with Swift
