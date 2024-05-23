@@ -127,6 +127,8 @@
 		E02712A22B07D3E900867049 /* Problem1877.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02712A02B07D3E900867049 /* Problem1877.swift */; };
 		E02712A42B07D69600867049 /* Problem13.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02712A32B07D69600867049 /* Problem13.swift */; };
 		E02712A52B07D69600867049 /* Problem13.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02712A32B07D69600867049 /* Problem13.swift */; };
+		E02A7AA32BFFC68D0071035B /* Problem2597.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02A7AA22BFFC68D0071035B /* Problem2597.swift */; };
+		E02A7AA42BFFC68D0071035B /* Problem2597.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02A7AA22BFFC68D0071035B /* Problem2597.swift */; };
 		E02BE6B028B513B7006EF502 /* Problems1to99.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02BE6AF28B513B7006EF502 /* Problems1to99.swift */; };
 		E02BE6B128B513E7006EF502 /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB6ED728B463E800204705 /* Problem1.swift */; };
 		E02BE6B228B513E9006EF502 /* Problem26.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB6EDA28B4665C00204705 /* Problem26.swift */; };
@@ -664,6 +666,7 @@
 		E025F35B28C0EE6700DB4973 /* Problems1400to1499.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problems1400to1499.swift; sourceTree = "<group>"; };
 		E02712A02B07D3E900867049 /* Problem1877.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1877.swift; sourceTree = "<group>"; };
 		E02712A32B07D69600867049 /* Problem13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem13.swift; sourceTree = "<group>"; };
+		E02A7AA22BFFC68D0071035B /* Problem2597.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem2597.swift; sourceTree = "<group>"; };
 		E02BE6A728B5123C006EF502 /* LeetCodeSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02BE6AE28B51305006EF502 /* LeetCodeSwift.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = LeetCodeSwift.xctestplan; sourceTree = "<group>"; };
 		E02BE6AF28B513B7006EF502 /* Problems1to99.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problems1to99.swift; sourceTree = "<group>"; };
@@ -954,6 +957,7 @@
 			children = (
 				E006F1652B8799AF003817A6 /* ProblemSelection2500to2599.swift */,
 				E006F1672B8799D5003817A6 /* Problem2500.swift */,
+				E02A7AA22BFFC68D0071035B /* Problem2597.swift */,
 			);
 			path = "2500 to 2599";
 			sourceTree = "<group>";
@@ -1919,6 +1923,7 @@
 				E04B987C2ADDB39F0082FCC6 /* Problem175.swift in Sources */,
 				E006F16B2B879C8C003817A6 /* Problems2500to2599.swift in Sources */,
 				E0511C532BE5598000E7376E /* Problem1280.swift in Sources */,
+				E02A7AA42BFFC68D0071035B /* Problem2597.swift in Sources */,
 				E09F8B5928BAF5DC006B1596 /* Problems1300to1399.swift in Sources */,
 				E0C865562AF552DF00757193 /* Problem2068.swift in Sources */,
 				E0E0B5872AFEA5A4008AE987 /* Problem1743.swift in Sources */,
@@ -1987,6 +1992,7 @@
 				E0081F1A28C8CF1D007E3DA0 /* Problem103.swift in Sources */,
 				E0042AE62AFEC28200962C0A /* Problem801.swift in Sources */,
 				E0B03E5628D2388700E7C225 /* Problem62.swift in Sources */,
+				E02A7AA32BFFC68D0071035B /* Problem2597.swift in Sources */,
 				E0FC69932AA11D87009D5D1C /* Problem1326.swift in Sources */,
 				E0F9902028DC9D3C000F870D /* Problem557.swift in Sources */,
 				E0CB29EC2B97884600868CA4 /* Problem1750.swift in Sources */,
