@@ -23,6 +23,24 @@ class Problems1200to1299: XCTestCase {
         XCTAssertEqual(Problem1219().test([[0, 0, 0], [0, 0, 0], [0, 0, 0]]), 0)
     }
 
+    func test_Problem1255() throws {
+        XCTAssertEqual(Problem1255().test(
+            ["dog", "cat", "dad", "good"],
+            ["a", "a", "c", "d", "d", "d", "g", "o", "o"],
+            [1, 0, 9, 5, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        ), 23)
+        XCTAssertEqual(Problem1255().test(
+            ["xxxz", "ax", "bx", "cx"],
+            ["z", "a", "b", "c", "x", "x", "x"],
+            [4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 10]
+        ), 27)
+        XCTAssertEqual(Problem1255().test(
+            ["leetcode"],
+            ["l", "e", "t", "c", "o", "d"],
+            [0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+        ), 0)
+    }
+
     func test_Problem1266() throws {
         XCTAssertEqual(Problem1266().test([[1, 1], [3, 4], [-1, 0]]), 7)
         XCTAssertEqual(Problem1266().test([[3, 2], [-2, 2]]), 5)
