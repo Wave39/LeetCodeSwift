@@ -137,6 +137,12 @@ class Problems200to299: XCTestCase {
         XCTAssertFalse(Problem242().test("rat", "car"))
     }
 
+    func test_Problem260() throws {
+        XCTAssertEqual(Problem260().test([1, 2, 1, 3, 2, 5]), [3, 5])
+        XCTAssertEqual(Problem260().test([-1, 0]), [-1, -0])
+        XCTAssertEqual(Problem260().test([0, 1]), [0, 1])
+    }
+
     func test_Problem274() throws {
         let solve1 = Problem274().test([0, 1, 0])
         XCTAssertEqual(solve1, 1)

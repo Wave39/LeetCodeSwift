@@ -33,6 +33,8 @@ public class ProblemSelection200to299 {
             Problem239().run()
         } else if problemNumber == 242 {
             Problem242().run()
+        } else if problemNumber == 260 {
+            Problem260().run()
         } else if problemNumber == 274 {
             Problem274().run()
         } else if problemNumber == 278 {
