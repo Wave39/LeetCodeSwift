@@ -83,6 +83,12 @@ class Problems900to999: XCTestCase {
         XCTAssertTrue(Problem990().test(["b==a", "a==b"]))
     }
 
+    func test_Problem995() throws {
+        XCTAssertEqual(Problem995().test([0, 1, 0], 1), 2)
+        XCTAssertEqual(Problem995().test([1, 1, 0], 2), -1)
+        XCTAssertEqual(Problem995().test([0, 0, 0, 1, 0, 1, 1, 0], 3), 3)
+    }
+
     func test_Problem997() throws {
         XCTAssertEqual(Problem997().test(2, [[1, 2]]), 2)
         XCTAssertEqual(Problem997().test(3, [[1, 3], [2, 3]]), 3)

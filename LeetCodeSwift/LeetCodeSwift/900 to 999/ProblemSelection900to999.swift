@@ -29,6 +29,8 @@ public class ProblemSelection900to999 {
             Problem988().run()
         } else if problemNumber == 990 {
             Problem990().run()
+        } else if problemNumber == 995 {
+            Problem995().run()
         } else if problemNumber == 997 {
             Problem997().run()
         } else {
