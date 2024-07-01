@@ -23,6 +23,10 @@ class Problems1200to1299: XCTestCase {
         XCTAssertEqual(Problem1219().test([[0, 0, 0], [0, 0, 0], [0, 0, 0]]), 0)
     }
 
+    func test_Problem1251() throws {
+        XCTAssertTrue(Problem1251().test())
+    }
+
     func test_Problem1255() throws {
         XCTAssertEqual(Problem1255().test(
             ["dog", "cat", "dad", "good"],
