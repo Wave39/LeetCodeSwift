@@ -17,6 +17,11 @@ final class Problems1800to1899: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    func test_Problem1823() throws {
+        XCTAssertEqual(Problem1823().test(5, 2), 3)
+        XCTAssertEqual(Problem1823().test(6, 5), 1)
+    }
+
     func test_Problem1845() throws {
         let commands1 = ["SeatManager", "reserve", "reserve", "unreserve", "reserve", "reserve", "reserve", "reserve", "unreserve"]
         let options1 = [[5], [], [], [2], [], [], [], [], [5]]
