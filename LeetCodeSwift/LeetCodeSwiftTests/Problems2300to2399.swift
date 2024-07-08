@@ -29,6 +29,10 @@ class Problems2300to2399: XCTestCase {
         XCTAssertFalse(Problem2331().test(TreeNode([0])))
     }
 
+    func test_Problem2356() throws {
+        XCTAssertTrue(Problem2356().test())
+    }
+
     func test_Problem2370() throws {
         XCTAssertEqual(Problem2370().test("acfgbd", 2), 4)
         XCTAssertEqual(Problem2370().test("abcd", 3), 4)
