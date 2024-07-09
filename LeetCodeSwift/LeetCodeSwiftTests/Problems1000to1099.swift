@@ -53,6 +53,10 @@ class Problems1000to1099: XCTestCase {
         XCTAssertTrue(Problem1068().test())
     }
 
+    func test_Problem1070() throws {
+        XCTAssertTrue(Problem1070().test())
+    }
+
     func test_Problem1075() throws {
         XCTAssertTrue(Problem1075().test())
     }
