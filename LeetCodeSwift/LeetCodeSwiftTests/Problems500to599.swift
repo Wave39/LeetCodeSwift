@@ -130,4 +130,9 @@ class Problems500to599: XCTestCase {
     func test_Problem595() throws {
         XCTAssertTrue(Problem595().test())
     }
+
+    func test_Problem596() throws {
+        XCTAssertTrue(Problem596().test())
+    }
+
 }
