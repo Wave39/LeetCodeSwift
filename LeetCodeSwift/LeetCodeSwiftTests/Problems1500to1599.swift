@@ -56,4 +56,10 @@ class Problems1500to1599: XCTestCase {
         XCTAssertEqual(Problem1584().test([[3, 12], [-2, 5], [-4, 1]]), 18)
     }
 
+    func test_Problem1598() throws {
+        XCTAssertEqual(Problem1598().test(["d1/","d2/","../","d21/","./"]), 2)
+        XCTAssertEqual(Problem1598().test(["d1/","d2/","./","d3/","../","d31/"]), 3)
+        XCTAssertEqual(Problem1598().test(["d1/","../","../","../"]), 0)
+    }
+
 }
