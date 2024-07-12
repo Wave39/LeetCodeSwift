@@ -37,6 +37,10 @@ final class Problems1700to1799: XCTestCase {
         XCTAssertTrue(Problem1729().test())
     }
 
+    func test_Problem1731() throws {
+        XCTAssertTrue(Problem1731().test())
+    }
+
     func test_Problem1743() throws {
         let solve1 = Problem1743().test([[2, 1], [3, 4], [3, 2]])
         XCTAssert(solve1 == [1, 2, 3, 4] || solve1 == [4, 3, 2, 1])
