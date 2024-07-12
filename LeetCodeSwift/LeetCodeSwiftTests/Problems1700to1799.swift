@@ -71,4 +71,8 @@ final class Problems1700to1799: XCTestCase {
         XCTAssertEqual(Problem1770().test([-5, -3, -3, -2, 7, 1], [-10, -5, 3, 4, 6]), 102)
     }
 
+    func test_Problem1789() throws {
+        XCTAssertTrue(Problem1789().test())
+    }
+
 }
