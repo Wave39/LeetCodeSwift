@@ -27,7 +27,12 @@ final class Problems1700to1799: XCTestCase {
         XCTAssertEqual(Problem1716().test(10), 37)
         XCTAssertEqual(Problem1716().test(20), 96)
     }
-    
+
+    func test_Problem1717() throws {
+        XCTAssertEqual(Problem1717().test("cdbcbbaaabab", 4, 5), 19)
+        XCTAssertEqual(Problem1717().test("aabbaaxybbaabb", 5, 4), 20)
+    }
+
     func test_Problem1729() throws {
         XCTAssertTrue(Problem1729().test())
     }
