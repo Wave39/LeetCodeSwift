@@ -36,6 +36,10 @@ class Problems600to699: XCTestCase {
         XCTAssertEqual(solve2, [["root/a/1.txt", "root/c/3.txt"], ["root/a/2.txt", "root/c/d/4.txt"]])
     }
 
+    func test_Problem610() throws {
+        XCTAssertTrue(Problem610().test())
+    }
+
     func test_Problem619() throws {
         XCTAssertTrue(Problem619().test())
     }
