@@ -10,9 +10,9 @@
 
 public class Problem2073 {
     public func run() {
-        let solve1 = timeRequiredToBuy([2,3,2], 2)
+        let solve1 = timeRequiredToBuy([2, 3, 2], 2)
         print("\(solve1) -- should be 6")
-        let solve2 = timeRequiredToBuy([5,1,1,1], 0)
+        let solve2 = timeRequiredToBuy([5, 1, 1, 1], 0)
         print("\(solve2) -- should be 8")
     }
 
