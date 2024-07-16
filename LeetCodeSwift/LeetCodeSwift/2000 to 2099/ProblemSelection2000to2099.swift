@@ -21,6 +21,8 @@ public class ProblemSelection2000to2099 {
             Problem2068().run()
         } else if problemNumber == 2073 {
             Problem2073().run()
+        } else if problemNumber == 2096 {
+            Problem2096().run()
         } else {
             print("No such problem number exists")
         }

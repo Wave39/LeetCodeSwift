@@ -62,4 +62,9 @@ final class Problems2000to2099: XCTestCase {
         XCTAssertEqual(Problem2073().test([5,1,1,1], 0), 8)
     }
 
+    func test_Problem2096() throws {
+        XCTAssertEqual(Problem2096().test(TreeNode([5, 1, 2, 3, nil, 6, 4]), 3, 6), "UURL")
+        XCTAssertEqual(Problem2096().test(TreeNode([2, 1]), 2, 1), "L")
+    }
+
 }
