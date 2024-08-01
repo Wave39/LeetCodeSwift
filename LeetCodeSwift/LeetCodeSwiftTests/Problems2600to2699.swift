@@ -26,4 +26,9 @@ final class Problems2600to2699: XCTestCase {
         solve1.append(graph1.shortestPath(0, 3))
         XCTAssertEqual(solve1, [6, -1, 6])
     }
+
+    func test_Problem2678() throws {
+        XCTAssertEqual(Problem2678().test(["7868190130M7522", "5303914400F9211", "9273338290F4010"]), 2)
+        XCTAssertEqual(Problem2678().test(["1313579440F2036", "2921522980M5644"]), 0)
+    }
 }
