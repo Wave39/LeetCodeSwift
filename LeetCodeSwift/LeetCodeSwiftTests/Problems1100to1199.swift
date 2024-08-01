@@ -45,6 +45,10 @@ final class Problems1100to1199: XCTestCase {
         XCTAssertEqual(Problem1160().test(["hello", "world", "leetcode"], "welldonehoneyr"), 10)
     }
 
+    func test_Problem1164() throws {
+        XCTAssertTrue(Problem1164().test())
+    }
+
     func test_Problem1174() throws {
         XCTAssertTrue(Problem1174().test())
     }
