@@ -5,8 +5,8 @@
 //  Created by Brian Prescott on 8/1/24.
 //
 
-// 1141. User Activity for the Past 30 Days I (Easy)
-// https://leetcode.com/problems/user-activity-for-the-past-30-days-i/
+// 1164. Product Price at a Given Date (Medium)
+// https://leetcode.com/problems/product-price-at-a-given-date/
 
 public class Problem1164 {
     public func run() {
