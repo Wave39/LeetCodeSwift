@@ -48,6 +48,12 @@ class Problems700to799: XCTestCase {
         XCTAssertEqual(Problem718().test([0, 0, 0, 0, 0], [0, 0, 0, 0, 0]), 5)
     }
 
+    func test_Problem719() throws {
+        XCTAssertEqual(Problem719().test([1, 3, 1], 1), 0)
+        XCTAssertEqual(Problem719().test([1, 1, 1], 2), 0)
+        XCTAssertEqual(Problem719().test([1, 6, 1], 3), 5)
+    }
+
     func test_Problem724() throws {
         XCTAssertEqual(Problem724().test([1, 7, 3, 6, 5, 6]), 3)
         XCTAssertEqual(Problem724().test([1, 2, 3]), -1)
