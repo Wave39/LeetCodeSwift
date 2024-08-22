@@ -120,6 +120,8 @@ class Problems400to499: XCTestCase {
     func test_Problem476() throws {
         XCTAssertEqual(Problem476().test(5), 2)
         XCTAssertEqual(Problem476().test(1), 0)
+        XCTAssertEqual(Problem476().test(7), 0)
+        XCTAssertEqual(Problem476().test(10), 5)
     }
 
 }
