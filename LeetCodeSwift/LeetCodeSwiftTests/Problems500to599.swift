@@ -127,6 +127,12 @@ class Problems500to599: XCTestCase {
         XCTAssertEqual(solve2, [1, 2, 3, 6, 7, 11, 14, 4, 8, 12, 5, 9, 13, 10])
     }
 
+    func test_Problem592() throws {
+        XCTAssertEqual(Problem592().test("-1/2+1/2"), "0/1")
+        XCTAssertEqual(Problem592().test("-1/2+1/2+1/3"), "1/3")
+        XCTAssertEqual(Problem592().test("1/3-1/2"), "-1/6")
+    }
+
     func test_Problem595() throws {
         XCTAssertTrue(Problem595().test())
     }
