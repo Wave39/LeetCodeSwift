@@ -23,6 +23,11 @@ class Problems2300to2399: XCTestCase {
         XCTAssertEqual(Problem2315().test("yo|uar|e**|b|e***au|tifu|l"), 5)
     }
 
+    func test_Problem2326() throws {
+        XCTAssertEqual(Problem2326().test(3, 5, ListNode.arrayToList([3, 0, 2, 6, 8, 1, 7, 9, 4, 2, 5, 5, 0])), [[3, 0, 2, 6, 8], [5, 0, -1, -1, 1], [5, 2, 4, 9, 7]])
+        XCTAssertEqual(Problem2326().test(1, 4, ListNode.arrayToList([0, 1, 2])), [[0, 1, 2, -1]])
+    }
+
     func test_Problem2331() throws {
         XCTAssertTrue(Problem2331().test(TreeNode([2, 1, 3, nil, nil, 0, 1])))
 
