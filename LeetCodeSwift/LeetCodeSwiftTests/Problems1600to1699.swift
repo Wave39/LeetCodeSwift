@@ -83,6 +83,12 @@ final class Problems1600to1699: XCTestCase {
         XCTAssertTrue(Problem1683().test())
     }
 
+    func test_Problem1684() throws {
+        XCTAssertEqual(Problem1684().test("ab", ["ad","bd","aaab","baa","badab"]), 2)
+        XCTAssertEqual(Problem1684().test("abc", ["a","b","c","ab","ac","bc","abc"]), 7)
+        XCTAssertEqual(Problem1684().test("cad", ["cc","acd","b","ba","bac","bad","ac","d"]), 4)
+    }
+
     func test_Problem1688() throws {
         XCTAssertEqual(Problem1688().test(7), 6)
         XCTAssertEqual(Problem1688().test(14), 13)
