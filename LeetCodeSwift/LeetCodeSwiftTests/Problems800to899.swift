@@ -81,7 +81,12 @@ class Problems800to899: XCTestCase {
         let solve2 = Problem876().test(ListNode.arrayToList([1, 2, 3, 4, 5, 6]))
         XCTAssertEqual(solve2!.toArray(), [4, 5, 6])
     }
-    
+
+    func test_Problem884() throws {
+        XCTAssertEqual(Problem884().test("this apple is sweet", "this apple is sour"), ["sweet", "sour"])
+        XCTAssertEqual(Problem884().test("apple apple", "banana"), ["banana"])
+    }
+
     func test_Problem885() throws {
         XCTAssertEqual(Problem885().test(1, 4, 0, 0), [[0, 0], [0, 1], [0, 2], [0, 3]])
         XCTAssertEqual(Problem885().test(5, 6, 1, 4), [[1, 4], [1, 5], [2, 5], [2, 4], [2, 3], [1, 3], [0, 3], [0, 4], [0, 5], [3, 5], [3, 4], [3, 3], [3, 2], [2, 2], [1, 2], [0, 2], [4, 5], [4, 4], [4, 3], [4, 2], [4, 1], [3, 1], [2, 1], [1, 1], [0, 1], [4, 0], [3, 0], [2, 0], [1, 0], [0, 0]])
