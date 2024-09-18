@@ -196,6 +196,12 @@ class Problems100to199: XCTestCase {
         XCTAssertTrue(Problem175().test())
     }
 
+    func test_Problem179() throws {
+        XCTAssertEqual(Problem179().test([10, 2]), "210")
+        XCTAssertEqual(Problem179().test([3, 30, 34, 5, 9]), "9534330")
+        XCTAssertEqual(Problem179().test([0, 0, 0, 0, 0]), "0")
+    }
+
     func test_Problem180() throws {
         XCTAssertTrue(Problem180().test())
     }
