@@ -17,6 +17,10 @@ class Problems1200to1299: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    func test_Problem1204() throws {
+        XCTAssertTrue(Problem1204().test())
+    }
+
     func test_Problem1211() throws {
         XCTAssertTrue(Problem1211().test())
     }
