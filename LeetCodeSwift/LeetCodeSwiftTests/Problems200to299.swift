@@ -131,6 +131,11 @@ class Problems200to299: XCTestCase {
         XCTAssertEqual(solve2, [1])
     }
 
+    func test_Problem241() throws {
+        XCTAssertEqual(Problem241().test("2-1-1"), [2, 0])
+        XCTAssertEqual(Problem241().test("2*3-4*5"), [-34, -10, -14, -10, 10])
+    }
+
     func test_Problem242() throws {
         XCTAssertTrue(Problem242().test("anagram", "nagaram"))
 
