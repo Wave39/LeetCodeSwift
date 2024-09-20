@@ -64,6 +64,11 @@ class Problems200to299: XCTestCase {
         XCTAssertNil(solve3)
     }
 
+    func test_Problem214() throws {
+        XCTAssertEqual(Problem214().test("aacecaaa"), "aaacecaaa")
+        XCTAssertEqual(Problem214().test("abcd"), "dcbabcd")
+    }
+
     func test_Problem217() throws {
         XCTAssertTrue(Problem217().test([1, 2, 3, 1]))
         XCTAssertTrue(Problem217().test([1, 1, 1, 3, 3, 4, 3, 2, 4, 2]))
