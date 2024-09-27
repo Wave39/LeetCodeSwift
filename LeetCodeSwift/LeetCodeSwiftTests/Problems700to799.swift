@@ -61,6 +61,11 @@ class Problems700to799: XCTestCase {
         XCTAssertEqual(Problem724().test([-1, -1, -1, 1, 1, 1]), -1)
     }
 
+    func test_Problem731() throws {
+        let solve1 = Problem731().test(["MyCalendarTwo", "book", "book", "book", "book", "book", "book"], [[], [10, 20], [50, 60], [10, 40], [5, 15], [5, 10], [25, 55]])
+        XCTAssertEqual(solve1, [nil, true, true, true, false, true, true])
+    }
+
     func test_Problem733() throws {
         let solve1 = Problem733().test([[1, 1, 1], [1, 1, 0], [1, 0, 1]], 1, 1, 2)
         XCTAssertEqual(solve1, [[2, 2, 2], [2, 2, 0], [2, 0, 1]])
