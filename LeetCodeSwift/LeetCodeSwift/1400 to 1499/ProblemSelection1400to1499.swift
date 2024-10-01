@@ -23,6 +23,8 @@ public class ProblemSelection1400to1499 {
             Problem1464().run()
         } else if problemNumber == 1480 {
             Problem1480().run()
+        } else if problemNumber == 1497 {
+            Problem1497().run()
         } else {
             print("No such problem number exists")
         }
