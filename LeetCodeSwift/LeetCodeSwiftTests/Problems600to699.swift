@@ -110,4 +110,9 @@ class Problems600to699: XCTestCase {
         XCTAssertEqual(Problem664().test("aba"), 2)
     }
 
+    func test_Problem670() throws {
+        XCTAssertEqual(Problem670().test(2736), 7236)
+        XCTAssertEqual(Problem670().test(9973), 9973)
+    }
+
 }
