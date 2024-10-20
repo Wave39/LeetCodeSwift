@@ -27,6 +27,12 @@ final class Problems1100to1199: XCTestCase {
         XCTAssertEqual(Problem1105().test([[1, 3], [2, 4], [3, 2]], 6), 4)
     }
 
+    func test_Problem1106() throws {
+        XCTAssertFalse(Problem1106().test("&(|(f))"))
+        XCTAssertTrue(Problem1106().test("|(f,f,f,t)"))
+        XCTAssertTrue(Problem1106().test("!(&(f,t))"))
+    }
+
     func test_Problem1137() throws {
         XCTAssertEqual(Problem1137().test(4), 4)
         XCTAssertEqual(Problem1137().test(25), 1_389_537)
