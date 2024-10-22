@@ -66,6 +66,10 @@ class Problems1900to1999: XCTestCase {
         XCTAssertEqual(Problem1963().test("[]"), 0)
     }
 
+    func test_Problem1978() throws {
+        XCTAssertTrue(Problem1978().test())
+    }
+
     func test_Problem1980() throws {
         XCTAssertEqual(Problem1980().test(["01", "10"]), "00")
         XCTAssertEqual(Problem1980().test(["00", "01"]), "10")
