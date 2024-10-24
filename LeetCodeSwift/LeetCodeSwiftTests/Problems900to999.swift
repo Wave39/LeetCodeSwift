@@ -59,6 +59,12 @@ class Problems900to999: XCTestCase {
         XCTAssertEqual(Problem950().test([1, 1000]), [1, 1000])
     }
 
+    func test_Problem951() throws {
+        XCTAssertTrue(Problem951().test(TreeNode([1, 2, 3, 4, 5, 6, nil, nil, nil, 7, 8]), TreeNode([1, 3, 2, nil, 6, 4, 5, nil, nil, nil, nil, 8, 7])))
+        XCTAssertTrue(Problem951().test(TreeNode([]), TreeNode([])))
+        XCTAssertFalse(Problem951().test(TreeNode([]), TreeNode([1])))
+    }
+
     func test_Problem962() throws {
         XCTAssertEqual(Problem962().test([6, 0, 8, 2, 1, 5]), 4)
         XCTAssertEqual(Problem962().test([9, 8, 1, 0, 1, 9, 4, 0, 4, 1]), 7)
