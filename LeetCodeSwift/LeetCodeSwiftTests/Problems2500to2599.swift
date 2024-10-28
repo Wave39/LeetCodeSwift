@@ -22,6 +22,11 @@ final class Problems2500to2599: XCTestCase {
         XCTAssertEqual(Problem2500().test([[10]]), 10)
     }
 
+    func test_Problem2501() throws {
+        XCTAssertEqual(Problem2501().test([4, 3, 6, 16, 8, 2]), 3)
+        XCTAssertEqual(Problem2501().test([2, 3, 5, 6, 7]), -1)
+    }
+
     func test_Problem2530() throws {
         XCTAssertEqual(Problem2530().test([10, 10, 10, 10, 10], 5), 50)
         XCTAssertEqual(Problem2530().test([1, 10, 3, 3, 3], 3), 17)
