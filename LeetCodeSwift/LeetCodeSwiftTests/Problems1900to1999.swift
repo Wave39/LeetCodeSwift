@@ -60,6 +60,12 @@ class Problems1900to1999: XCTestCase {
         XCTAssertEqual(Problem1945().test("zbax", 2), 8)
     }
 
+    func test_Problem1957() throws {
+        XCTAssertEqual(Problem1957().test("leeetcode"), "leetcode")
+        XCTAssertEqual(Problem1957().test("aaabaaaa"), "aabaa")
+        XCTAssertEqual(Problem1957().test("aab"), "aab")
+    }
+
     func test_Problem1963() throws {
         XCTAssertEqual(Problem1963().test("][]["), 1)
         XCTAssertEqual(Problem1963().test("]]][[["), 2)
