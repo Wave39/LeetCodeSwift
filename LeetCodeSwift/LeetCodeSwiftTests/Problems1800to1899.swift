@@ -22,6 +22,12 @@ final class Problems1800to1899: XCTestCase {
         XCTAssertEqual(Problem1823().test(6, 5), 1)
     }
 
+    func test_Problem1829() throws {
+        XCTAssertEqual(Problem1829().test([0, 1, 1, 3], 2), [0, 3, 2, 3])
+        XCTAssertEqual(Problem1829().test([2, 3, 4, 7], 3), [5, 2, 6, 5])
+        XCTAssertEqual(Problem1829().test([0, 1, 2, 2, 5, 7], 3),  [4, 3, 6, 4, 6, 7])
+    }
+
     func test_Problem1845() throws {
         let commands1 = ["SeatManager", "reserve", "reserve", "unreserve", "reserve", "reserve", "reserve", "reserve", "unreserve"]
         let options1 = [[5], [], [], [2], [], [], [], [], [5]]
