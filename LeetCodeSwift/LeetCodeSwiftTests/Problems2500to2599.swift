@@ -32,6 +32,11 @@ final class Problems2500to2599: XCTestCase {
         XCTAssertEqual(Problem2530().test([1, 10, 3, 3, 3], 3), 17)
     }
 
+    func test_Problem2563() throws {
+        XCTAssertEqual(Problem2563().test([0, 1, 7, 4, 4, 5], 3, 6), 6)
+        XCTAssertEqual(Problem2563().test([1, 7, 9, 2, 5], 11, 11), 1)
+    }
+
     func test_Problem2583() throws {
         XCTAssertEqual(Problem2583().test(TreeNode([5, 8, 9, 2, 1, 3, 7, 4, 6]), 2), 13)
         XCTAssertEqual(Problem2583().test(TreeNode([1, 2, nil, 3]), 1), 3)
