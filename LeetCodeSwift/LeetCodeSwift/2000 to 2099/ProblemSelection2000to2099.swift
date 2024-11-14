@@ -21,6 +21,8 @@ public class ProblemSelection2000to2099 {
             Problem2048().run()
         } else if problemNumber == 2058 {
             Problem2058().run()
+        } else if problemNumber == 2064 {
+            Problem2064().run()
         } else if problemNumber == 2068 {
             Problem2068().run()
         } else if problemNumber == 2070 {

@@ -63,6 +63,12 @@ final class Problems2000to2099: XCTestCase {
         XCTAssertEqual(Problem2058().test(ListNode.arrayToList([1, 3, 2, 2, 3, 2, 2, 2, 7])), [3, 3])
     }
 
+    func test_Problem2064() throws {
+        XCTAssertEqual(Problem2064().test(6, [11, 6]), 3)
+        XCTAssertEqual(Problem2064().test(7, [15, 10, 10]), 5)
+        XCTAssertEqual(Problem2064().test(1, [100000]), 100000)
+    }
+
     func test_Problem2068() throws {
         XCTAssertFalse(Problem2068().test("aaaa", "bccb"))
         XCTAssertTrue(Problem2068().test("abcdeef", "abaaacc"))
