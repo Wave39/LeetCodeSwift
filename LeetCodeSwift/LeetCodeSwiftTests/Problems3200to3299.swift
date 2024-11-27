@@ -23,4 +23,8 @@ final class Problems3200to3299: XCTestCase {
         XCTAssertEqual(Problem3217().test([5], ListNode.arrayToList([1, 2, 3, 4]))!.toArray(), [1, 2, 3, 4])
     }
 
+    func test_Problem3243() throws {
+        XCTAssertEqual(Problem3243().test(5, [[2, 4], [0, 2], [0, 4]]), [3, 2, 1])
+        XCTAssertEqual(Problem3243().test(4, [[0, 3], [0, 2]]), [1, 1])
+    }
 }
